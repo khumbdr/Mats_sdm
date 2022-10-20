@@ -1,0 +1,20 @@
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Oct 20 08:51:57 2022
+
+Thinning Parameter Used (in km): 1
+Number of replicates of thinning script: 1
+
+Elapsed time for thinning completion
+0.08 0.02 0.15 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+16
+1
+Maximum number of records after thinning: 16
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Created new output directory: ../data_output/mat_rarified
+Writing file: ../data_output/mat_rarified/orgmat_thin1.csv

@@ -75,7 +75,6 @@ plot(ty,add=T)
 
 ```
 
-C:\Users\Khum\OneDrive - UCB-O365\MBM_sdm_data\ex_rs_projection
 
 ```{r}
 # getting example file making similar projections
@@ -132,13 +131,15 @@ thin(orgmat.df, lat.col="y", long.col="x", spec.col="layer", thin.par=1, reps=1,
 orgmat_thin<-read.csv("../data_output/mat_rarified/orgmat_thin1.csv")%>%
   rename(long=x,lat=y)%>%
   select(-1)%>%
-  mutate(pres=rep(1,17))# paste0 concatenate the two words
+  mutate(pres=rep(1,16))# paste0 concatenate the two words
 
 # test if thin coordinates overlap in the layer
 plot(orgmat_crop_50, main="Thined by 1km")
 points(orgmat_thin$long,orgmat_thin$lat, add=T)
 
 ```
+
+
 # working in the independent variables
 ```{r}
 # now covert NA values into zero
@@ -188,6 +189,7 @@ library(biomod2)
 
 # explanatory variables need to without NA
 ## format the data ----
+
 mat_data <- 
   BIOMOD_FormatingData(
     resp.var = orgmat_thin['pres'],
@@ -217,7 +219,7 @@ mat_models <-
     NbRunEval = 2,
     DataSplit = 80,
     VarImport = 3,
-    modeling.id = "orgmat"
+    modeling.id = "../data_output/orgmat"
   )
 
 ## get models evaluation scores
@@ -287,4 +289,5 @@ plot(org_p/1000)
 plot(ty, add=T,color="red")
 
 ```
+
 
