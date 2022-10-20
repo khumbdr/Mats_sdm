@@ -1,0 +1,18 @@
+---
+title: "Mat_sdm"
+author: "Khum"
+date: "2022-10-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+dir.create("../code")
+dir.create("../data")
+dir.create("../data_output")
+```
+
