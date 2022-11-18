@@ -30,12 +30,12 @@ library(ggplot2)
 
 ```
 
-## listing the files
+## listing the files that are strictly .tif files
 ```{r}
 list.files("C:/Users/Khum/OneDrive - UCB-O365/MBM_sdm_data/mat_rasters", pattern=".tif$")
 ```
 
-#making path
+#making path for each .tif files
 ```{r}
 path<-"C:/Users/Khum/OneDrive - UCB-O365/MBM_sdm_data/mat_rasters"
 
@@ -47,6 +47,8 @@ path_orgmat<-paste0(path,"/WV02_20181211_210021_1030010089D13500_ORGMAT.tif")
 path_soil<-paste0(path,"/WV02_20181211_210021_1030010089D13500_SOIL.tif")
 path_vwc<-paste0(path,"/WV02_20181211_210021_1030010089D13500_VWC.tif")
 path_water<-paste0(path,"/WV02_20181211_210021_1030010089D13500_WATER.tif")
+path_snow_ice<-paste0(path,"/WV02_20181211210021_1030010089D13500_18DEC11210021-M1BS-502958123080_01_P001_f32ns3031_rad_refl_CalTargets_Snow_Ice.tif")
+path_vwc_setzero<-paste0(path,"/WV02_20181211210021_1030010089D13500_hs_NormalizedAlbedo_ratio_VWC_SetZero.tif")
 
 # reading as raster file to all the paths
 
@@ -58,8 +60,90 @@ orgmat<-raster(path_orgmat)
 soil<-raster(path_soil)
 vwc<-raster(path_vwc) # it has different extent to env
 water<-raster(path_water)
+snow_ice<-raster(path_snow_ice)
+vwc_setzero<-raster(path_vwc_setzero)
 
 ```
+
+## reproject soil and water  to vwc which has coarser resolution
+## it is easy to from finer scale to coarser scale
+
+```{r}
+
+
+## first reduce the size to AOI (these two file has large area cover)
+
+ty_snow<- read_sf("C:/Users/Khum/OneDrive - UCB-O365/MBM_sdm_data/TaylorValley_shape/Polygons.shp")%>%
+  st_transform(crs(snow_ice))
+
+ty_vwc_setzero<- read_sf("C:/Users/Khum/OneDrive - UCB-O365/MBM_sdm_data/TaylorValley_shape/Polygons.shp")%>%
+  st_transform(crs(vwc_setzero))
+
+snow_snow_crop<-crop(snow_ice,ty_snow)
+vwc_setzero_crop<-crop(vwc_setzero,ty_vwc_setzero)
+
+ty_soil<- read_sf("C:/Users/Khum/OneDrive - UCB-O365/MBM_sdm_data/TaylorValley_shape/Polygons.shp")%>%
+  st_transform(crs(soil))
+
+ty_water<- read_sf("C:/Users/Khum/OneDrive - UCB-O365/MBM_sdm_data/TaylorValley_shape/Polygons.shp")%>%
+  st_transform(crs(water))
+
+ty_vwc<- read_sf("C:/Users/Khum/OneDrive - UCB-O365/MBM_sdm_data/TaylorValley_shape/Polygons.shp")%>%
+  st_transform(crs(vwc))
+
+soil_crop<-crop(soil,ty_soil)
+water_crop<-crop(water,ty_water)
+vwc_crop<-crop(vwc,ty_vwc)
+
+
+```
+
+
+```{r}
+## reproject snow_ice and vwc to the soil
+# vwc_crop as source of extent and resolustions
+
+soil_proj<-projectRaster(soil,crs=crs(vwc))
+water_proj<-projectRaster(water_crop,crs=crs(vwc_crop))
+
+snow_ice_proj<-projectRaster(snow_snow_aoi,crs=crs(vwc_crop))
+vwc_setzero_proj<-projectRaster(vwc_setzero_aoi,crs=crs(vwc_crop))
+
+g<-raster::stack(vwc_crop,snow_ice_proj)# working goods
+
+plot(vwc)
+plot(ty$geometry,add=T)
+
+```
+
+## masked file
+
+```{r}
+
+list_mat<-list.files("C:/Users/Khum/Documents/mbm_output/mat_masked",pattern=".tif$", full.names=TRUE)
+
+env<-raster::stack(list_mat)
+```
+
+
+
+
+## crop in the same size by AOI
+
+```{r}
+
+
+```
+
+
+## stack predictor varibles of soil, vwc,snow_ice
+
+```{r}
+env<-raster::stack(soil_crop,water_crop,vwc_proj_crop)
+
+v<-raster::stack(vwc_setzero,snow_ice)
+```
+
 
 ## reading the AOI polygons
 
