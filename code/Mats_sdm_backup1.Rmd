@@ -11,9 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r}
-# dir.create("../code")
-# dir.create("../data")
-# dir.create("../data_output")
+dir.create("../code")
+dir.create("../data")
+dir.create("../data_output")
 ```
 
 
@@ -63,18 +63,13 @@ water<-raster(path_water)
 snow_ice<-raster(path_snow_ice)
 vwc_setzero<-raster(path_vwc_setzero)
 
-png("C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/figure_output/orgma.png",
-    width=3.5,height=3.5,units="in",res=500)
-plot(orgmat)
-
-dev.off()
-
 ```
 
 ## reproject soil and water  to vwc which has coarser resolution
 ## it is easy to from finer scale to coarser scale
 
 ```{r}
+
 
 ## first reduce the size to AOI (these two file has large area cover)
 
@@ -163,24 +158,10 @@ writeRaster(mat_env,"C:/Users/Khum/Documents/mbm_output/mat_stacked/mat_env",for
 
 library(raster)
 library(dplyr)
-
 matpre<-stack("C:/Users/Khum/Documents/mbm_output/mat_stacked/mat_env.gri")
 
-# renaming of the predictor variables
-
-names(matpre)<-c("Elevation","Slope","Aspect","Soil water","Water","VWC","SnowIce","WCzero")
-
-png("C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/figure_output/Env.plot.png", width=6,height=4,units="in", res=500)
-par(mfrow=c(3,3))
-plot(matpre)
-
-dev.off()
-
+plot(matpre$dem_pr)
 points(orgmat$ycentroid,orgmat$xcentroid)
-
-# library(rasterVis)
-# levelplot(matpre) # but useful if legends has similar values
-
 ```
 
 
@@ -299,21 +280,19 @@ plot(en/1000)
 
 ## getting model values
 
-#write.csv(bm_PlotEvalMean(bm.out=myBiomodModelOut)[1],file="C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data_output/mat_model.csv")
+write.csv(bm_PlotEvalMean(bm.out=myBiomodModelOut)[1],file="C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data_output/mat_model.csv")
 
 
+get_value<-get_variables_importance(myBiomodModelOut, as.data.frame = TRUE)
 
+write.csv(get_value,"C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data_output/variable_imp.csv")
 
+var_imp<-read.csv("C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data_output/variable_imp.csv")
 
+var_imp%>%
+  group_by(Expl.var)%>%
+  summarise(av=mean(Var.imp))
 
-
-
-
-```
-
-## getting response cureves of each predictor variables
-
-```{r}
 ## response curve
 rescur<-bm_PlotResponseCurves(bm.out = myBiomodModelOut,
                       models.chosen = get_built_models(myBiomodModelOut)[c(1:4)],
@@ -321,29 +300,247 @@ rescur<-bm_PlotResponseCurves(bm.out = myBiomodModelOut,
                       colors=NA)
 
 library(ggplot2)
-#ggsave("C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data_output/response_curve.jpg", width=10, height=8, dpi=500)
+ggsave("C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data_output/response_curve.jpg", width=10, height=8, dpi=500)
+
 ```
 
-## getting importance variables 
+
+
+
+
+
+
+
+
+
+
+## reading the AOI polygons
+
 ```{r}
-################
-get_value<-get_variables_importance(myBiomodModelOut, as.data.frame = TRUE)
+# read polygons and transform based on orange mats
 
-#write.csv(get_value,"C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data_output/variable_imp.csv")
+ty<- read_sf("C:/Users/Khum/OneDrive - UCB-O365/MBM_sdm_data/TaylorValley_shape/Polygons.shp")%>%
+  st_transform(crs(orgmat))
 
-var_imp<-read.csv("C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data_output/variable_imp.csv")
+## chekcing if the AOI overalps witht he raster layers selected
+plot(orgmat)
+plot(ty,add=T)
 
-var_imp_fig<-var_imp%>%
-  group_by(Expl.var)%>%
-  summarise(av=mean(Var.imp))%>%
-  ggplot()+
-  geom_bar(aes(x=reorder(Expl.var,-av),y=av*100), stat="identity")+
-  labs(x="Predictor variables",y="% contribution")
-
-
-ggsave("C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/figure_output/var_imp_fig.png",
-       width=6,height=4,dpi=500,units="in")
 ```
 
+
+```{r}
+# getting example file making similar projections
+# r<- getData('alt',country="IND",mask=TRUE,path="../data/Try_data")
+
+# sources for converting similar projections
+
+alt<-raster("C:/Users/Khum/OneDrive - UCB-O365/MBM_sdm_data/ex_rs_projection/IND_msk_alt.gri")
+
+## reprojecting orgmat 
+orgmat_pr<-projectRaster(orgmat,crs=crs(alt))
+
+ty<- read_sf("C:/Users/Khum/OneDrive - UCB-O365/MBM_sdm_data/TaylorValley_shape/Polygons.shp")%>%
+  st_transform(crs(orgmat_pr))
+
+## chekcing if the AOI overalps witht he raster layers selected
+plot(orgmat)
+plot(ty,add=T)
+
+# lets crop the orane mat using AOI
+
+orgmat_crop<-crop(orgmat_pr,ty)
+
+## getting abundance values that is greater than 50
+
+orgmat_crop_50<-orgmat_crop>0.50
+
+# looking the number of pixels in the layer
+cellStats(orgmat_crop_50,'sum')
+
+orgmat.df<-as.data.frame(orgmat_crop_50,xy=TRUE)%>%
+  filter(layer=="TRUE")%>%
+  as.data.frame()
+
+# smaple randomly 1000 points out of total 34289
+orgmat.df<-orgmat.df[sample(nrow(orgmat.df), size=1000),]
+
+# double check if the 1000 random sampels are selected
+plot(orgmat_crop, main="1000 points")
+points(orgmat.df$x,orgmat.df$y, add=T)
+
+
+## Thining the GPS points by 1km way
+
+library(spThin)
+
+thin_path<-("../data_output/mat_rarified")
+
+# lets use thin function for the rarifaction of the presence points
+
+thin(orgmat.df, lat.col="y", long.col="x", spec.col="layer", thin.par=1, reps=1, out.dir=thin_path, out.base="orgmat")
+
+# read the thin csv file to double check and make ready for the analysis
+orgmat_thin<-read.csv("../data_output/mat_rarified/orgmat_thin1.csv")%>%
+  rename(long=x,lat=y)%>%
+  select(-1)%>%
+  mutate(pres=rep(1,16))# paste0 concatenate the two words
+
+# test if thin coordinates overlap in the layer
+plot(orgmat_crop_50, main="Thined by 1km")
+points(orgmat_thin$long,orgmat_thin$lat, add=T)
+
+```
+
+
+# working in the independent variables
+```{r}
+# now covert NA values into zero
+#NAvalue(soil)<--9999
+
+elevation<-raster("C:/Users/Khum/OneDrive - UCB-O365/MBM_sdm_data/Shen_DEM/Antarctic DEM from ICESat-2.tif")
+# getting slope and aspect 
+slope<-terrain(elevation,opt=c("slope"), unit="radians")
+aspect<-terrain(elevation,opt=c("aspect"),unit="radians")
+
+## head load index if needed in the analysis
+
+library(raster)
+library(spatialEco)
+#data(elev)
+heat_load <- hli(elevation)
+
+#plot(heat_load, main="Heat Load Index")
+
+env<-stack(elevation,aspect)
+
+# env <- stack(soil,water)
+
+ty_tr<- read_sf("C:/Users/Khum/OneDrive - UCB-O365/Research_analaysis_R/data/TaylorValley_shape/Polygons.shp")%>%
+  st_transform(crs(env))
+
+# cropping the environmental variables
+env_crop<-crop(env,ty_tr)
+
+#convert env_crop as alt projection
+elevation_crop<-projectRaster(env_crop$Antarctic_DEM_from_ICESat.2,crs=crs(alt))
+aspect_crop<-projectRaster(env_crop$aspect,crs=crs(alt))
+
+env_crop1<-stack(elevation_crop,aspect_crop)
+
+plot(env_crop1$Antarctic_DEM_from_ICESat.2)
+points(orgmat_thin$long,orgmat_thin$lat, add=T)
+
+
+```
+
+# note the results will be in the code folder
+# will find how to chang it
+```{r}
+library(biomod2)
+# lets set up the models
+
+# explanatory variables need to without NA
+## format the data ----
+
+mat_data <- 
+  BIOMOD_FormatingData(
+    resp.var = orgmat_thin['pres'],
+    resp.xy = orgmat_thin[, c('long', 'lat')],
+    expl.var = env_crop1,
+    resp.name = "OrangeMat",
+    PA.nb.rep = 1,
+    PA.nb.absences = 10,
+    PA.strategy = 'random'
+  )
+
+## define individual models options ---- 
+
+mat_opt <- 
+  BIOMOD_ModelingOptions( 
+    GLM = list(type = 'quadratic', interaction.level = 1),
+    GBM = list(n.trees = 1000),
+    GAM = list(algo = 'GAM_mgcv')
+  )
+
+## run the individual models ----
+mat_models <- 
+  BIOMOD_Modeling(
+    data = mat_data,
+    models = c("GLM", "GBM", "RF", "GAM"),
+    models.options = mat_opt,
+    NbRunEval = 2,
+    DataSplit = 80,
+    VarImport = 3,
+    modeling.id = "../data_output/orgmat"
+  )
+
+## get models evaluation scores
+mat_models_scores <- get_evaluations(mat_models)
+dim(mat_models_scores)
+dimnames(mat_models_scores)
+##
+(eval.df <- t(data.frame(RUN_1 = mat_models_scores[ , 1, , 1, ],
+                         RUN_2 = mat_models_scores[ , 1, , 2, ],
+                         RUN_3 = mat_models_scores[ , 1, , 3, ])))
+
+
+models_scores_graph(mat_models,by="models",metrics=c("ROC","TSS"))
+
+## evaluations
+(mat_models_var_import <- get_variables_importance(mat_models))
+
+## run the ensemble models ----
+mat_ensemble_models <- 
+  BIOMOD_EnsembleModeling(
+    modeling.output = mat_models,
+    em.by = 'all',
+    eval.metric = 'TSS',
+    eval.metric.quality.threshold = 0.2,
+    models.eval.meth = c('TSS','ROC'),
+    prob.mean = FALSE,
+    prob.cv = TRUE, 
+    committee.averaging = TRUE,
+    prob.mean.weight = TRUE,
+    VarImport = 0
+  )
+
+## asses ensemble models quality ----
+(mat_ensemble_models_scores <- get_evaluations(mat_ensemble_models))
+
+## current projections
+mat_models_proj_current <- 
+  BIOMOD_Projection(
+    modeling.output = mat_models,
+    new.env = env_crop1,
+    proj.name = "current",
+    binary.meth = "TSS",
+    output.format = ".img",
+    do.stack = FALSE
+  )
+
+myCurrentProj<-get_predictions(mat_models_proj_current)
+plot(myCurrentProj)
+
+mat_ensemble_models_proj_current <- 
+  BIOMOD_EnsembleForecasting(
+    EM.output = mat_ensemble_models,
+    projection.output = mat_models_proj_current,
+    binary.meth = "TSS",
+    output.format = ".img",
+    do.stack = FALSE
+  )
+
+```
+
+## predicted maps
+
+```{r}
+org_p<-raster("C:/Users/Khum/OneDrive - UCB-O365/MBM_sdm/code/OrangeMat/proj_current/individual_projections/OrangeMat_EMcaByTSS_mergedAlgo_mergedRun_mergedData.img")
+
+plot(org_p/1000)
+plot(ty, add=T,color="red")
+
+```
 
 
