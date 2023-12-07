@@ -1,0 +1,2501 @@
+,id,expl.name,expl.val,pred.name,pred.val
+1,1,Soil moisture,0.007062792,blackmat_AllData_RUN1_GBM,0.108160226
+2,1,Soil moisture,0.007062792,blackmat_AllData_RUN1_GLM,0.013164064
+3,1,Soil moisture,0.007062792,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.011599385
+4,1,Soil moisture,0.007062792,blackmat_AllData_RUN1_MARS,0.684733767
+5,1,Soil moisture,0.007062792,blackmat_AllData_RUN1_ANN,0.046609329
+6,2,Soil moisture,0.007884217,blackmat_AllData_RUN1_GLM,0.017641598
+7,2,Soil moisture,0.007884217,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.012977824
+8,2,Soil moisture,0.007884217,blackmat_AllData_RUN1_MARS,0.626449956
+9,2,Soil moisture,0.007884217,blackmat_AllData_RUN1_ANN,0.047049968
+10,2,Soil moisture,0.007884217,blackmat_AllData_RUN1_GBM,0.108160226
+11,3,Soil moisture,0.008705643,blackmat_AllData_RUN1_GBM,0.108160226
+12,3,Soil moisture,0.008705643,blackmat_AllData_RUN1_MARS,0.564248143
+13,3,Soil moisture,0.008705643,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.014517666
+14,3,Soil moisture,0.008705643,blackmat_AllData_RUN1_ANN,0.047647786
+15,3,Soil moisture,0.008705643,blackmat_AllData_RUN1_GLM,0.023500737
+16,4,Soil moisture,0.009527068,blackmat_AllData_RUN1_MARS,0.499956363
+17,4,Soil moisture,0.009527068,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.016237207
+18,4,Soil moisture,0.009527068,blackmat_AllData_RUN1_ANN,0.048458319
+19,4,Soil moisture,0.009527068,blackmat_AllData_RUN1_GLM,0.031106135
+20,4,Soil moisture,0.009527068,blackmat_AllData_RUN1_GBM,0.108160226
+21,5,Soil moisture,0.010348493,blackmat_AllData_RUN1_GBM,0.108160226
+22,5,Soil moisture,0.010348493,blackmat_AllData_RUN1_MARS,0.435666026
+23,5,Soil moisture,0.010348493,blackmat_AllData_RUN1_GLM,0.040890012
+24,5,Soil moisture,0.010348493,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.018156667
+25,5,Soil moisture,0.010348493,blackmat_AllData_RUN1_ANN,0.0495569
+26,6,Soil moisture,0.011169918,blackmat_AllData_RUN1_GBM,0.108160226
+27,6,Soil moisture,0.011169918,blackmat_AllData_RUN1_ANN,0.051046115
+28,6,Soil moisture,0.011169918,blackmat_AllData_RUN1_MARS,0.373468356
+29,6,Soil moisture,0.011169918,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.020298351
+30,6,Soil moisture,0.011169918,blackmat_AllData_RUN1_GLM,0.053350173
+31,7,Soil moisture,0.011991343,blackmat_AllData_RUN1_MARS,0.315190877
+32,7,Soil moisture,0.011991343,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.022686822
+33,7,Soil moisture,0.011991343,blackmat_AllData_RUN1_GBM,0.108160226
+34,7,Soil moisture,0.011991343,blackmat_AllData_RUN1_ANN,0.053066396
+35,7,Soil moisture,0.011991343,blackmat_AllData_RUN1_GLM,0.069038971
+36,8,Soil moisture,0.012812768,blackmat_AllData_RUN1_GLM,0.088539242
+37,8,Soil moisture,0.012812768,blackmat_AllData_RUN1_GBM,0.108160226
+38,8,Soil moisture,0.012812768,blackmat_AllData_RUN1_MARS,0.2622015
+39,8,Soil moisture,0.012812768,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.025349068
+40,8,Soil moisture,0.012812768,blackmat_AllData_RUN1_ANN,0.05581121
+41,9,Soil moisture,0.013634194,blackmat_AllData_RUN1_GBM,0.108160226
+42,9,Soil moisture,0.013634194,blackmat_AllData_RUN1_MARS,0.215319579
+43,9,Soil moisture,0.013634194,blackmat_AllData_RUN1_ANN,0.059548911
+44,9,Soil moisture,0.013634194,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.028314672
+45,9,Soil moisture,0.013634194,blackmat_AllData_RUN1_GLM,0.112423548
+46,10,Soil moisture,0.014455619,blackmat_AllData_RUN1_GBM,0.107841102
+47,10,Soil moisture,0.014455619,blackmat_AllData_RUN1_MARS,0.174833814
+48,10,Soil moisture,0.014455619,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.031615969
+49,10,Soil moisture,0.014455619,blackmat_AllData_RUN1_ANN,0.064653981
+50,10,Soil moisture,0.014455619,blackmat_AllData_RUN1_GLM,0.14119476
+51,11,Soil moisture,0.015277044,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.035288196
+52,11,Soil moisture,0.015277044,blackmat_AllData_RUN1_GLM,0.175209816
+53,11,Soil moisture,0.015277044,blackmat_AllData_RUN1_GBM,0.107841102
+54,11,Soil moisture,0.015277044,blackmat_AllData_RUN1_MARS,0.140596477
+55,11,Soil moisture,0.015277044,blackmat_AllData_RUN1_ANN,0.071650711
+56,12,Soil moisture,0.016098469,blackmat_AllData_RUN1_GBM,0.108333956
+57,12,Soil moisture,0.016098469,blackmat_AllData_RUN1_MARS,0.170242348
+58,12,Soil moisture,0.016098469,blackmat_AllData_RUN1_GLM,0.214594515
+59,12,Soil moisture,0.016098469,blackmat_AllData_RUN1_ANN,0.08127134
+60,12,Soil moisture,0.016098469,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.041521737
+61,13,Soil moisture,0.016919894,blackmat_AllData_RUN1_GBM,0.135404515
+62,13,Soil moisture,0.016919894,blackmat_AllData_RUN1_MARS,0.21940613
+63,13,Soil moisture,0.016919894,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.04909412
+64,13,Soil moisture,0.016919894,blackmat_AllData_RUN1_ANN,0.094525919
+65,13,Soil moisture,0.016919894,blackmat_AllData_RUN1_GLM,0.259164225
+66,14,Soil moisture,0.017741319,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.057963974
+67,14,Soil moisture,0.017741319,blackmat_AllData_RUN1_MARS,0.278010772
+68,14,Soil moisture,0.017741319,blackmat_AllData_RUN1_GLM,0.308370936
+69,14,Soil moisture,0.017741319,blackmat_AllData_RUN1_GBM,0.151582015
+70,14,Soil moisture,0.017741319,blackmat_AllData_RUN1_ANN,0.112768666
+71,15,Soil moisture,0.018562745,blackmat_AllData_RUN1_GBM,0.159412165
+72,15,Soil moisture,0.018562745,blackmat_AllData_RUN1_MARS,0.345343702
+73,15,Soil moisture,0.018562745,blackmat_AllData_RUN1_GLM,0.361297311
+74,15,Soil moisture,0.018562745,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.068321209
+75,15,Soil moisture,0.018562745,blackmat_AllData_RUN1_ANN,0.137720176
+76,16,Soil moisture,0.01938417,blackmat_AllData_RUN1_GBM,0.36634656
+77,16,Soil moisture,0.01938417,blackmat_AllData_RUN1_MARS,0.419508823
+78,16,Soil moisture,0.01938417,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.080371224
+79,16,Soil moisture,0.01938417,blackmat_AllData_RUN1_ANN,0.171367058
+80,16,Soil moisture,0.01938417,blackmat_AllData_RUN1_GLM,0.416710589
+81,17,Soil moisture,0.020205595,blackmat_AllData_RUN1_MARS,0.497497549
+82,17,Soil moisture,0.020205595,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.094331352
+83,17,Soil moisture,0.020205595,blackmat_AllData_RUN1_ANN,0.215631032
+84,17,Soil moisture,0.020205595,blackmat_AllData_RUN1_GLM,0.47317395
+85,17,Soil moisture,0.020205595,blackmat_AllData_RUN1_GBM,0.378623945
+86,18,Soil moisture,0.02102702,blackmat_AllData_RUN1_GBM,0.44741911
+87,18,Soil moisture,0.02102702,blackmat_AllData_RUN1_MARS,0.575608232
+88,18,Soil moisture,0.02102702,blackmat_AllData_RUN1_GLM,0.529195426
+89,18,Soil moisture,0.02102702,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.110425131
+90,18,Soil moisture,0.02102702,blackmat_AllData_RUN1_ANN,0.271736586
+91,19,Soil moisture,0.021848445,blackmat_AllData_RUN1_MARS,0.650116293
+92,19,Soil moisture,0.021848445,blackmat_AllData_RUN1_GLM,0.583382512
+93,19,Soil moisture,0.021848445,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.128873944
+94,19,Soil moisture,0.021848445,blackmat_AllData_RUN1_GBM,0.557893788
+95,19,Soil moisture,0.021848445,blackmat_AllData_RUN1_ANN,0.339381011
+96,20,Soil moisture,0.02266987,blackmat_AllData_RUN1_GBM,0.593987674
+97,20,Soil moisture,0.02266987,blackmat_AllData_RUN1_ANN,0.41609411
+98,20,Soil moisture,0.02266987,blackmat_AllData_RUN1_MARS,0.71795304
+99,20,Soil moisture,0.02266987,blackmat_AllData_RUN1_GLM,0.63456987
+100,20,Soil moisture,0.02266987,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.14988568
+101,21,Soil moisture,0.023491296,blackmat_AllData_RUN1_ANN,0.49731747
+102,21,Soil moisture,0.023491296,blackmat_AllData_RUN1_MARS,0.777145888
+103,21,Soil moisture,0.023491296,blackmat_AllData_RUN1_GLM,0.681897971
+104,21,Soil moisture,0.023491296,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.173640335
+105,21,Soil moisture,0.023491296,blackmat_AllData_RUN1_GBM,0.609478493
+106,22,Soil moisture,0.024312721,blackmat_AllData_RUN1_GBM,0.646218506
+107,22,Soil moisture,0.024312721,blackmat_AllData_RUN1_MARS,0.826910962
+108,22,Soil moisture,0.024312721,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.195628145
+109,22,Soil moisture,0.024312721,blackmat_AllData_RUN1_ANN,0.57742675
+110,22,Soil moisture,0.024312721,blackmat_AllData_RUN1_GLM,0.724836626
+111,23,Soil moisture,0.025134146,blackmat_AllData_RUN1_MARS,0.867458406
+112,23,Soil moisture,0.025134146,blackmat_AllData_RUN1_ANN,0.651268465
+113,23,Soil moisture,0.025134146,blackmat_AllData_RUN1_GBM,0.646974976
+114,23,Soil moisture,0.025134146,blackmat_AllData_RUN1_GLM,0.76316174
+115,23,Soil moisture,0.025134146,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.218376996
+116,24,Soil moisture,0.025955571,blackmat_AllData_RUN1_GBM,0.719569199
+117,24,Soil moisture,0.025955571,blackmat_AllData_RUN1_GLM,0.796901763
+118,24,Soil moisture,0.025955571,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.24297215
+119,24,Soil moisture,0.025955571,blackmat_AllData_RUN1_MARS,0.899659884
+120,24,Soil moisture,0.025955571,blackmat_AllData_RUN1_ANN,0.715392664
+121,25,Soil moisture,0.026776996,blackmat_AllData_RUN1_GLM,0.826271341
+122,25,Soil moisture,0.026776996,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.269382689
+123,25,Soil moisture,0.026776996,blackmat_AllData_RUN1_MARS,0.924716858
+124,25,Soil moisture,0.026776996,blackmat_AllData_RUN1_ANN,0.768440931
+125,25,Soil moisture,0.026776996,blackmat_AllData_RUN1_GBM,0.732901431
+126,26,Soil moisture,0.027598421,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.297535693
+127,26,Soil moisture,0.027598421,blackmat_AllData_RUN1_ANN,0.810765214
+128,26,Soil moisture,0.027598421,blackmat_AllData_RUN1_MARS,0.94390673
+129,26,Soil moisture,0.027598421,blackmat_AllData_RUN1_GLM,0.851606035
+130,26,Soil moisture,0.027598421,blackmat_AllData_RUN1_GBM,0.778599002
+131,27,Soil moisture,0.028419846,blackmat_AllData_RUN1_MARS,0.955752372
+132,27,Soil moisture,0.028419846,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.327312835
+133,27,Soil moisture,0.028419846,blackmat_AllData_RUN1_GBM,0.830353642
+134,27,Soil moisture,0.028419846,blackmat_AllData_RUN1_ANN,0.843719093
+135,27,Soil moisture,0.028419846,blackmat_AllData_RUN1_GLM,0.87330652
+136,28,Soil moisture,0.029241272,blackmat_AllData_RUN1_MARS,0.957109375
+137,28,Soil moisture,0.029241272,blackmat_AllData_RUN1_GLM,0.891795748
+138,28,Soil moisture,0.029241272,blackmat_AllData_RUN1_GBM,0.835444818
+139,28,Soil moisture,0.029241272,blackmat_AllData_RUN1_ANN,0.86901538
+140,28,Soil moisture,0.029241272,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.358548974
+141,29,Soil moisture,0.030062697,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.391033227
+142,29,Soil moisture,0.030062697,blackmat_AllData_RUN1_GLM,0.907489074
+143,29,Soil moisture,0.030062697,blackmat_AllData_RUN1_MARS,0.958426571
+144,29,Soil moisture,0.030062697,blackmat_AllData_RUN1_ANN,0.888315355
+145,29,Soil moisture,0.030062697,blackmat_AllData_RUN1_GBM,0.840226471
+146,30,Soil moisture,0.030884122,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.422425478
+147,30,Soil moisture,0.030884122,blackmat_AllData_RUN1_ANN,0.903038095
+148,30,Soil moisture,0.030884122,blackmat_AllData_RUN1_MARS,0.959705017
+149,30,Soil moisture,0.030884122,blackmat_AllData_RUN1_GLM,0.92077552
+150,30,Soil moisture,0.030884122,blackmat_AllData_RUN1_GBM,0.840387166
+151,31,Soil moisture,0.031705547,blackmat_AllData_RUN1_ANN,0.914312961
+152,31,Soil moisture,0.031705547,blackmat_AllData_RUN1_MARS,0.960945752
+153,31,Soil moisture,0.031705547,blackmat_AllData_RUN1_GBM,0.845379851
+154,31,Soil moisture,0.031705547,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.453609419
+155,31,Soil moisture,0.031705547,blackmat_AllData_RUN1_GLM,0.932007594
+156,32,Soil moisture,0.032526972,blackmat_AllData_RUN1_MARS,0.96214979
+157,32,Soil moisture,0.032526972,blackmat_AllData_RUN1_GBM,0.847645801
+158,32,Soil moisture,0.032526972,blackmat_AllData_RUN1_ANN,0.923003098
+159,32,Soil moisture,0.032526972,blackmat_AllData_RUN1_GLM,0.941497202
+160,32,Soil moisture,0.032526972,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.469825971
+161,33,Soil moisture,0.033348397,blackmat_AllData_RUN1_GBM,0.847098736
+162,33,Soil moisture,0.033348397,blackmat_AllData_RUN1_MARS,0.963318124
+163,33,Soil moisture,0.033348397,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.479334657
+164,33,Soil moisture,0.033348397,blackmat_AllData_RUN1_GLM,0.949515547
+165,33,Soil moisture,0.033348397,blackmat_AllData_RUN1_ANN,0.929753807
+166,34,Soil moisture,0.034169823,blackmat_AllData_RUN1_MARS,0.964451728
+167,34,Soil moisture,0.034169823,blackmat_AllData_RUN1_ANN,0.935042605
+168,34,Soil moisture,0.034169823,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.48885834
+169,34,Soil moisture,0.034169823,blackmat_AllData_RUN1_GLM,0.956295421
+170,34,Soil moisture,0.034169823,blackmat_AllData_RUN1_GBM,0.84742751
+171,35,Soil moisture,0.034991248,blackmat_AllData_RUN1_MARS,0.965551551
+172,35,Soil moisture,0.034991248,blackmat_AllData_RUN1_ANN,0.939221935
+173,35,Soil moisture,0.034991248,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.498390118
+174,35,Soil moisture,0.034991248,blackmat_AllData_RUN1_GBM,0.84742751
+175,35,Soil moisture,0.034991248,blackmat_AllData_RUN1_GLM,0.962034753
+176,36,Soil moisture,0.035812673,blackmat_AllData_RUN1_MARS,0.966618525
+177,36,Soil moisture,0.035812673,blackmat_AllData_RUN1_GBM,0.848307292
+178,36,Soil moisture,0.035812673,blackmat_AllData_RUN1_ANN,0.942552525
+179,36,Soil moisture,0.035812673,blackmat_AllData_RUN1_GLM,0.966900666
+180,36,Soil moisture,0.035812673,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.507923067
+181,37,Soil moisture,0.036634098,blackmat_AllData_RUN1_GBM,0.848495991
+182,37,Soil moisture,0.036634098,blackmat_AllData_RUN1_GLM,0.971033576
+183,37,Soil moisture,0.036634098,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.517450257
+184,37,Soil moisture,0.036634098,blackmat_AllData_RUN1_MARS,0.967653559
+185,37,Soil moisture,0.036634098,blackmat_AllData_RUN1_ANN,0.945228294
+186,38,Soil moisture,0.037455523,blackmat_AllData_RUN1_GLM,0.974551054
+187,38,Soil moisture,0.037455523,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.526964777
+188,38,Soil moisture,0.037455523,blackmat_AllData_RUN1_MARS,0.968657541
+189,38,Soil moisture,0.037455523,blackmat_AllData_RUN1_GBM,0.848495991
+190,38,Soil moisture,0.037455523,blackmat_AllData_RUN1_ANN,0.947394511
+191,39,Soil moisture,0.038276948,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.536459753
+192,39,Soil moisture,0.038276948,blackmat_AllData_RUN1_GBM,0.848026112
+193,39,Soil moisture,0.038276948,blackmat_AllData_RUN1_ANN,0.949160886
+194,39,Soil moisture,0.038276948,blackmat_AllData_RUN1_GLM,0.977551328
+195,39,Soil moisture,0.038276948,blackmat_AllData_RUN1_MARS,0.969631339
+196,40,Soil moisture,0.039098374,blackmat_AllData_RUN1_ANN,0.950610983
+197,40,Soil moisture,0.039098374,blackmat_AllData_RUN1_GLM,0.980116359
+198,40,Soil moisture,0.039098374,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.545928365
+199,40,Soil moisture,0.039098374,blackmat_AllData_RUN1_MARS,0.9705758
+200,40,Soil moisture,0.039098374,blackmat_AllData_RUN1_GBM,0.848265267
+201,41,Soil moisture,0.039919799,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.555363872
+202,41,Soil moisture,0.039919799,blackmat_AllData_RUN1_GBM,0.848265267
+203,41,Soil moisture,0.039919799,blackmat_AllData_RUN1_GLM,0.982314499
+204,41,Soil moisture,0.039919799,blackmat_AllData_RUN1_ANN,0.951808996
+205,41,Soil moisture,0.039919799,blackmat_AllData_RUN1_MARS,0.971491753
+206,42,Soil moisture,0.040741224,blackmat_AllData_RUN1_GLM,0.98420276
+207,42,Soil moisture,0.040741224,blackmat_AllData_RUN1_ANN,0.952804648
+208,42,Soil moisture,0.040741224,blackmat_AllData_RUN1_MARS,0.972380003
+209,42,Soil moisture,0.040741224,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.564759625
+210,42,Soil moisture,0.040741224,blackmat_AllData_RUN1_GBM,0.848265267
+211,43,Soil moisture,0.041562649,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.574109092
+212,43,Soil moisture,0.041562649,blackmat_AllData_RUN1_GBM,0.848265267
+213,43,Soil moisture,0.041562649,blackmat_AllData_RUN1_MARS,0.973241341
+214,43,Soil moisture,0.041562649,blackmat_AllData_RUN1_ANN,0.953636763
+215,43,Soil moisture,0.041562649,blackmat_AllData_RUN1_GLM,0.985828714
+216,44,Soil moisture,0.042384074,blackmat_AllData_RUN1_GLM,0.987232098
+217,44,Soil moisture,0.042384074,blackmat_AllData_RUN1_GBM,0.848265267
+218,44,Soil moisture,0.042384074,blackmat_AllData_RUN1_MARS,0.974076533
+219,44,Soil moisture,0.042384074,blackmat_AllData_RUN1_ANN,0.954335883
+220,44,Soil moisture,0.042384074,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.583405868
+221,45,Soil moisture,0.043205499,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.5926437
+222,45,Soil moisture,0.043205499,blackmat_AllData_RUN1_GBM,0.848611
+223,45,Soil moisture,0.043205499,blackmat_AllData_RUN1_MARS,0.97488633
+224,45,Soil moisture,0.043205499,blackmat_AllData_RUN1_ANN,0.954926208
+225,45,Soil moisture,0.043205499,blackmat_AllData_RUN1_GLM,0.98844614
+226,46,Soil moisture,0.044026925,blackmat_AllData_RUN1_MARS,0.975671463
+227,46,Soil moisture,0.044026925,blackmat_AllData_RUN1_GLM,0.989498667
+228,46,Soil moisture,0.044026925,blackmat_AllData_RUN1_GBM,0.848611
+229,46,Soil moisture,0.044026925,blackmat_AllData_RUN1_ANN,0.955427038
+230,46,Soil moisture,0.044026925,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.601816496
+231,47,Soil moisture,0.04484835,blackmat_AllData_RUN1_GBM,0.848611
+232,47,Soil moisture,0.04484835,blackmat_AllData_RUN1_GLM,0.990413017
+233,47,Soil moisture,0.04484835,blackmat_AllData_RUN1_MARS,0.976432643
+234,47,Soil moisture,0.04484835,blackmat_AllData_RUN1_ANN,0.955853866
+235,47,Soil moisture,0.04484835,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.610918346
+236,48,Soil moisture,0.045669775,blackmat_AllData_RUN1_GLM,0.991208792
+237,48,Soil moisture,0.045669775,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.619943531
+238,48,Soil moisture,0.045669775,blackmat_AllData_RUN1_GBM,0.848611
+239,48,Soil moisture,0.045669775,blackmat_AllData_RUN1_MARS,0.977170564
+240,48,Soil moisture,0.045669775,blackmat_AllData_RUN1_ANN,0.9562192
+241,49,Soil moisture,0.0464912,blackmat_AllData_RUN1_ANN,0.956533193
+242,49,Soil moisture,0.0464912,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.62888654
+243,49,Soil moisture,0.0464912,blackmat_AllData_RUN1_GBM,0.848611
+244,49,Soil moisture,0.0464912,blackmat_AllData_RUN1_MARS,0.977885904
+245,49,Soil moisture,0.0464912,blackmat_AllData_RUN1_GLM,0.991902491
+246,50,Soil moisture,0.047312625,blackmat_AllData_RUN1_GBM,0.848611
+247,50,Soil moisture,0.047312625,blackmat_AllData_RUN1_MARS,0.978579321
+248,50,Soil moisture,0.047312625,blackmat_AllData_RUN1_GLM,0.992508015
+249,50,Soil moisture,0.047312625,blackmat_AllData_RUN1_ANN,0.956804132
+250,50,Soil moisture,0.047312625,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.637742079
+251,51,Soil moisture,0.04813405,blackmat_AllData_RUN1_GLM,0.993037102
+252,51,Soil moisture,0.04813405,blackmat_AllData_RUN1_GBM,0.848611
+253,51,Soil moisture,0.04813405,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.646505084
+254,51,Soil moisture,0.04813405,blackmat_AllData_RUN1_MARS,0.979251456
+255,51,Soil moisture,0.04813405,blackmat_AllData_RUN1_ANN,0.957038813
+256,52,Soil moisture,0.048955476,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.655170729
+257,52,Soil moisture,0.048955476,blackmat_AllData_RUN1_MARS,0.979902934
+258,52,Soil moisture,0.048955476,blackmat_AllData_RUN1_ANN,0.957242834
+259,52,Soil moisture,0.048955476,blackmat_AllData_RUN1_GLM,0.993499671
+260,52,Soil moisture,0.048955476,blackmat_AllData_RUN1_GBM,0.848611
+261,53,Soil moisture,0.049776901,blackmat_AllData_RUN1_GBM,0.848611
+262,53,Soil moisture,0.049776901,blackmat_AllData_RUN1_MARS,0.980534363
+263,53,Soil moisture,0.049776901,blackmat_AllData_RUN1_ANN,0.957420829
+264,53,Soil moisture,0.049776901,blackmat_AllData_RUN1_GLM,0.993904119
+265,53,Soil moisture,0.049776901,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.663734434
+266,54,Soil moisture,0.050598326,blackmat_AllData_RUN1_GLM,0.994257559
+267,54,Soil moisture,0.050598326,blackmat_AllData_RUN1_GBM,0.848611
+268,54,Soil moisture,0.050598326,blackmat_AllData_RUN1_MARS,0.981146335
+269,54,Soil moisture,0.050598326,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.672191873
+270,54,Soil moisture,0.050598326,blackmat_AllData_RUN1_ANN,0.957576648
+271,55,Soil moisture,0.051419751,blackmat_AllData_RUN1_GLM,0.994566018
+272,55,Soil moisture,0.051419751,blackmat_AllData_RUN1_GBM,0.848611
+273,55,Soil moisture,0.051419751,blackmat_AllData_RUN1_ANN,0.957713505
+274,55,Soil moisture,0.051419751,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.680538979
+275,55,Soil moisture,0.051419751,blackmat_AllData_RUN1_MARS,0.981739426
+276,56,Soil moisture,0.052241176,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.688771949
+277,56,Soil moisture,0.052241176,blackmat_AllData_RUN1_GBM,0.848611
+278,56,Soil moisture,0.052241176,blackmat_AllData_RUN1_MARS,0.982314196
+279,56,Soil moisture,0.052241176,blackmat_AllData_RUN1_ANN,0.957834092
+280,56,Soil moisture,0.052241176,blackmat_AllData_RUN1_GLM,0.994834602
+281,57,Soil moisture,0.053062601,blackmat_AllData_RUN1_GLM,0.995067636
+282,57,Soil moisture,0.053062601,blackmat_AllData_RUN1_GBM,0.848611
+283,57,Soil moisture,0.053062601,blackmat_AllData_RUN1_MARS,0.98287119
+284,57,Soil moisture,0.053062601,blackmat_AllData_RUN1_ANN,0.95794067
+285,57,Soil moisture,0.053062601,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.696887247
+286,58,Soil moisture,0.053884026,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.704881606
+287,58,Soil moisture,0.053884026,blackmat_AllData_RUN1_GBM,0.848611
+288,58,Soil moisture,0.053884026,blackmat_AllData_RUN1_MARS,0.983410938
+289,58,Soil moisture,0.053884026,blackmat_AllData_RUN1_ANN,0.95803515
+290,58,Soil moisture,0.053884026,blackmat_AllData_RUN1_GLM,0.995268772
+291,59,Soil moisture,0.054705452,blackmat_AllData_RUN1_ANN,0.958119147
+292,59,Soil moisture,0.054705452,blackmat_AllData_RUN1_GLM,0.995441087
+293,59,Soil moisture,0.054705452,blackmat_AllData_RUN1_MARS,0.983933956
+294,59,Soil moisture,0.054705452,blackmat_AllData_RUN1_GBM,0.848611
+295,59,Soil moisture,0.054705452,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.712752027
+296,60,Soil moisture,0.055526877,blackmat_AllData_RUN1_MARS,0.984440746
+297,60,Soil moisture,0.055526877,blackmat_AllData_RUN1_GBM,0.848611
+298,60,Soil moisture,0.055526877,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.720495783
+299,60,Soil moisture,0.055526877,blackmat_AllData_RUN1_ANN,0.958194034
+300,60,Soil moisture,0.055526877,blackmat_AllData_RUN1_GLM,0.995587155
+301,61,Soil moisture,0.056348302,blackmat_AllData_RUN1_ANN,0.958260983
+302,61,Soil moisture,0.056348302,blackmat_AllData_RUN1_MARS,0.984931794
+303,61,Soil moisture,0.056348302,blackmat_AllData_RUN1_GLM,0.995709116
+304,61,Soil moisture,0.056348302,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.728110413
+305,61,Soil moisture,0.056348302,blackmat_AllData_RUN1_GBM,0.848611
+306,62,Soil moisture,0.057169727,blackmat_AllData_RUN1_MARS,0.985407574
+307,62,Soil moisture,0.057169727,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.735593724
+308,62,Soil moisture,0.057169727,blackmat_AllData_RUN1_GBM,0.848611
+309,62,Soil moisture,0.057169727,blackmat_AllData_RUN1_ANN,0.958320992
+310,62,Soil moisture,0.057169727,blackmat_AllData_RUN1_GLM,0.995808722
+311,63,Soil moisture,0.057991152,blackmat_AllData_RUN1_GBM,0.848611
+312,63,Soil moisture,0.057991152,blackmat_AllData_RUN1_ANN,0.95837492
+313,63,Soil moisture,0.057991152,blackmat_AllData_RUN1_MARS,0.985868548
+314,63,Soil moisture,0.057991152,blackmat_AllData_RUN1_GLM,0.995887383
+315,63,Soil moisture,0.057991152,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.742943785
+316,64,Soil moisture,0.058812577,blackmat_AllData_RUN1_GBM,0.848611
+317,64,Soil moisture,0.058812577,blackmat_AllData_RUN1_MARS,0.986315161
+318,64,Soil moisture,0.058812577,blackmat_AllData_RUN1_GLM,0.995946196
+319,64,Soil moisture,0.058812577,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.750158923
+320,64,Soil moisture,0.058812577,blackmat_AllData_RUN1_ANN,0.958423503
+321,65,Soil moisture,0.059634003,blackmat_AllData_RUN1_GLM,0.995985973
+322,65,Soil moisture,0.059634003,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.757237717
+323,65,Soil moisture,0.059634003,blackmat_AllData_RUN1_GBM,0.848611
+324,65,Soil moisture,0.059634003,blackmat_AllData_RUN1_ANN,0.958467379
+325,65,Soil moisture,0.059634003,blackmat_AllData_RUN1_MARS,0.986747849
+326,66,Soil moisture,0.060455428,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.764178997
+327,66,Soil moisture,0.060455428,blackmat_AllData_RUN1_ANN,0.958507096
+328,66,Soil moisture,0.060455428,blackmat_AllData_RUN1_GLM,0.996007259
+329,66,Soil moisture,0.060455428,blackmat_AllData_RUN1_GBM,0.848611
+330,66,Soil moisture,0.060455428,blackmat_AllData_RUN1_MARS,0.987167034
+331,67,Soil moisture,0.061276853,blackmat_AllData_RUN1_ANN,0.958543132
+332,67,Soil moisture,0.061276853,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.770981831
+333,67,Soil moisture,0.061276853,blackmat_AllData_RUN1_GLM,0.996010346
+334,67,Soil moisture,0.061276853,blackmat_AllData_RUN1_GBM,0.848611
+335,67,Soil moisture,0.061276853,blackmat_AllData_RUN1_MARS,0.987573127
+336,68,Soil moisture,0.062098278,blackmat_AllData_RUN1_GBM,0.848611
+337,68,Soil moisture,0.062098278,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.777645521
+338,68,Soil moisture,0.062098278,blackmat_AllData_RUN1_GLM,0.995995274
+339,68,Soil moisture,0.062098278,blackmat_AllData_RUN1_MARS,0.987966526
+340,68,Soil moisture,0.062098278,blackmat_AllData_RUN1_ANN,0.958575902
+341,69,Soil moisture,0.062919703,blackmat_AllData_RUN1_GLM,0.995961838
+342,69,Soil moisture,0.062919703,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.784169599
+343,69,Soil moisture,0.062919703,blackmat_AllData_RUN1_GBM,0.848611
+344,69,Soil moisture,0.062919703,blackmat_AllData_RUN1_ANN,0.958605766
+345,69,Soil moisture,0.062919703,blackmat_AllData_RUN1_MARS,0.988347618
+346,70,Soil moisture,0.063741128,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.790553811
+347,70,Soil moisture,0.063741128,blackmat_AllData_RUN1_GLM,0.995909582
+348,70,Soil moisture,0.063741128,blackmat_AllData_RUN1_ANN,0.95863304
+349,70,Soil moisture,0.063741128,blackmat_AllData_RUN1_MARS,0.988716779
+350,70,Soil moisture,0.063741128,blackmat_AllData_RUN1_GBM,0.848611
+351,71,Soil moisture,0.064562554,blackmat_AllData_RUN1_ANN,0.958658001
+352,71,Soil moisture,0.064562554,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.796798114
+353,71,Soil moisture,0.064562554,blackmat_AllData_RUN1_MARS,0.989074374
+354,71,Soil moisture,0.064562554,blackmat_AllData_RUN1_GBM,0.848611
+355,71,Soil moisture,0.064562554,blackmat_AllData_RUN1_GLM,0.995837785
+356,72,Soil moisture,0.065383979,blackmat_AllData_RUN1_ANN,0.958680891
+357,72,Soil moisture,0.065383979,blackmat_AllData_RUN1_GBM,0.848611
+358,72,Soil moisture,0.065383979,blackmat_AllData_RUN1_MARS,0.989420757
+359,72,Soil moisture,0.065383979,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.802902667
+360,72,Soil moisture,0.065383979,blackmat_AllData_RUN1_GLM,0.99574545
+361,73,Soil moisture,0.066205404,blackmat_AllData_RUN1_GLM,0.995631276
+362,73,Soil moisture,0.066205404,blackmat_AllData_RUN1_GBM,0.848611
+363,73,Soil moisture,0.066205404,blackmat_AllData_RUN1_ANN,0.958701924
+364,73,Soil moisture,0.066205404,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.808867819
+365,73,Soil moisture,0.066205404,blackmat_AllData_RUN1_MARS,0.989756272
+366,74,Soil moisture,0.067026829,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.814694102
+367,74,Soil moisture,0.067026829,blackmat_AllData_RUN1_GBM,0.848611
+368,74,Soil moisture,0.067026829,blackmat_AllData_RUN1_ANN,0.958721289
+369,74,Soil moisture,0.067026829,blackmat_AllData_RUN1_GLM,0.995493633
+370,74,Soil moisture,0.067026829,blackmat_AllData_RUN1_MARS,0.990081253
+371,75,Soil moisture,0.067848254,blackmat_AllData_RUN1_ANN,0.958739152
+372,75,Soil moisture,0.067848254,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.820382222
+373,75,Soil moisture,0.067848254,blackmat_AllData_RUN1_MARS,0.990396024
+374,75,Soil moisture,0.067848254,blackmat_AllData_RUN1_GBM,0.848611
+375,75,Soil moisture,0.067848254,blackmat_AllData_RUN1_GLM,0.995330517
+376,76,Soil moisture,0.068669679,blackmat_AllData_RUN1_ANN,0.95875566
+377,76,Soil moisture,0.068669679,blackmat_AllData_RUN1_GBM,0.848611
+378,76,Soil moisture,0.068669679,blackmat_AllData_RUN1_MARS,0.9907009
+379,76,Soil moisture,0.068669679,blackmat_AllData_RUN1_GLM,0.995139509
+380,76,Soil moisture,0.068669679,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.825933045
+381,77,Soil moisture,0.069491105,blackmat_AllData_RUN1_GBM,0.848611
+382,77,Soil moisture,0.069491105,blackmat_AllData_RUN1_MARS,0.990996185
+383,77,Soil moisture,0.069491105,blackmat_AllData_RUN1_GLM,0.994917711
+384,77,Soil moisture,0.069491105,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.831347593
+385,77,Soil moisture,0.069491105,blackmat_AllData_RUN1_ANN,0.958770945
+386,78,Soil moisture,0.07031253,blackmat_AllData_RUN1_GLM,0.994661676
+387,78,Soil moisture,0.07031253,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.836627031
+388,78,Soil moisture,0.07031253,blackmat_AllData_RUN1_ANN,0.958785123
+389,78,Soil moisture,0.07031253,blackmat_AllData_RUN1_GBM,0.848611
+390,78,Soil moisture,0.07031253,blackmat_AllData_RUN1_MARS,0.991282176
+391,79,Soil moisture,0.071133955,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.841772657
+392,79,Soil moisture,0.071133955,blackmat_AllData_RUN1_GBM,0.848611
+393,79,Soil moisture,0.071133955,blackmat_AllData_RUN1_GLM,0.994367321
+394,79,Soil moisture,0.071133955,blackmat_AllData_RUN1_MARS,0.991559161
+395,79,Soil moisture,0.071133955,blackmat_AllData_RUN1_ANN,0.958798297
+396,80,Soil moisture,0.07195538,blackmat_AllData_RUN1_ANN,0.958810562
+397,80,Soil moisture,0.07195538,blackmat_AllData_RUN1_GLM,0.994029818
+398,80,Soil moisture,0.07195538,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.846785896
+399,80,Soil moisture,0.07195538,blackmat_AllData_RUN1_MARS,0.991827418
+400,80,Soil moisture,0.07195538,blackmat_AllData_RUN1_GBM,0.848611
+401,81,Soil moisture,0.072776805,blackmat_AllData_RUN1_GLM,0.993643471
+402,81,Soil moisture,0.072776805,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.851668285
+403,81,Soil moisture,0.072776805,blackmat_AllData_RUN1_MARS,0.992087217
+404,81,Soil moisture,0.072776805,blackmat_AllData_RUN1_GBM,0.848611
+405,81,Soil moisture,0.072776805,blackmat_AllData_RUN1_ANN,0.958821998
+406,82,Soil moisture,0.07359823,blackmat_AllData_RUN1_GBM,0.848611
+407,82,Soil moisture,0.07359823,blackmat_AllData_RUN1_ANN,0.958832682
+408,82,Soil moisture,0.07359823,blackmat_AllData_RUN1_GLM,0.993201557
+409,82,Soil moisture,0.07359823,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.856421471
+410,82,Soil moisture,0.07359823,blackmat_AllData_RUN1_MARS,0.992338822
+411,83,Soil moisture,0.074419656,blackmat_AllData_RUN1_GBM,0.848611
+412,83,Soil moisture,0.074419656,blackmat_AllData_RUN1_GLM,0.992696142
+413,83,Soil moisture,0.074419656,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.861047195
+414,83,Soil moisture,0.074419656,blackmat_AllData_RUN1_MARS,0.992582486
+415,83,Soil moisture,0.074419656,blackmat_AllData_RUN1_ANN,0.958842679
+416,84,Soil moisture,0.075241081,blackmat_AllData_RUN1_ANN,0.95885205
+417,84,Soil moisture,0.075241081,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.865547286
+418,84,Soil moisture,0.075241081,blackmat_AllData_RUN1_GBM,0.848611
+419,84,Soil moisture,0.075241081,blackmat_AllData_RUN1_GLM,0.992117854
+420,84,Soil moisture,0.075241081,blackmat_AllData_RUN1_MARS,0.992818456
+421,85,Soil moisture,0.076062506,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.869923655
+422,85,Soil moisture,0.076062506,blackmat_AllData_RUN1_GBM,0.848611
+423,85,Soil moisture,0.076062506,blackmat_AllData_RUN1_GLM,0.99145561
+424,85,Soil moisture,0.076062506,blackmat_AllData_RUN1_MARS,0.993046972
+425,85,Soil moisture,0.076062506,blackmat_AllData_RUN1_ANN,0.95886085
+426,86,Soil moisture,0.076883931,blackmat_AllData_RUN1_GBM,0.848611
+427,86,Soil moisture,0.076883931,blackmat_AllData_RUN1_GLM,0.990696289
+428,86,Soil moisture,0.076883931,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.874178283
+429,86,Soil moisture,0.076883931,blackmat_AllData_RUN1_MARS,0.993268266
+430,86,Soil moisture,0.076883931,blackmat_AllData_RUN1_ANN,0.958869126
+431,87,Soil moisture,0.077705356,blackmat_AllData_RUN1_GBM,0.848611
+432,87,Soil moisture,0.077705356,blackmat_AllData_RUN1_ANN,0.958876924
+433,87,Soil moisture,0.077705356,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.878313214
+434,87,Soil moisture,0.077705356,blackmat_AllData_RUN1_MARS,0.993482563
+435,87,Soil moisture,0.077705356,blackmat_AllData_RUN1_GLM,0.98982433
+436,88,Soil moisture,0.078526781,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.882330548
+437,88,Soil moisture,0.078526781,blackmat_AllData_RUN1_GBM,0.848611
+438,88,Soil moisture,0.078526781,blackmat_AllData_RUN1_GLM,0.988821251
+439,88,Soil moisture,0.078526781,blackmat_AllData_RUN1_MARS,0.993690082
+440,88,Soil moisture,0.078526781,blackmat_AllData_RUN1_ANN,0.958884283
+441,89,Soil moisture,0.079348206,blackmat_AllData_RUN1_GLM,0.987665063
+442,89,Soil moisture,0.079348206,blackmat_AllData_RUN1_GBM,0.848611
+443,89,Soil moisture,0.079348206,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.886232434
+444,89,Soil moisture,0.079348206,blackmat_AllData_RUN1_MARS,0.993891033
+445,89,Soil moisture,0.079348206,blackmat_AllData_RUN1_ANN,0.95889124
+446,90,Soil moisture,0.080169632,blackmat_AllData_RUN1_GBM,0.848611
+447,90,Soil moisture,0.080169632,blackmat_AllData_RUN1_MARS,0.994085623
+448,90,Soil moisture,0.080169632,blackmat_AllData_RUN1_ANN,0.958897828
+449,90,Soil moisture,0.080169632,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.890021062
+450,90,Soil moisture,0.080169632,blackmat_AllData_RUN1_GLM,0.986329561
+451,91,Soil moisture,0.080991057,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.893698657
+452,91,Soil moisture,0.080991057,blackmat_AllData_RUN1_GBM,0.848611
+453,91,Soil moisture,0.080991057,blackmat_AllData_RUN1_GLM,0.984783469
+454,91,Soil moisture,0.080991057,blackmat_AllData_RUN1_MARS,0.994274051
+455,91,Soil moisture,0.080991057,blackmat_AllData_RUN1_ANN,0.958904078
+456,92,Soil moisture,0.081812482,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.897267471
+457,92,Soil moisture,0.081812482,blackmat_AllData_RUN1_GLM,0.982989403
+458,92,Soil moisture,0.081812482,blackmat_AllData_RUN1_GBM,0.848611
+459,92,Soil moisture,0.081812482,blackmat_AllData_RUN1_MARS,0.994456509
+460,92,Soil moisture,0.081812482,blackmat_AllData_RUN1_ANN,0.958910015
+461,93,Soil moisture,0.082633907,blackmat_AllData_RUN1_GBM,0.848611
+462,93,Soil moisture,0.082633907,blackmat_AllData_RUN1_GLM,0.980902623
+463,93,Soil moisture,0.082633907,blackmat_AllData_RUN1_MARS,0.994633184
+464,93,Soil moisture,0.082633907,blackmat_AllData_RUN1_ANN,0.958915667
+465,93,Soil moisture,0.082633907,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.900729779
+466,94,Soil moisture,0.083455332,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.905130932
+467,94,Soil moisture,0.083455332,blackmat_AllData_RUN1_GBM,0.848611
+468,94,Soil moisture,0.083455332,blackmat_AllData_RUN1_ANN,0.958921055
+469,94,Soil moisture,0.083455332,blackmat_AllData_RUN1_GLM,0.978469526
+470,94,Soil moisture,0.083455332,blackmat_AllData_RUN1_MARS,0.994804258
+471,95,Soil moisture,0.084276757,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.923519066
+472,95,Soil moisture,0.084276757,blackmat_AllData_RUN1_GLM,0.975625858
+473,95,Soil moisture,0.084276757,blackmat_AllData_RUN1_MARS,0.994969906
+474,95,Soil moisture,0.084276757,blackmat_AllData_RUN1_GBM,0.848611
+475,95,Soil moisture,0.084276757,blackmat_AllData_RUN1_ANN,0.958926201
+476,96,Soil moisture,0.085098183,blackmat_AllData_RUN1_GBM,0.848611
+477,96,Soil moisture,0.085098183,blackmat_AllData_RUN1_GLM,0.972294565
+478,96,Soil moisture,0.085098183,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.938584926
+479,96,Soil moisture,0.085098183,blackmat_AllData_RUN1_MARS,0.995130299
+480,96,Soil moisture,0.085098183,blackmat_AllData_RUN1_ANN,0.958931123
+481,97,Soil moisture,0.085919608,blackmat_AllData_RUN1_ANN,0.95893584
+482,97,Soil moisture,0.085919608,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.950840961
+483,97,Soil moisture,0.085919608,blackmat_AllData_RUN1_GBM,0.848611
+484,97,Soil moisture,0.085919608,blackmat_AllData_RUN1_GLM,0.968383281
+485,97,Soil moisture,0.085919608,blackmat_AllData_RUN1_MARS,0.995285601
+486,98,Soil moisture,0.086741033,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.960753445
+487,98,Soil moisture,0.086741033,blackmat_AllData_RUN1_GBM,0.848611
+488,98,Soil moisture,0.086741033,blackmat_AllData_RUN1_GLM,0.963781391
+489,98,Soil moisture,0.086741033,blackmat_AllData_RUN1_MARS,0.995435974
+490,98,Soil moisture,0.086741033,blackmat_AllData_RUN1_ANN,0.958940368
+491,99,Soil moisture,0.087562458,blackmat_AllData_RUN1_ANN,0.958944721
+492,99,Soil moisture,0.087562458,blackmat_AllData_RUN1_GBM,0.848611
+493,99,Soil moisture,0.087562458,blackmat_AllData_RUN1_MARS,0.995581572
+494,99,Soil moisture,0.087562458,blackmat_AllData_RUN1_GLM,0.958356671
+495,99,Soil moisture,0.087562458,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.968732891
+496,100,Soil moisture,0.088383883,blackmat_AllData_RUN1_GBM,0.848611
+497,100,Soil moisture,0.088383883,blackmat_AllData_RUN1_MARS,0.995722544
+498,100,Soil moisture,0.088383883,blackmat_AllData_RUN1_GLM,0.95195154
+499,100,Soil moisture,0.088383883,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.975131982
+500,100,Soil moisture,0.088383883,blackmat_AllData_RUN1_ANN,0.958948914
+501,1,Snow cover,0,blackmat_AllData_RUN1_GBM,0.087526051
+502,1,Snow cover,0,blackmat_AllData_RUN1_GLM,0.18963606
+503,1,Snow cover,0,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.028772481
+504,1,Snow cover,0,blackmat_AllData_RUN1_MARS,0.140011582
+505,1,Snow cover,0,blackmat_AllData_RUN1_ANN,0.063592243
+506,2,Snow cover,0.009516381,blackmat_AllData_RUN1_GLM,0.231385288
+507,2,Snow cover,0.009516381,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.037308587
+508,2,Snow cover,0.009516381,blackmat_AllData_RUN1_MARS,0.184787201
+509,2,Snow cover,0.009516381,blackmat_AllData_RUN1_ANN,0.074648015
+510,2,Snow cover,0.009516381,blackmat_AllData_RUN1_GBM,0.109649785
+511,3,Snow cover,0.019032761,blackmat_AllData_RUN1_GBM,0.159737101
+512,3,Snow cover,0.019032761,blackmat_AllData_RUN1_MARS,0.23988779
+513,3,Snow cover,0.019032761,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.048203751
+514,3,Snow cover,0.019032761,blackmat_AllData_RUN1_ANN,0.092673826
+515,3,Snow cover,0.019032761,blackmat_AllData_RUN1_GLM,0.278458386
+516,4,Snow cover,0.028549142,blackmat_AllData_RUN1_MARS,0.305266043
+517,4,Snow cover,0.028549142,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.062015119
+518,4,Snow cover,0.028549142,blackmat_AllData_RUN1_ANN,0.122060894
+519,4,Snow cover,0.028549142,blackmat_AllData_RUN1_GLM,0.330212476
+520,4,Snow cover,0.028549142,blackmat_AllData_RUN1_GBM,0.159412165
+521,5,Snow cover,0.038065523,blackmat_AllData_RUN1_GBM,0.163709881
+522,5,Snow cover,0.038065523,blackmat_AllData_RUN1_MARS,0.390918547
+523,5,Snow cover,0.038065523,blackmat_AllData_RUN1_GLM,0.3856075
+524,5,Snow cover,0.038065523,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.079377595
+525,5,Snow cover,0.038065523,blackmat_AllData_RUN1_ANN,0.16909313
+526,6,Snow cover,0.047581903,blackmat_AllData_RUN1_GBM,0.196643764
+527,6,Snow cover,0.047581903,blackmat_AllData_RUN1_ANN,0.240633679
+528,6,Snow cover,0.047581903,blackmat_AllData_RUN1_MARS,0.538827753
+529,6,Snow cover,0.047581903,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.100983094
+530,6,Snow cover,0.047581903,blackmat_AllData_RUN1_GLM,0.44327263
+531,7,Snow cover,0.057098284,blackmat_AllData_RUN1_MARS,0.680202262
+532,7,Snow cover,0.057098284,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.127538489
+533,7,Snow cover,0.057098284,blackmat_AllData_RUN1_GBM,0.572357192
+534,7,Snow cover,0.057098284,blackmat_AllData_RUN1_ANN,0.33970564
+535,7,Snow cover,0.057098284,blackmat_AllData_RUN1_GLM,0.501636417
+536,8,Snow cover,0.066614665,blackmat_AllData_RUN1_GLM,0.559096262
+537,8,Snow cover,0.066614665,blackmat_AllData_RUN1_GBM,0.588898191
+538,8,Snow cover,0.066614665,blackmat_AllData_RUN1_MARS,0.794746696
+539,8,Snow cover,0.066614665,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.159696408
+540,8,Snow cover,0.066614665,blackmat_AllData_RUN1_ANN,0.459493427
+541,9,Snow cover,0.076131045,blackmat_AllData_RUN1_GBM,0.606725603
+542,9,Snow cover,0.076131045,blackmat_AllData_RUN1_MARS,0.875757696
+543,9,Snow cover,0.076131045,blackmat_AllData_RUN1_ANN,0.582837457
+544,9,Snow cover,0.076131045,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.194276763
+545,9,Snow cover,0.076131045,blackmat_AllData_RUN1_GLM,0.614189582
+546,10,Snow cover,0.085647426,blackmat_AllData_RUN1_GBM,0.605779991
+547,10,Snow cover,0.085647426,blackmat_AllData_RUN1_MARS,0.927703258
+548,10,Snow cover,0.085647426,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.207474756
+549,10,Snow cover,0.085647426,blackmat_AllData_RUN1_ANN,0.691249464
+550,10,Snow cover,0.085647426,blackmat_AllData_RUN1_GLM,0.665729534
+551,11,Snow cover,0.095163807,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.221144443
+552,11,Snow cover,0.095163807,blackmat_AllData_RUN1_GLM,0.712881786
+553,11,Snow cover,0.095163807,blackmat_AllData_RUN1_GBM,0.680662645
+554,11,Snow cover,0.095163807,blackmat_AllData_RUN1_MARS,0.9589485
+555,11,Snow cover,0.095163807,blackmat_AllData_RUN1_ANN,0.774871041
+556,12,Snow cover,0.104680187,blackmat_AllData_RUN1_GBM,0.611610474
+557,12,Snow cover,0.104680187,blackmat_AllData_RUN1_MARS,0.345691007
+558,12,Snow cover,0.104680187,blackmat_AllData_RUN1_GLM,0.755178205
+559,12,Snow cover,0.104680187,blackmat_AllData_RUN1_ANN,0.833851864
+560,12,Snow cover,0.104680187,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.235260634
+561,13,Snow cover,0.114196568,blackmat_AllData_RUN1_GBM,0.602908212
+562,13,Snow cover,0.114196568,blackmat_AllData_RUN1_MARS,0.49549326
+563,13,Snow cover,0.114196568,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.249794352
+564,13,Snow cover,0.114196568,blackmat_AllData_RUN1_ANN,0.873477968
+565,13,Snow cover,0.114196568,blackmat_AllData_RUN1_GLM,0.792479715
+566,14,Snow cover,0.123712948,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.26471306
+567,14,Snow cover,0.123712948,blackmat_AllData_RUN1_MARS,0.646109048
+568,14,Snow cover,0.123712948,blackmat_AllData_RUN1_GLM,0.824908749
+569,14,Snow cover,0.123712948,blackmat_AllData_RUN1_GBM,0.597890572
+570,14,Snow cover,0.123712948,blackmat_AllData_RUN1_ANN,0.899654651
+571,15,Snow cover,0.133229329,blackmat_AllData_RUN1_GBM,0.607657632
+572,15,Snow cover,0.133229329,blackmat_AllData_RUN1_MARS,0.681650133
+573,15,Snow cover,0.133229329,blackmat_AllData_RUN1_GLM,0.852771551
+574,15,Snow cover,0.133229329,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.279980955
+575,15,Snow cover,0.133229329,blackmat_AllData_RUN1_ANN,0.917007796
+576,16,Snow cover,0.14274571,blackmat_AllData_RUN1_GBM,0.637966578
+577,16,Snow cover,0.14274571,blackmat_AllData_RUN1_MARS,0.712647836
+578,16,Snow cover,0.14274571,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.295559333
+579,16,Snow cover,0.14274571,blackmat_AllData_RUN1_ANN,0.928679476
+580,16,Snow cover,0.14274571,blackmat_AllData_RUN1_GLM,0.876485329
+581,17,Snow cover,0.15226209,blackmat_AllData_RUN1_MARS,0.741770695
+582,17,Snow cover,0.15226209,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.311407001
+583,17,Snow cover,0.15226209,blackmat_AllData_RUN1_ANN,0.936681261
+584,17,Snow cover,0.15226209,blackmat_AllData_RUN1_GLM,0.896518573
+585,17,Snow cover,0.15226209,blackmat_AllData_RUN1_GBM,0.651888676
+586,18,Snow cover,0.161778471,blackmat_AllData_RUN1_GBM,0.654435242
+587,18,Snow cover,0.161778471,blackmat_AllData_RUN1_MARS,0.768899131
+588,18,Snow cover,0.161778471,blackmat_AllData_RUN1_GLM,0.913347198
+589,18,Snow cover,0.161778471,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.327480742
+590,18,Snow cover,0.161778471,blackmat_AllData_RUN1_ANN,0.942278477
+591,19,Snow cover,0.171294852,blackmat_AllData_RUN1_MARS,0.793969174
+592,19,Snow cover,0.171294852,blackmat_AllData_RUN1_GLM,0.927425555
+593,19,Snow cover,0.171294852,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.343735811
+594,19,Snow cover,0.171294852,blackmat_AllData_RUN1_GBM,0.654435242
+595,19,Snow cover,0.171294852,blackmat_AllData_RUN1_ANN,0.946270113
+596,20,Snow cover,0.180811232,blackmat_AllData_RUN1_GBM,0.699595827
+597,20,Snow cover,0.180811232,blackmat_AllData_RUN1_ANN,0.949168001
+598,20,Snow cover,0.180811232,blackmat_AllData_RUN1_MARS,0.816966989
+599,20,Snow cover,0.180811232,blackmat_AllData_RUN1_GLM,0.939169556
+600,20,Snow cover,0.180811232,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.360126453
+601,21,Snow cover,0.190327613,blackmat_AllData_RUN1_ANN,0.951306253
+602,21,Snow cover,0.190327613,blackmat_AllData_RUN1_MARS,0.837921752
+603,21,Snow cover,0.190327613,blackmat_AllData_RUN1_GLM,0.948948746
+604,21,Snow cover,0.190327613,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.376606435
+605,21,Snow cover,0.190327613,blackmat_AllData_RUN1_GBM,0.699595827
+606,22,Snow cover,0.199843994,blackmat_AllData_RUN1_GBM,0.730922433
+607,22,Snow cover,0.199843994,blackmat_AllData_RUN1_MARS,0.856897704
+608,22,Snow cover,0.199843994,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.39312957
+609,22,Snow cover,0.199843994,blackmat_AllData_RUN1_ANN,0.952907369
+610,22,Snow cover,0.199843994,blackmat_AllData_RUN1_GLM,0.957084423
+611,23,Snow cover,0.209360374,blackmat_AllData_RUN1_MARS,0.873986087
+612,23,Snow cover,0.209360374,blackmat_AllData_RUN1_ANN,0.95412242
+613,23,Snow cover,0.209360374,blackmat_AllData_RUN1_GBM,0.747447817
+614,23,Snow cover,0.209360374,blackmat_AllData_RUN1_GLM,0.963851503
+615,23,Snow cover,0.209360374,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.409650233
+616,24,Snow cover,0.218876755,blackmat_AllData_RUN1_GBM,0.750503236
+617,24,Snow cover,0.218876755,blackmat_AllData_RUN1_GLM,0.969482438
+618,24,Snow cover,0.218876755,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.426123838
+619,24,Snow cover,0.218876755,blackmat_AllData_RUN1_MARS,0.889297506
+620,24,Snow cover,0.218876755,blackmat_AllData_RUN1_ANN,0.95505586
+621,25,Snow cover,0.228393136,blackmat_AllData_RUN1_GLM,0.974172064
+622,25,Snow cover,0.228393136,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.442507293
+623,25,Snow cover,0.228393136,blackmat_AllData_RUN1_MARS,0.902955075
+624,25,Snow cover,0.228393136,blackmat_AllData_RUN1_ANN,0.955781108
+625,25,Snow cover,0.228393136,blackmat_AllData_RUN1_GBM,0.760512455
+626,26,Snow cover,0.237909516,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.458759394
+627,26,Snow cover,0.237909516,blackmat_AllData_RUN1_ANN,0.956350555
+628,26,Snow cover,0.237909516,blackmat_AllData_RUN1_MARS,0.915088568
+629,26,Snow cover,0.237909516,blackmat_AllData_RUN1_GLM,0.978082648
+630,26,Snow cover,0.237909516,blackmat_AllData_RUN1_GBM,0.761898797
+631,27,Snow cover,0.247425897,blackmat_AllData_RUN1_MARS,0.925829627
+632,27,Snow cover,0.247425897,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.474841182
+633,27,Snow cover,0.247425897,blackmat_AllData_RUN1_GBM,0.79007251
+634,27,Snow cover,0.247425897,blackmat_AllData_RUN1_ANN,0.956802094
+635,27,Snow cover,0.247425897,blackmat_AllData_RUN1_GLM,0.981348715
+636,28,Snow cover,0.256942278,blackmat_AllData_RUN1_MARS,0.935308026
+637,28,Snow cover,0.256942278,blackmat_AllData_RUN1_GLM,0.984081444
+638,28,Snow cover,0.256942278,blackmat_AllData_RUN1_GBM,0.829502147
+639,28,Snow cover,0.256942278,blackmat_AllData_RUN1_ANN,0.957163478
+640,28,Snow cover,0.256942278,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.490716234
+641,29,Snow cover,0.266458658,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.506350897
+642,29,Snow cover,0.266458658,blackmat_AllData_RUN1_GLM,0.986372531
+643,29,Snow cover,0.266458658,blackmat_AllData_RUN1_MARS,0.943648883
+644,29,Snow cover,0.266458658,blackmat_AllData_RUN1_ANN,0.957455263
+645,29,Snow cover,0.266458658,blackmat_AllData_RUN1_GBM,0.859240878
+646,30,Snow cover,0.275975039,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.521714464
+647,30,Snow cover,0.275975039,blackmat_AllData_RUN1_ANN,0.957692837
+648,30,Snow cover,0.275975039,blackmat_AllData_RUN1_MARS,0.950970711
+649,30,Snow cover,0.275975039,blackmat_AllData_RUN1_GLM,0.988297521
+650,30,Snow cover,0.275975039,blackmat_AllData_RUN1_GBM,0.882825307
+651,31,Snow cover,0.28549142,blackmat_AllData_RUN1_ANN,0.957887826
+652,31,Snow cover,0.28549142,blackmat_AllData_RUN1_MARS,0.957384161
+653,31,Snow cover,0.28549142,blackmat_AllData_RUN1_GBM,0.882990872
+654,31,Snow cover,0.28549142,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.536779293
+655,31,Snow cover,0.28549142,blackmat_AllData_RUN1_GLM,0.98991862
+656,32,Snow cover,0.2950078,blackmat_AllData_RUN1_MARS,0.962991325
+657,32,Snow cover,0.2950078,blackmat_AllData_RUN1_GBM,0.884572006
+658,32,Snow cover,0.2950078,blackmat_AllData_RUN1_ANN,0.958049102
+659,32,Snow cover,0.2950078,blackmat_AllData_RUN1_GLM,0.991287062
+660,32,Snow cover,0.2950078,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.551520867
+661,33,Snow cover,0.304524181,blackmat_AllData_RUN1_GBM,0.887176088
+662,33,Snow cover,0.304524181,blackmat_AllData_RUN1_MARS,0.967885476
+663,33,Snow cover,0.304524181,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.565917807
+664,33,Snow cover,0.304524181,blackmat_AllData_RUN1_GLM,0.992445065
+665,33,Snow cover,0.304524181,blackmat_AllData_RUN1_ANN,0.958183487
+666,34,Snow cover,0.314040562,blackmat_AllData_RUN1_MARS,0.972151125
+667,34,Snow cover,0.314040562,blackmat_AllData_RUN1_ANN,0.95829627
+668,34,Snow cover,0.314040562,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.579951832
+669,34,Snow cover,0.314040562,blackmat_AllData_RUN1_GLM,0.993427451
+670,34,Snow cover,0.314040562,blackmat_AllData_RUN1_GBM,0.890551064
+671,35,Snow cover,0.323556942,blackmat_AllData_RUN1_MARS,0.975864313
+672,35,Snow cover,0.323556942,blackmat_AllData_RUN1_ANN,0.958391586
+673,35,Snow cover,0.323556942,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.593607687
+674,35,Snow cover,0.323556942,blackmat_AllData_RUN1_GBM,0.892617622
+675,35,Snow cover,0.323556942,blackmat_AllData_RUN1_GLM,0.994262976
+676,36,Snow cover,0.333073323,blackmat_AllData_RUN1_MARS,0.979093057
+677,36,Snow cover,0.333073323,blackmat_AllData_RUN1_GBM,0.892849039
+678,36,Snow cover,0.333073323,blackmat_AllData_RUN1_ANN,0.958472688
+679,36,Snow cover,0.333073323,blackmat_AllData_RUN1_GLM,0.994975418
+680,36,Snow cover,0.333073323,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.606873027
+681,37,Snow cover,0.342589703,blackmat_AllData_RUN1_GBM,0.892849039
+682,37,Snow cover,0.342589703,blackmat_AllData_RUN1_GLM,0.995584477
+683,37,Snow cover,0.342589703,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.619738281
+684,37,Snow cover,0.342589703,blackmat_AllData_RUN1_MARS,0.981897888
+685,37,Snow cover,0.342589703,blackmat_AllData_RUN1_ANN,0.958542154
+686,38,Snow cover,0.352106084,blackmat_AllData_RUN1_GLM,0.996106495
+687,38,Snow cover,0.352106084,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.632196483
+688,38,Snow cover,0.352106084,blackmat_AllData_RUN1_MARS,0.98433245
+689,38,Snow cover,0.352106084,blackmat_AllData_RUN1_GBM,0.894321612
+690,38,Snow cover,0.352106084,blackmat_AllData_RUN1_ANN,0.958602041
+691,39,Snow cover,0.361622465,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.644243099
+692,39,Snow cover,0.361622465,blackmat_AllData_RUN1_GBM,0.894321612
+693,39,Snow cover,0.361622465,blackmat_AllData_RUN1_ANN,0.958653997
+694,39,Snow cover,0.361622465,blackmat_AllData_RUN1_GLM,0.996555062
+695,39,Snow cover,0.361622465,blackmat_AllData_RUN1_MARS,0.986444107
+696,40,Snow cover,0.371138845,blackmat_AllData_RUN1_ANN,0.958699355
+697,40,Snow cover,0.371138845,blackmat_AllData_RUN1_GLM,0.996941493
+698,40,Snow cover,0.371138845,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.655875828
+699,40,Snow cover,0.371138845,blackmat_AllData_RUN1_MARS,0.988274548
+700,40,Snow cover,0.371138845,blackmat_AllData_RUN1_GBM,0.89732756
+701,41,Snow cover,0.380655226,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.667094408
+702,41,Snow cover,0.380655226,blackmat_AllData_RUN1_GBM,0.899946986
+703,41,Snow cover,0.380655226,blackmat_AllData_RUN1_GLM,0.997275237
+704,41,Snow cover,0.380655226,blackmat_AllData_RUN1_ANN,0.958739196
+705,41,Snow cover,0.380655226,blackmat_AllData_RUN1_MARS,0.989860366
+706,42,Snow cover,0.390171607,blackmat_AllData_RUN1_GLM,0.997564193
+707,42,Snow cover,0.390171607,blackmat_AllData_RUN1_ANN,0.958774401
+708,42,Snow cover,0.390171607,blackmat_AllData_RUN1_MARS,0.991233611
+709,42,Snow cover,0.390171607,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.677900415
+710,42,Snow cover,0.390171607,blackmat_AllData_RUN1_GBM,0.900012115
+711,43,Snow cover,0.399687987,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.688297063
+712,43,Snow cover,0.399687987,blackmat_AllData_RUN1_GBM,0.900951064
+713,43,Snow cover,0.399687987,blackmat_AllData_RUN1_MARS,0.992422297
+714,43,Snow cover,0.399687987,blackmat_AllData_RUN1_ANN,0.958805692
+715,43,Snow cover,0.399687987,blackmat_AllData_RUN1_GLM,0.997814983
+716,44,Snow cover,0.409204368,blackmat_AllData_RUN1_GLM,0.99803317
+717,44,Snow cover,0.409204368,blackmat_AllData_RUN1_GBM,0.90157708
+718,44,Snow cover,0.409204368,blackmat_AllData_RUN1_MARS,0.993450867
+719,44,Snow cover,0.409204368,blackmat_AllData_RUN1_ANN,0.958833663
+720,44,Snow cover,0.409204368,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.698289005
+721,45,Snow cover,0.418720749,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.707882154
+722,45,Snow cover,0.418720749,blackmat_AllData_RUN1_GBM,0.90157708
+723,45,Snow cover,0.418720749,blackmat_AllData_RUN1_MARS,0.994340619
+724,45,Snow cover,0.418720749,blackmat_AllData_RUN1_ANN,0.958858804
+725,45,Snow cover,0.418720749,blackmat_AllData_RUN1_GLM,0.998223436
+726,46,Snow cover,0.428237129,blackmat_AllData_RUN1_MARS,0.995287451
+727,46,Snow cover,0.428237129,blackmat_AllData_RUN1_GLM,0.998389729
+728,46,Snow cover,0.428237129,blackmat_AllData_RUN1_GBM,0.90157708
+729,46,Snow cover,0.428237129,blackmat_AllData_RUN1_ANN,0.95888152
+730,46,Snow cover,0.428237129,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.717083495
+731,47,Snow cover,0.43775351,blackmat_AllData_RUN1_GBM,0.902451083
+732,47,Snow cover,0.43775351,blackmat_AllData_RUN1_GLM,0.998535388
+733,47,Snow cover,0.43775351,blackmat_AllData_RUN1_MARS,0.996143757
+734,47,Snow cover,0.43775351,blackmat_AllData_RUN1_ANN,0.958902146
+735,47,Snow cover,0.43775351,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.72590092
+736,48,Snow cover,0.447269891,blackmat_AllData_RUN1_GLM,0.998663242
+737,48,Snow cover,0.447269891,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.734343073
+738,48,Snow cover,0.447269891,blackmat_AllData_RUN1_GBM,0.903647737
+739,48,Snow cover,0.447269891,blackmat_AllData_RUN1_MARS,0.99684496
+740,48,Snow cover,0.447269891,blackmat_AllData_RUN1_ANN,0.958920961
+741,49,Snow cover,0.456786271,blackmat_AllData_RUN1_ANN,0.958938195
+742,49,Snow cover,0.456786271,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.7424192
+743,49,Snow cover,0.456786271,blackmat_AllData_RUN1_GBM,0.903647737
+744,49,Snow cover,0.456786271,blackmat_AllData_RUN1_MARS,0.997418989
+745,49,Snow cover,0.456786271,blackmat_AllData_RUN1_GLM,0.998775693
+746,50,Snow cover,0.466302652,blackmat_AllData_RUN1_GBM,0.903647737
+747,50,Snow cover,0.466302652,blackmat_AllData_RUN1_MARS,0.9978888
+748,50,Snow cover,0.466302652,blackmat_AllData_RUN1_GLM,0.998874782
+749,50,Snow cover,0.466302652,blackmat_AllData_RUN1_ANN,0.958954038
+750,50,Snow cover,0.466302652,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.750139019
+751,51,Snow cover,0.475819033,blackmat_AllData_RUN1_GLM,0.998962251
+752,51,Snow cover,0.475819033,blackmat_AllData_RUN1_GBM,0.903647737
+753,51,Snow cover,0.475819033,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.757512601
+754,51,Snow cover,0.475819033,blackmat_AllData_RUN1_MARS,0.998273241
+755,51,Snow cover,0.475819033,blackmat_AllData_RUN1_ANN,0.958968647
+756,52,Snow cover,0.485335413,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.764550256
+757,52,Snow cover,0.485335413,blackmat_AllData_RUN1_MARS,0.998587777
+758,52,Snow cover,0.485335413,blackmat_AllData_RUN1_ANN,0.958982151
+759,52,Snow cover,0.485335413,blackmat_AllData_RUN1_GLM,0.999039587
+760,52,Snow cover,0.485335413,blackmat_AllData_RUN1_GBM,0.903647737
+761,53,Snow cover,0.494851794,blackmat_AllData_RUN1_GBM,0.903647737
+762,53,Snow cover,0.494851794,blackmat_AllData_RUN1_MARS,0.998845084
+763,53,Snow cover,0.494851794,blackmat_AllData_RUN1_ANN,0.958994655
+764,53,Snow cover,0.494851794,blackmat_AllData_RUN1_GLM,0.999108063
+765,53,Snow cover,0.494851794,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.771262444
+766,54,Snow cover,0.504368175,blackmat_AllData_RUN1_GLM,0.99916877
+767,54,Snow cover,0.504368175,blackmat_AllData_RUN1_GBM,0.903647737
+768,54,Snow cover,0.504368175,blackmat_AllData_RUN1_MARS,0.999055555
+769,54,Snow cover,0.504368175,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.777659681
+770,54,Snow cover,0.504368175,blackmat_AllData_RUN1_ANN,0.959006243
+771,55,Snow cover,0.513884555,blackmat_AllData_RUN1_GLM,0.999222645
+772,55,Snow cover,0.513884555,blackmat_AllData_RUN1_GBM,0.903647737
+773,55,Snow cover,0.513884555,blackmat_AllData_RUN1_ANN,0.959016984
+774,55,Snow cover,0.513884555,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.783752472
+775,55,Snow cover,0.513884555,blackmat_AllData_RUN1_MARS,0.999227699
+776,56,Snow cover,0.523400936,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.789551238
+777,56,Snow cover,0.523400936,blackmat_AllData_RUN1_GBM,0.903647737
+778,56,Snow cover,0.523400936,blackmat_AllData_RUN1_MARS,0.999368487
+779,56,Snow cover,0.523400936,blackmat_AllData_RUN1_ANN,0.959026932
+780,56,Snow cover,0.523400936,blackmat_AllData_RUN1_GLM,0.999270492
+781,57,Snow cover,0.532917317,blackmat_AllData_RUN1_GLM,0.999313007
+782,57,Snow cover,0.532917317,blackmat_AllData_RUN1_GBM,0.903647737
+783,57,Snow cover,0.532917317,blackmat_AllData_RUN1_MARS,0.999483622
+784,57,Snow cover,0.532917317,blackmat_AllData_RUN1_ANN,0.95903613
+785,57,Snow cover,0.532917317,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.795066267
+786,58,Snow cover,0.542433697,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.800307661
+787,58,Snow cover,0.542433697,blackmat_AllData_RUN1_GBM,0.903647737
+788,58,Snow cover,0.542433697,blackmat_AllData_RUN1_MARS,0.999577775
+789,58,Snow cover,0.542433697,blackmat_AllData_RUN1_ANN,0.959044613
+790,58,Snow cover,0.542433697,blackmat_AllData_RUN1_GLM,0.999350788
+791,59,Snow cover,0.551950078,blackmat_AllData_RUN1_ANN,0.95905241
+792,59,Snow cover,0.551950078,blackmat_AllData_RUN1_GLM,0.99938435
+793,59,Snow cover,0.551950078,blackmat_AllData_RUN1_MARS,0.999654767
+794,59,Snow cover,0.551950078,blackmat_AllData_RUN1_GBM,0.903647737
+795,59,Snow cover,0.551950078,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.805285298
+796,60,Snow cover,0.561466458,blackmat_AllData_RUN1_MARS,0.999717724
+797,60,Snow cover,0.561466458,blackmat_AllData_RUN1_GBM,0.903647737
+798,60,Snow cover,0.561466458,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.810008796
+799,60,Snow cover,0.561466458,blackmat_AllData_RUN1_ANN,0.959059545
+800,60,Snow cover,0.561466458,blackmat_AllData_RUN1_GLM,0.99941414
+801,61,Snow cover,0.570982839,blackmat_AllData_RUN1_ANN,0.95906604
+802,61,Snow cover,0.570982839,blackmat_AllData_RUN1_MARS,0.999769202
+803,61,Snow cover,0.570982839,blackmat_AllData_RUN1_GLM,0.999440543
+804,61,Snow cover,0.570982839,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.814487489
+805,61,Snow cover,0.570982839,blackmat_AllData_RUN1_GBM,0.903647737
+806,62,Snow cover,0.58049922,blackmat_AllData_RUN1_MARS,0.999811294
+807,62,Snow cover,0.58049922,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.818730404
+808,62,Snow cover,0.58049922,blackmat_AllData_RUN1_GBM,0.903647737
+809,62,Snow cover,0.58049922,blackmat_AllData_RUN1_ANN,0.959071915
+810,62,Snow cover,0.58049922,blackmat_AllData_RUN1_GLM,0.999463892
+811,63,Snow cover,0.5900156,blackmat_AllData_RUN1_GBM,0.903647737
+812,63,Snow cover,0.5900156,blackmat_AllData_RUN1_ANN,0.959077194
+813,63,Snow cover,0.5900156,blackmat_AllData_RUN1_MARS,0.999845711
+814,63,Snow cover,0.5900156,blackmat_AllData_RUN1_GLM,0.999484473
+815,63,Snow cover,0.5900156,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.822746239
+816,64,Snow cover,0.599531981,blackmat_AllData_RUN1_GBM,0.903647737
+817,64,Snow cover,0.599531981,blackmat_AllData_RUN1_MARS,0.999873852
+818,64,Snow cover,0.599531981,blackmat_AllData_RUN1_GLM,0.999502534
+819,64,Snow cover,0.599531981,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.826543357
+820,64,Snow cover,0.599531981,blackmat_AllData_RUN1_ANN,0.959081899
+821,65,Snow cover,0.609048362,blackmat_AllData_RUN1_GLM,0.999518287
+822,65,Snow cover,0.609048362,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.830129773
+823,65,Snow cover,0.609048362,blackmat_AllData_RUN1_GBM,0.903647737
+824,65,Snow cover,0.609048362,blackmat_AllData_RUN1_ANN,0.959086058
+825,65,Snow cover,0.609048362,blackmat_AllData_RUN1_MARS,0.99989686
+826,66,Snow cover,0.618564742,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.833513144
+827,66,Snow cover,0.618564742,blackmat_AllData_RUN1_ANN,0.9590897
+828,66,Snow cover,0.618564742,blackmat_AllData_RUN1_GLM,0.999531912
+829,66,Snow cover,0.618564742,blackmat_AllData_RUN1_GBM,0.903647737
+830,66,Snow cover,0.618564742,blackmat_AllData_RUN1_MARS,0.999915672
+831,67,Snow cover,0.628081123,blackmat_AllData_RUN1_ANN,0.959092859
+832,67,Snow cover,0.628081123,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.836700772
+833,67,Snow cover,0.628081123,blackmat_AllData_RUN1_GLM,0.999543564
+834,67,Snow cover,0.628081123,blackmat_AllData_RUN1_GBM,0.903647737
+835,67,Snow cover,0.628081123,blackmat_AllData_RUN1_MARS,0.999931054
+836,68,Snow cover,0.637597504,blackmat_AllData_RUN1_GBM,0.903647737
+837,68,Snow cover,0.637597504,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.839699599
+838,68,Snow cover,0.637597504,blackmat_AllData_RUN1_GLM,0.999553372
+839,68,Snow cover,0.637597504,blackmat_AllData_RUN1_MARS,0.999943629
+840,68,Snow cover,0.637597504,blackmat_AllData_RUN1_ANN,0.959095569
+841,69,Snow cover,0.647113884,blackmat_AllData_RUN1_GLM,0.999561443
+842,69,Snow cover,0.647113884,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.842516207
+843,69,Snow cover,0.647113884,blackmat_AllData_RUN1_GBM,0.903647737
+844,69,Snow cover,0.647113884,blackmat_AllData_RUN1_ANN,0.959097871
+845,69,Snow cover,0.647113884,blackmat_AllData_RUN1_MARS,0.999953912
+846,70,Snow cover,0.656630265,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.84515682
+847,70,Snow cover,0.656630265,blackmat_AllData_RUN1_GLM,0.999567865
+848,70,Snow cover,0.656630265,blackmat_AllData_RUN1_ANN,0.959099803
+849,70,Snow cover,0.656630265,blackmat_AllData_RUN1_MARS,0.999962318
+850,70,Snow cover,0.656630265,blackmat_AllData_RUN1_GBM,0.903647737
+851,71,Snow cover,0.666146646,blackmat_AllData_RUN1_ANN,0.959101407
+852,71,Snow cover,0.666146646,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.847627308
+853,71,Snow cover,0.666146646,blackmat_AllData_RUN1_MARS,0.999969192
+854,71,Snow cover,0.666146646,blackmat_AllData_RUN1_GBM,0.903647737
+855,71,Snow cover,0.666146646,blackmat_AllData_RUN1_GLM,0.999572707
+856,72,Snow cover,0.675663026,blackmat_AllData_RUN1_ANN,0.959102723
+857,72,Snow cover,0.675663026,blackmat_AllData_RUN1_GBM,0.903647737
+858,72,Snow cover,0.675663026,blackmat_AllData_RUN1_MARS,0.999974811
+859,72,Snow cover,0.675663026,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.84993319
+860,72,Snow cover,0.675663026,blackmat_AllData_RUN1_GLM,0.999576019
+861,73,Snow cover,0.685179407,blackmat_AllData_RUN1_GLM,0.999577836
+862,73,Snow cover,0.685179407,blackmat_AllData_RUN1_GBM,0.903647737
+863,73,Snow cover,0.685179407,blackmat_AllData_RUN1_ANN,0.959103791
+864,73,Snow cover,0.685179407,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.852079642
+865,73,Snow cover,0.685179407,blackmat_AllData_RUN1_MARS,0.999979406
+866,74,Snow cover,0.694695788,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.854071498
+867,74,Snow cover,0.694695788,blackmat_AllData_RUN1_GBM,0.903647737
+868,74,Snow cover,0.694695788,blackmat_AllData_RUN1_ANN,0.959104647
+869,74,Snow cover,0.694695788,blackmat_AllData_RUN1_GLM,0.999578178
+870,74,Snow cover,0.694695788,blackmat_AllData_RUN1_MARS,0.999983162
+871,75,Snow cover,0.704212168,blackmat_AllData_RUN1_ANN,0.959105326
+872,75,Snow cover,0.704212168,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.855913256
+873,75,Snow cover,0.704212168,blackmat_AllData_RUN1_MARS,0.999986234
+874,75,Snow cover,0.704212168,blackmat_AllData_RUN1_GBM,0.903647737
+875,75,Snow cover,0.704212168,blackmat_AllData_RUN1_GLM,0.999577048
+876,76,Snow cover,0.713728549,blackmat_AllData_RUN1_ANN,0.959105859
+877,76,Snow cover,0.713728549,blackmat_AllData_RUN1_GBM,0.903647737
+878,76,Snow cover,0.713728549,blackmat_AllData_RUN1_MARS,0.999988745
+879,76,Snow cover,0.713728549,blackmat_AllData_RUN1_GLM,0.999574434
+880,76,Snow cover,0.713728549,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.85760909
+881,77,Snow cover,0.72324493,blackmat_AllData_RUN1_GBM,0.903647737
+882,77,Snow cover,0.72324493,blackmat_AllData_RUN1_MARS,0.999990798
+883,77,Snow cover,0.72324493,blackmat_AllData_RUN1_GLM,0.999570309
+884,77,Snow cover,0.72324493,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.859162848
+885,77,Snow cover,0.72324493,blackmat_AllData_RUN1_ANN,0.959106273
+886,78,Snow cover,0.73276131,blackmat_AllData_RUN1_GLM,0.999564629
+887,78,Snow cover,0.73276131,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.860578063
+888,78,Snow cover,0.73276131,blackmat_AllData_RUN1_ANN,0.959106591
+889,78,Snow cover,0.73276131,blackmat_AllData_RUN1_GBM,0.903647737
+890,78,Snow cover,0.73276131,blackmat_AllData_RUN1_MARS,0.999992476
+891,79,Snow cover,0.742277691,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.861857958
+892,79,Snow cover,0.742277691,blackmat_AllData_RUN1_GBM,0.903647737
+893,79,Snow cover,0.742277691,blackmat_AllData_RUN1_GLM,0.999557335
+894,79,Snow cover,0.742277691,blackmat_AllData_RUN1_MARS,0.999993849
+895,79,Snow cover,0.742277691,blackmat_AllData_RUN1_ANN,0.959106833
+896,80,Snow cover,0.751794072,blackmat_AllData_RUN1_ANN,0.959107017
+897,80,Snow cover,0.751794072,blackmat_AllData_RUN1_GLM,0.999548346
+898,80,Snow cover,0.751794072,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.86300545
+899,80,Snow cover,0.751794072,blackmat_AllData_RUN1_MARS,0.999994971
+900,80,Snow cover,0.751794072,blackmat_AllData_RUN1_GBM,0.903647737
+901,81,Snow cover,0.761310452,blackmat_AllData_RUN1_GLM,0.999537566
+902,81,Snow cover,0.761310452,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.864023159
+903,81,Snow cover,0.761310452,blackmat_AllData_RUN1_MARS,0.999995888
+904,81,Snow cover,0.761310452,blackmat_AllData_RUN1_GBM,0.903647737
+905,81,Snow cover,0.761310452,blackmat_AllData_RUN1_ANN,0.959107155
+906,82,Snow cover,0.770826833,blackmat_AllData_RUN1_GBM,0.903647737
+907,82,Snow cover,0.770826833,blackmat_AllData_RUN1_ANN,0.959107257
+908,82,Snow cover,0.770826833,blackmat_AllData_RUN1_GLM,0.999524876
+909,82,Snow cover,0.770826833,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.864913407
+910,82,Snow cover,0.770826833,blackmat_AllData_RUN1_MARS,0.999996638
+911,83,Snow cover,0.780343213,blackmat_AllData_RUN1_GBM,0.903647737
+912,83,Snow cover,0.780343213,blackmat_AllData_RUN1_GLM,0.999510133
+913,83,Snow cover,0.780343213,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.86567823
+914,83,Snow cover,0.780343213,blackmat_AllData_RUN1_MARS,0.999997251
+915,83,Snow cover,0.780343213,blackmat_AllData_RUN1_ANN,0.959107334
+916,84,Snow cover,0.789859594,blackmat_AllData_RUN1_ANN,0.95910739
+917,84,Snow cover,0.789859594,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.866319374
+918,84,Snow cover,0.789859594,blackmat_AllData_RUN1_GBM,0.903647737
+919,84,Snow cover,0.789859594,blackmat_AllData_RUN1_GLM,0.99949317
+920,84,Snow cover,0.789859594,blackmat_AllData_RUN1_MARS,0.999997753
+921,85,Snow cover,0.799375975,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.866838306
+922,85,Snow cover,0.799375975,blackmat_AllData_RUN1_GBM,0.903647737
+923,85,Snow cover,0.799375975,blackmat_AllData_RUN1_GLM,0.999473789
+924,85,Snow cover,0.799375975,blackmat_AllData_RUN1_MARS,0.999998163
+925,85,Snow cover,0.799375975,blackmat_AllData_RUN1_ANN,0.959107432
+926,86,Snow cover,0.808892355,blackmat_AllData_RUN1_GBM,0.903647737
+927,86,Snow cover,0.808892355,blackmat_AllData_RUN1_GLM,0.99945176
+928,86,Snow cover,0.808892355,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.867236213
+929,86,Snow cover,0.808892355,blackmat_AllData_RUN1_MARS,0.999998498
+930,86,Snow cover,0.808892355,blackmat_AllData_RUN1_ANN,0.959107553
+931,87,Snow cover,0.818408736,blackmat_AllData_RUN1_GBM,0.903647737
+932,87,Snow cover,0.818408736,blackmat_AllData_RUN1_ANN,0.959107553
+933,87,Snow cover,0.818408736,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.867514005
+934,87,Snow cover,0.818408736,blackmat_AllData_RUN1_MARS,0.999998772
+935,87,Snow cover,0.818408736,blackmat_AllData_RUN1_GLM,0.999426816
+936,88,Snow cover,0.827925117,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.866583141
+937,88,Snow cover,0.827925117,blackmat_AllData_RUN1_GBM,0.903647737
+938,88,Snow cover,0.827925117,blackmat_AllData_RUN1_GLM,0.999398645
+939,88,Snow cover,0.827925117,blackmat_AllData_RUN1_MARS,0.999998996
+940,88,Snow cover,0.827925117,blackmat_AllData_RUN1_ANN,0.959107553
+941,89,Snow cover,0.837441497,blackmat_AllData_RUN1_GLM,0.999366888
+942,89,Snow cover,0.837441497,blackmat_AllData_RUN1_GBM,0.903647737
+943,89,Snow cover,0.837441497,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.864129623
+944,89,Snow cover,0.837441497,blackmat_AllData_RUN1_MARS,0.999999179
+945,89,Snow cover,0.837441497,blackmat_AllData_RUN1_ANN,0.959107553
+946,90,Snow cover,0.846957878,blackmat_AllData_RUN1_GBM,0.903647737
+947,90,Snow cover,0.846957878,blackmat_AllData_RUN1_MARS,0.999999329
+948,90,Snow cover,0.846957878,blackmat_AllData_RUN1_ANN,0.959107553
+949,90,Snow cover,0.846957878,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.861514548
+950,90,Snow cover,0.846957878,blackmat_AllData_RUN1_GLM,0.999331128
+951,91,Snow cover,0.856474259,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.858731644
+952,91,Snow cover,0.856474259,blackmat_AllData_RUN1_GBM,0.903647737
+953,91,Snow cover,0.856474259,blackmat_AllData_RUN1_GLM,0.999290883
+954,91,Snow cover,0.856474259,blackmat_AllData_RUN1_MARS,0.999999451
+955,91,Snow cover,0.856474259,blackmat_AllData_RUN1_ANN,0.959107553
+956,92,Snow cover,0.865990639,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.85577426
+957,92,Snow cover,0.865990639,blackmat_AllData_RUN1_GLM,0.999245595
+958,92,Snow cover,0.865990639,blackmat_AllData_RUN1_GBM,0.903647737
+959,92,Snow cover,0.865990639,blackmat_AllData_RUN1_MARS,0.999999551
+960,92,Snow cover,0.865990639,blackmat_AllData_RUN1_ANN,0.959107553
+961,93,Snow cover,0.87550702,blackmat_AllData_RUN1_GBM,0.903647737
+962,93,Snow cover,0.87550702,blackmat_AllData_RUN1_GLM,0.999194615
+963,93,Snow cover,0.87550702,blackmat_AllData_RUN1_MARS,0.999999633
+964,93,Snow cover,0.87550702,blackmat_AllData_RUN1_ANN,0.959107553
+965,93,Snow cover,0.87550702,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.852635367
+966,94,Snow cover,0.885023401,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.849307544
+967,94,Snow cover,0.885023401,blackmat_AllData_RUN1_GBM,0.903647737
+968,94,Snow cover,0.885023401,blackmat_AllData_RUN1_ANN,0.959107553
+969,94,Snow cover,0.885023401,blackmat_AllData_RUN1_GLM,0.999137193
+970,94,Snow cover,0.885023401,blackmat_AllData_RUN1_MARS,0.9999997
+971,95,Snow cover,0.894539781,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.845782976
+972,95,Snow cover,0.894539781,blackmat_AllData_RUN1_GLM,0.999072455
+973,95,Snow cover,0.894539781,blackmat_AllData_RUN1_MARS,0.999999755
+974,95,Snow cover,0.894539781,blackmat_AllData_RUN1_GBM,0.903647737
+975,95,Snow cover,0.894539781,blackmat_AllData_RUN1_ANN,0.959107553
+976,96,Snow cover,0.904056162,blackmat_AllData_RUN1_GBM,0.903647737
+977,96,Snow cover,0.904056162,blackmat_AllData_RUN1_GLM,0.998999384
+978,96,Snow cover,0.904056162,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.842053456
+979,96,Snow cover,0.904056162,blackmat_AllData_RUN1_MARS,0.9999998
+980,96,Snow cover,0.904056162,blackmat_AllData_RUN1_ANN,0.959107553
+981,97,Snow cover,0.913572543,blackmat_AllData_RUN1_ANN,0.959107553
+982,97,Snow cover,0.913572543,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.838110378
+983,97,Snow cover,0.913572543,blackmat_AllData_RUN1_GBM,0.903647737
+984,97,Snow cover,0.913572543,blackmat_AllData_RUN1_GLM,0.998916797
+985,97,Snow cover,0.913572543,blackmat_AllData_RUN1_MARS,0.999999836
+986,98,Snow cover,0.923088923,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.836494495
+987,98,Snow cover,0.923088923,blackmat_AllData_RUN1_GBM,0.903647737
+988,98,Snow cover,0.923088923,blackmat_AllData_RUN1_GLM,0.998823311
+989,98,Snow cover,0.923088923,blackmat_AllData_RUN1_MARS,0.999999866
+990,98,Snow cover,0.923088923,blackmat_AllData_RUN1_ANN,0.959107553
+991,99,Snow cover,0.932605304,blackmat_AllData_RUN1_ANN,0.959107553
+992,99,Snow cover,0.932605304,blackmat_AllData_RUN1_GBM,0.903647737
+993,99,Snow cover,0.932605304,blackmat_AllData_RUN1_MARS,0.99999989
+994,99,Snow cover,0.932605304,blackmat_AllData_RUN1_GLM,0.998717307
+995,99,Snow cover,0.932605304,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.836494495
+996,100,Snow cover,0.942121685,blackmat_AllData_RUN1_GBM,0.903647737
+997,100,Snow cover,0.942121685,blackmat_AllData_RUN1_MARS,0.99999991
+998,100,Snow cover,0.942121685,blackmat_AllData_RUN1_GLM,0.99859689
+999,100,Snow cover,0.942121685,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.836494495
+1000,100,Snow cover,0.942121685,blackmat_AllData_RUN1_ANN,0.959107553
+1001,1,Elevation,-38.05392075,blackmat_AllData_RUN1_GBM,0.192266259
+1002,1,Elevation,-38.05392075,blackmat_AllData_RUN1_GLM,0.295416772
+1003,1,Elevation,-38.05392075,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.074672486
+1004,1,Elevation,-38.05392075,blackmat_AllData_RUN1_MARS,0.711517599
+1005,1,Elevation,-38.05392075,blackmat_AllData_RUN1_ANN,0.215458174
+1006,2,Elevation,-35.15646632,blackmat_AllData_RUN1_GLM,0.29870658
+1007,2,Elevation,-35.15646632,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.074420689
+1008,2,Elevation,-35.15646632,blackmat_AllData_RUN1_MARS,0.593059295
+1009,2,Elevation,-35.15646632,blackmat_AllData_RUN1_ANN,0.213243255
+1010,2,Elevation,-35.15646632,blackmat_AllData_RUN1_GBM,0.192266259
+1011,3,Elevation,-32.25901189,blackmat_AllData_RUN1_GBM,0.189733646
+1012,3,Elevation,-32.25901189,blackmat_AllData_RUN1_MARS,0.462691406
+1013,3,Elevation,-32.25901189,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.073962417
+1014,3,Elevation,-32.25901189,blackmat_AllData_RUN1_ANN,0.211052085
+1015,3,Elevation,-32.25901189,blackmat_AllData_RUN1_GLM,0.30186805
+1016,4,Elevation,-29.36155747,blackmat_AllData_RUN1_MARS,0.337232546
+1017,4,Elevation,-29.36155747,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.073506744
+1018,4,Elevation,-29.36155747,blackmat_AllData_RUN1_ANN,0.208884591
+1019,4,Elevation,-29.36155747,blackmat_AllData_RUN1_GLM,0.304898312
+1020,4,Elevation,-29.36155747,blackmat_AllData_RUN1_GBM,0.164635127
+1021,5,Elevation,-26.46410304,blackmat_AllData_RUN1_GBM,0.163789751
+1022,5,Elevation,-26.46410304,blackmat_AllData_RUN1_MARS,0.30674085
+1023,5,Elevation,-26.46410304,blackmat_AllData_RUN1_GLM,0.307794667
+1024,5,Elevation,-26.46410304,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.073053656
+1025,5,Elevation,-26.46410304,blackmat_AllData_RUN1_ANN,0.206740695
+1026,6,Elevation,-23.56664862,blackmat_AllData_RUN1_GBM,0.166595217
+1027,6,Elevation,-23.56664862,blackmat_AllData_RUN1_ANN,0.204619158
+1028,6,Elevation,-23.56664862,blackmat_AllData_RUN1_MARS,0.30674085
+1029,6,Elevation,-23.56664862,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.072603142
+1030,6,Elevation,-23.56664862,blackmat_AllData_RUN1_GLM,0.310554583
+1031,7,Elevation,-20.66919419,blackmat_AllData_RUN1_MARS,0.30674085
+1032,7,Elevation,-20.66919419,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.07215519
+1033,7,Elevation,-20.66919419,blackmat_AllData_RUN1_GBM,0.165731455
+1034,7,Elevation,-20.66919419,blackmat_AllData_RUN1_ANN,0.20252059
+1035,7,Elevation,-20.66919419,blackmat_AllData_RUN1_GLM,0.313175692
+1036,8,Elevation,-17.77173977,blackmat_AllData_RUN1_GLM,0.315655786
+1037,8,Elevation,-17.77173977,blackmat_AllData_RUN1_GBM,0.166535609
+1038,8,Elevation,-17.77173977,blackmat_AllData_RUN1_MARS,0.30674085
+1039,8,Elevation,-17.77173977,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.071709789
+1040,8,Elevation,-17.77173977,blackmat_AllData_RUN1_ANN,0.200443106
+1041,9,Elevation,-14.87428534,blackmat_AllData_RUN1_GBM,0.166068242
+1042,9,Elevation,-14.87428534,blackmat_AllData_RUN1_MARS,0.30674085
+1043,9,Elevation,-14.87428534,blackmat_AllData_RUN1_ANN,0.198383475
+1044,9,Elevation,-14.87428534,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.071266925
+1045,9,Elevation,-14.87428534,blackmat_AllData_RUN1_GLM,0.317992813
+1046,10,Elevation,-11.97683092,blackmat_AllData_RUN1_GBM,0.165304789
+1047,10,Elevation,-11.97683092,blackmat_AllData_RUN1_MARS,0.30674085
+1048,10,Elevation,-11.97683092,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.070826588
+1049,10,Elevation,-11.97683092,blackmat_AllData_RUN1_ANN,0.196334101
+1050,10,Elevation,-11.97683092,blackmat_AllData_RUN1_GLM,0.320184871
+1051,11,Elevation,-9.07937649,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.070388766
+1052,11,Elevation,-9.07937649,blackmat_AllData_RUN1_GLM,0.322230208
+1053,11,Elevation,-9.07937649,blackmat_AllData_RUN1_GBM,0.165652366
+1054,11,Elevation,-9.07937649,blackmat_AllData_RUN1_MARS,0.30674085
+1055,11,Elevation,-9.07937649,blackmat_AllData_RUN1_ANN,0.194276947
+1056,12,Elevation,-6.181922065,blackmat_AllData_RUN1_GBM,0.165387242
+1057,12,Elevation,-6.181922065,blackmat_AllData_RUN1_MARS,0.30674085
+1058,12,Elevation,-6.181922065,blackmat_AllData_RUN1_GLM,0.324127214
+1059,12,Elevation,-6.181922065,blackmat_AllData_RUN1_ANN,0.19216905
+1060,12,Elevation,-6.181922065,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.069953446
+1061,13,Elevation,-3.284467639,blackmat_AllData_RUN1_GBM,0.165333243
+1062,13,Elevation,-3.284467639,blackmat_AllData_RUN1_MARS,0.30674085
+1063,13,Elevation,-3.284467639,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.069520617
+1064,13,Elevation,-3.284467639,blackmat_AllData_RUN1_ANN,0.189908068
+1065,13,Elevation,-3.284467639,blackmat_AllData_RUN1_GLM,0.325874417
+1066,14,Elevation,-0.387013214,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.069090267
+1067,14,Elevation,-0.387013214,blackmat_AllData_RUN1_MARS,0.30674085
+1068,14,Elevation,-0.387013214,blackmat_AllData_RUN1_GLM,0.327470485
+1069,14,Elevation,-0.387013214,blackmat_AllData_RUN1_GBM,0.169612436
+1070,14,Elevation,-0.387013214,blackmat_AllData_RUN1_ANN,0.187246371
+1071,15,Elevation,2.510441212,blackmat_AllData_RUN1_GBM,0.163469526
+1072,15,Elevation,2.510441212,blackmat_AllData_RUN1_MARS,0.30674085
+1073,15,Elevation,2.510441212,blackmat_AllData_RUN1_GLM,0.328914213
+1074,15,Elevation,2.510441212,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.068662384
+1075,15,Elevation,2.510441212,blackmat_AllData_RUN1_ANN,0.183220942
+1076,16,Elevation,5.407895637,blackmat_AllData_RUN1_GBM,0.163416604
+1077,16,Elevation,5.407895637,blackmat_AllData_RUN1_MARS,0.30674085
+1078,16,Elevation,5.407895637,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.068236957
+1079,16,Elevation,5.407895637,blackmat_AllData_RUN1_ANN,0.150244189
+1080,16,Elevation,5.407895637,blackmat_AllData_RUN1_GLM,0.330204528
+1081,17,Elevation,8.305350063,blackmat_AllData_RUN1_MARS,0.30674085
+1082,17,Elevation,8.305350063,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.067813975
+1083,17,Elevation,8.305350063,blackmat_AllData_RUN1_ANN,0.063309949
+1084,17,Elevation,8.305350063,blackmat_AllData_RUN1_GLM,0.331340481
+1085,17,Elevation,8.305350063,blackmat_AllData_RUN1_GBM,0.161169795
+1086,18,Elevation,11.20280449,blackmat_AllData_RUN1_GBM,0.160871462
+1087,18,Elevation,11.20280449,blackmat_AllData_RUN1_MARS,0.30674085
+1088,18,Elevation,11.20280449,blackmat_AllData_RUN1_GLM,0.332321244
+1089,18,Elevation,11.20280449,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.067393424
+1090,18,Elevation,11.20280449,blackmat_AllData_RUN1_ANN,0.058179669
+1091,19,Elevation,14.10025891,blackmat_AllData_RUN1_MARS,0.30674085
+1092,19,Elevation,14.10025891,blackmat_AllData_RUN1_GLM,0.333146111
+1093,19,Elevation,14.10025891,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.066975294
+1094,19,Elevation,14.10025891,blackmat_AllData_RUN1_GBM,0.160871462
+1095,19,Elevation,14.10025891,blackmat_AllData_RUN1_ANN,0.054175128
+1096,20,Elevation,16.99771334,blackmat_AllData_RUN1_GBM,0.160871462
+1097,20,Elevation,16.99771334,blackmat_AllData_RUN1_ANN,0.049354425
+1098,20,Elevation,16.99771334,blackmat_AllData_RUN1_MARS,0.30674085
+1099,20,Elevation,16.99771334,blackmat_AllData_RUN1_GLM,0.33381449
+1100,20,Elevation,16.99771334,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.066559574
+1101,21,Elevation,19.89516776,blackmat_AllData_RUN1_ANN,0.046245526
+1102,21,Elevation,19.89516776,blackmat_AllData_RUN1_MARS,0.30674085
+1103,21,Elevation,19.89516776,blackmat_AllData_RUN1_GLM,0.334325907
+1104,21,Elevation,19.89516776,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.06614625
+1105,21,Elevation,19.89516776,blackmat_AllData_RUN1_GBM,0.160871462
+1106,22,Elevation,22.79262219,blackmat_AllData_RUN1_GBM,0.161512591
+1107,22,Elevation,22.79262219,blackmat_AllData_RUN1_MARS,0.30674085
+1108,22,Elevation,22.79262219,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.065735313
+1109,22,Elevation,22.79262219,blackmat_AllData_RUN1_ANN,0.04546298
+1110,22,Elevation,22.79262219,blackmat_AllData_RUN1_GLM,0.334680001
+1111,23,Elevation,25.69007662,blackmat_AllData_RUN1_MARS,0.30674085
+1112,23,Elevation,25.69007662,blackmat_AllData_RUN1_ANN,0.045392022
+1113,23,Elevation,25.69007662,blackmat_AllData_RUN1_GBM,0.161512591
+1114,23,Elevation,25.69007662,blackmat_AllData_RUN1_GLM,0.334876521
+1115,23,Elevation,25.69007662,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.06532675
+1116,24,Elevation,28.58753104,blackmat_AllData_RUN1_GBM,0.161512591
+1117,24,Elevation,28.58753104,blackmat_AllData_RUN1_GLM,0.33491533
+1118,24,Elevation,28.58753104,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.06492055
+1119,24,Elevation,28.58753104,blackmat_AllData_RUN1_MARS,0.30674085
+1120,24,Elevation,28.58753104,blackmat_AllData_RUN1_ANN,0.276881128
+1121,25,Elevation,31.48498547,blackmat_AllData_RUN1_GLM,0.3347964
+1122,25,Elevation,31.48498547,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.064516701
+1123,25,Elevation,31.48498547,blackmat_AllData_RUN1_MARS,0.30674085
+1124,25,Elevation,31.48498547,blackmat_AllData_RUN1_ANN,0.36118845
+1125,25,Elevation,31.48498547,blackmat_AllData_RUN1_GBM,0.161809685
+1126,26,Elevation,34.38243989,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.064115192
+1127,26,Elevation,34.38243989,blackmat_AllData_RUN1_ANN,0.195894277
+1128,26,Elevation,34.38243989,blackmat_AllData_RUN1_MARS,0.30674085
+1129,26,Elevation,34.38243989,blackmat_AllData_RUN1_GLM,0.334519815
+1130,26,Elevation,34.38243989,blackmat_AllData_RUN1_GBM,0.164324916
+1131,27,Elevation,37.27989432,blackmat_AllData_RUN1_MARS,0.30674085
+1132,27,Elevation,37.27989432,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.063716012
+1133,27,Elevation,37.27989432,blackmat_AllData_RUN1_GBM,0.165287954
+1134,27,Elevation,37.27989432,blackmat_AllData_RUN1_ANN,0.149590674
+1135,27,Elevation,37.27989432,blackmat_AllData_RUN1_GLM,0.33408577
+1136,28,Elevation,40.17734874,blackmat_AllData_RUN1_MARS,0.30674085
+1137,28,Elevation,40.17734874,blackmat_AllData_RUN1_GLM,0.333494571
+1138,28,Elevation,40.17734874,blackmat_AllData_RUN1_GBM,0.162860675
+1139,28,Elevation,40.17734874,blackmat_AllData_RUN1_ANN,0.13366152
+1140,28,Elevation,40.17734874,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.063319149
+1141,29,Elevation,43.07480317,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.062924591
+1142,29,Elevation,43.07480317,blackmat_AllData_RUN1_GLM,0.332746636
+1143,29,Elevation,43.07480317,blackmat_AllData_RUN1_MARS,0.30674085
+1144,29,Elevation,43.07480317,blackmat_AllData_RUN1_ANN,0.127089957
+1145,29,Elevation,43.07480317,blackmat_AllData_RUN1_GBM,0.161132801
+1146,30,Elevation,45.97225759,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.062532329
+1147,30,Elevation,45.97225759,blackmat_AllData_RUN1_ANN,0.123877358
+1148,30,Elevation,45.97225759,blackmat_AllData_RUN1_MARS,0.30674085
+1149,30,Elevation,45.97225759,blackmat_AllData_RUN1_GLM,0.3318425
+1150,30,Elevation,45.97225759,blackmat_AllData_RUN1_GBM,0.159412165
+1151,31,Elevation,48.86971202,blackmat_AllData_RUN1_ANN,0.12196703
+1152,31,Elevation,48.86971202,blackmat_AllData_RUN1_MARS,0.30674085
+1153,31,Elevation,48.86971202,blackmat_AllData_RUN1_GBM,0.159412165
+1154,31,Elevation,48.86971202,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.062142349
+1155,31,Elevation,48.86971202,blackmat_AllData_RUN1_GLM,0.330782811
+1156,32,Elevation,51.76716645,blackmat_AllData_RUN1_MARS,0.30674085
+1157,32,Elevation,51.76716645,blackmat_AllData_RUN1_GBM,0.159412165
+1158,32,Elevation,51.76716645,blackmat_AllData_RUN1_ANN,0.120582903
+1159,32,Elevation,51.76716645,blackmat_AllData_RUN1_GLM,0.329568338
+1160,32,Elevation,51.76716645,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.061754641
+1161,33,Elevation,54.66462087,blackmat_AllData_RUN1_GBM,0.155123174
+1162,33,Elevation,54.66462087,blackmat_AllData_RUN1_MARS,0.30674085
+1163,33,Elevation,54.66462087,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.061369194
+1164,33,Elevation,54.66462087,blackmat_AllData_RUN1_GLM,0.32819997
+1165,33,Elevation,54.66462087,blackmat_AllData_RUN1_ANN,0.11941907
+1166,34,Elevation,57.5620753,blackmat_AllData_RUN1_MARS,0.30674085
+1167,34,Elevation,57.5620753,blackmat_AllData_RUN1_ANN,0.118352626
+1168,34,Elevation,57.5620753,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.060985996
+1169,34,Elevation,57.5620753,blackmat_AllData_RUN1_GLM,0.326678717
+1170,34,Elevation,57.5620753,blackmat_AllData_RUN1_GBM,0.155123174
+1171,35,Elevation,60.45952972,blackmat_AllData_RUN1_MARS,0.30674085
+1172,35,Elevation,60.45952972,blackmat_AllData_RUN1_ANN,0.117333744
+1173,35,Elevation,60.45952972,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.060605037
+1174,35,Elevation,60.45952972,blackmat_AllData_RUN1_GBM,0.155079286
+1175,35,Elevation,60.45952972,blackmat_AllData_RUN1_GLM,0.325005721
+1176,36,Elevation,63.35698415,blackmat_AllData_RUN1_MARS,0.30674085
+1177,36,Elevation,63.35698415,blackmat_AllData_RUN1_GBM,0.154619112
+1178,36,Elevation,63.35698415,blackmat_AllData_RUN1_ANN,0.116342103
+1179,36,Elevation,63.35698415,blackmat_AllData_RUN1_GLM,0.323182249
+1180,36,Elevation,63.35698415,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.060226304
+1181,37,Elevation,66.25443857,blackmat_AllData_RUN1_GBM,0.154318089
+1182,37,Elevation,66.25443857,blackmat_AllData_RUN1_GLM,0.321209705
+1183,37,Elevation,66.25443857,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.059849788
+1184,37,Elevation,66.25443857,blackmat_AllData_RUN1_MARS,0.30674085
+1185,37,Elevation,66.25443857,blackmat_AllData_RUN1_ANN,0.115369348
+1186,38,Elevation,69.151893,blackmat_AllData_RUN1_GLM,0.31908963
+1187,38,Elevation,69.151893,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.059475476
+1188,38,Elevation,69.151893,blackmat_AllData_RUN1_MARS,0.30674085
+1189,38,Elevation,69.151893,blackmat_AllData_RUN1_GBM,0.154318089
+1190,38,Elevation,69.151893,blackmat_AllData_RUN1_ANN,0.114411986
+1191,39,Elevation,72.04934742,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.059103358
+1192,39,Elevation,72.04934742,blackmat_AllData_RUN1_GBM,0.154318089
+1193,39,Elevation,72.04934742,blackmat_AllData_RUN1_ANN,0.113468502
+1194,39,Elevation,72.04934742,blackmat_AllData_RUN1_GLM,0.316823706
+1195,39,Elevation,72.04934742,blackmat_AllData_RUN1_MARS,0.30674085
+1196,40,Elevation,74.94680185,blackmat_AllData_RUN1_ANN,0.112538009
+1197,40,Elevation,74.94680185,blackmat_AllData_RUN1_GLM,0.31441376
+1198,40,Elevation,74.94680185,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.058733423
+1199,40,Elevation,74.94680185,blackmat_AllData_RUN1_MARS,0.30674085
+1200,40,Elevation,74.94680185,blackmat_AllData_RUN1_GBM,0.154318089
+1201,41,Elevation,77.84425628,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.05836566
+1202,41,Elevation,77.84425628,blackmat_AllData_RUN1_GBM,0.154318089
+1203,41,Elevation,77.84425628,blackmat_AllData_RUN1_GLM,0.31186177
+1204,41,Elevation,77.84425628,blackmat_AllData_RUN1_ANN,0.111620587
+1205,41,Elevation,77.84425628,blackmat_AllData_RUN1_MARS,0.30674085
+1206,42,Elevation,80.7417107,blackmat_AllData_RUN1_GLM,0.309169867
+1207,42,Elevation,80.7417107,blackmat_AllData_RUN1_ANN,0.110715643
+1208,42,Elevation,80.7417107,blackmat_AllData_RUN1_MARS,0.30674085
+1209,42,Elevation,80.7417107,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.058000058
+1210,42,Elevation,80.7417107,blackmat_AllData_RUN1_GBM,0.154318089
+1211,43,Elevation,83.63916513,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.057636606
+1212,43,Elevation,83.63916513,blackmat_AllData_RUN1_GBM,0.154318089
+1213,43,Elevation,83.63916513,blackmat_AllData_RUN1_MARS,0.30674085
+1214,43,Elevation,83.63916513,blackmat_AllData_RUN1_ANN,0.109823022
+1215,43,Elevation,83.63916513,blackmat_AllData_RUN1_GLM,0.30634034
+1216,44,Elevation,86.53661955,blackmat_AllData_RUN1_GLM,0.30337564
+1217,44,Elevation,86.53661955,blackmat_AllData_RUN1_GBM,0.154318089
+1218,44,Elevation,86.53661955,blackmat_AllData_RUN1_MARS,0.30674085
+1219,44,Elevation,86.53661955,blackmat_AllData_RUN1_ANN,0.108942569
+1220,44,Elevation,86.53661955,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.057275293
+1221,45,Elevation,89.43407398,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.056916108
+1222,45,Elevation,89.43407398,blackmat_AllData_RUN1_GBM,0.154363207
+1223,45,Elevation,89.43407398,blackmat_AllData_RUN1_MARS,0.30674085
+1224,45,Elevation,89.43407398,blackmat_AllData_RUN1_ANN,0.108074134
+1225,45,Elevation,89.43407398,blackmat_AllData_RUN1_GLM,0.300278382
+1226,46,Elevation,92.3315284,blackmat_AllData_RUN1_MARS,0.30674085
+1227,46,Elevation,92.3315284,blackmat_AllData_RUN1_GLM,0.297051352
+1228,46,Elevation,92.3315284,blackmat_AllData_RUN1_GBM,0.154363207
+1229,46,Elevation,92.3315284,blackmat_AllData_RUN1_ANN,0.107217564
+1230,46,Elevation,92.3315284,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.05655904
+1231,47,Elevation,95.22898283,blackmat_AllData_RUN1_GBM,0.154363207
+1232,47,Elevation,95.22898283,blackmat_AllData_RUN1_GLM,0.293697508
+1233,47,Elevation,95.22898283,blackmat_AllData_RUN1_MARS,0.30674085
+1234,47,Elevation,95.22898283,blackmat_AllData_RUN1_ANN,0.106372709
+1235,47,Elevation,95.22898283,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.056204079
+1236,48,Elevation,98.12643725,blackmat_AllData_RUN1_GLM,0.290219984
+1237,48,Elevation,98.12643725,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.055851214
+1238,48,Elevation,98.12643725,blackmat_AllData_RUN1_GBM,0.154363207
+1239,48,Elevation,98.12643725,blackmat_AllData_RUN1_MARS,0.30674085
+1240,48,Elevation,98.12643725,blackmat_AllData_RUN1_ANN,0.105539421
+1241,49,Elevation,101.0238917,blackmat_AllData_RUN1_ANN,0.104717551
+1242,49,Elevation,101.0238917,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.055500434
+1243,49,Elevation,101.0238917,blackmat_AllData_RUN1_GBM,0.154363207
+1244,49,Elevation,101.0238917,blackmat_AllData_RUN1_MARS,0.30674085
+1245,49,Elevation,101.0238917,blackmat_AllData_RUN1_GLM,0.286622089
+1246,50,Elevation,103.9213461,blackmat_AllData_RUN1_GBM,0.154363207
+1247,50,Elevation,103.9213461,blackmat_AllData_RUN1_MARS,0.30674085
+1248,50,Elevation,103.9213461,blackmat_AllData_RUN1_GLM,0.282907314
+1249,50,Elevation,103.9213461,blackmat_AllData_RUN1_ANN,0.103906954
+1250,50,Elevation,103.9213461,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.055151729
+1251,51,Elevation,106.8188005,blackmat_AllData_RUN1_GLM,0.279079332
+1252,51,Elevation,106.8188005,blackmat_AllData_RUN1_GBM,0.154363207
+1253,51,Elevation,106.8188005,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.054805087
+1254,51,Elevation,106.8188005,blackmat_AllData_RUN1_MARS,0.30674085
+1255,51,Elevation,106.8188005,blackmat_AllData_RUN1_ANN,0.103107484
+1256,52,Elevation,109.716255,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.054460498
+1257,52,Elevation,109.716255,blackmat_AllData_RUN1_MARS,0.30674085
+1258,52,Elevation,109.716255,blackmat_AllData_RUN1_ANN,0.102318998
+1259,52,Elevation,109.716255,blackmat_AllData_RUN1_GLM,0.275141996
+1260,52,Elevation,109.716255,blackmat_AllData_RUN1_GBM,0.154363207
+1261,53,Elevation,112.6137094,blackmat_AllData_RUN1_GBM,0.154363207
+1262,53,Elevation,112.6137094,blackmat_AllData_RUN1_MARS,0.30674085
+1263,53,Elevation,112.6137094,blackmat_AllData_RUN1_ANN,0.101541353
+1264,53,Elevation,112.6137094,blackmat_AllData_RUN1_GLM,0.271099343
+1265,53,Elevation,112.6137094,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.054117952
+1266,54,Elevation,115.5111638,blackmat_AllData_RUN1_GLM,0.26695559
+1267,54,Elevation,115.5111638,blackmat_AllData_RUN1_GBM,0.154587858
+1268,54,Elevation,115.5111638,blackmat_AllData_RUN1_MARS,0.30674085
+1269,54,Elevation,115.5111638,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.053777438
+1270,54,Elevation,115.5111638,blackmat_AllData_RUN1_ANN,0.100774407
+1271,55,Elevation,118.4086182,blackmat_AllData_RUN1_GLM,0.262715135
+1272,55,Elevation,118.4086182,blackmat_AllData_RUN1_GBM,0.154587858
+1273,55,Elevation,118.4086182,blackmat_AllData_RUN1_ANN,0.100018022
+1274,55,Elevation,118.4086182,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.053438945
+1275,55,Elevation,118.4086182,blackmat_AllData_RUN1_MARS,0.30674085
+1276,56,Elevation,121.3060727,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.053102463
+1277,56,Elevation,121.3060727,blackmat_AllData_RUN1_GBM,0.154587858
+1278,56,Elevation,121.3060727,blackmat_AllData_RUN1_MARS,0.30674085
+1279,56,Elevation,121.3060727,blackmat_AllData_RUN1_ANN,0.099272059
+1280,56,Elevation,121.3060727,blackmat_AllData_RUN1_GLM,0.258382553
+1281,57,Elevation,124.2035271,blackmat_AllData_RUN1_GLM,0.253962594
+1282,57,Elevation,124.2035271,blackmat_AllData_RUN1_GBM,0.154587858
+1283,57,Elevation,124.2035271,blackmat_AllData_RUN1_MARS,0.30674085
+1284,57,Elevation,124.2035271,blackmat_AllData_RUN1_ANN,0.098536381
+1285,57,Elevation,124.2035271,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.052767982
+1286,58,Elevation,127.1009815,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.052435491
+1287,58,Elevation,127.1009815,blackmat_AllData_RUN1_GBM,0.154587858
+1288,58,Elevation,127.1009815,blackmat_AllData_RUN1_MARS,0.30674085
+1289,58,Elevation,127.1009815,blackmat_AllData_RUN1_ANN,0.097810851
+1290,58,Elevation,127.1009815,blackmat_AllData_RUN1_GLM,0.249460177
+1291,59,Elevation,129.9984359,blackmat_AllData_RUN1_ANN,0.097095336
+1292,59,Elevation,129.9984359,blackmat_AllData_RUN1_GLM,0.244880387
+1293,59,Elevation,129.9984359,blackmat_AllData_RUN1_MARS,0.30674085
+1294,59,Elevation,129.9984359,blackmat_AllData_RUN1_GBM,0.154587858
+1295,59,Elevation,129.9984359,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.05210498
+1296,60,Elevation,132.8958904,blackmat_AllData_RUN1_MARS,0.30674085
+1297,60,Elevation,132.8958904,blackmat_AllData_RUN1_GBM,0.154587858
+1298,60,Elevation,132.8958904,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.051776439
+1299,60,Elevation,132.8958904,blackmat_AllData_RUN1_ANN,0.096389702
+1300,60,Elevation,132.8958904,blackmat_AllData_RUN1_GLM,0.240228466
+1301,61,Elevation,135.7933448,blackmat_AllData_RUN1_ANN,0.095693818
+1302,61,Elevation,135.7933448,blackmat_AllData_RUN1_MARS,0.30674085
+1303,61,Elevation,135.7933448,blackmat_AllData_RUN1_GLM,0.235509807
+1304,61,Elevation,135.7933448,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.051449856
+1305,61,Elevation,135.7933448,blackmat_AllData_RUN1_GBM,0.154587858
+1306,62,Elevation,138.6907992,blackmat_AllData_RUN1_MARS,0.30674085
+1307,62,Elevation,138.6907992,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.051125222
+1308,62,Elevation,138.6907992,blackmat_AllData_RUN1_GBM,0.154587858
+1309,62,Elevation,138.6907992,blackmat_AllData_RUN1_ANN,0.095007554
+1310,62,Elevation,138.6907992,blackmat_AllData_RUN1_GLM,0.230729947
+1311,63,Elevation,141.5882536,blackmat_AllData_RUN1_GBM,0.154587858
+1312,63,Elevation,141.5882536,blackmat_AllData_RUN1_ANN,0.09433078
+1313,63,Elevation,141.5882536,blackmat_AllData_RUN1_MARS,0.30674085
+1314,63,Elevation,141.5882536,blackmat_AllData_RUN1_GLM,0.225894551
+1315,63,Elevation,141.5882536,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.050802527
+1316,64,Elevation,144.4857081,blackmat_AllData_RUN1_GBM,0.154587858
+1317,64,Elevation,144.4857081,blackmat_AllData_RUN1_MARS,0.30674085
+1318,64,Elevation,144.4857081,blackmat_AllData_RUN1_GLM,0.221009411
+1319,64,Elevation,144.4857081,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.050481761
+1320,64,Elevation,144.4857081,blackmat_AllData_RUN1_ANN,0.09366337
+1321,65,Elevation,147.3831625,blackmat_AllData_RUN1_GLM,0.216080422
+1322,65,Elevation,147.3831625,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.050162912
+1323,65,Elevation,147.3831625,blackmat_AllData_RUN1_GBM,0.154587858
+1324,65,Elevation,147.3831625,blackmat_AllData_RUN1_ANN,0.093005197
+1325,65,Elevation,147.3831625,blackmat_AllData_RUN1_MARS,0.30674085
+1326,66,Elevation,150.2806169,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.049328914
+1327,66,Elevation,150.2806169,blackmat_AllData_RUN1_ANN,0.092356135
+1328,66,Elevation,150.2806169,blackmat_AllData_RUN1_GLM,0.211113582
+1329,66,Elevation,150.2806169,blackmat_AllData_RUN1_GBM,0.154281938
+1330,66,Elevation,150.2806169,blackmat_AllData_RUN1_MARS,0.30674085
+1331,67,Elevation,153.1780713,blackmat_AllData_RUN1_ANN,0.091716063
+1332,67,Elevation,153.1780713,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.046391479
+1333,67,Elevation,153.1780713,blackmat_AllData_RUN1_GLM,0.206114966
+1334,67,Elevation,153.1780713,blackmat_AllData_RUN1_GBM,0.154281938
+1335,67,Elevation,153.1780713,blackmat_AllData_RUN1_MARS,0.30674085
+1336,68,Elevation,156.0755258,blackmat_AllData_RUN1_GBM,0.153976011
+1337,68,Elevation,156.0755258,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.043620937
+1338,68,Elevation,156.0755258,blackmat_AllData_RUN1_GLM,0.20109072
+1339,68,Elevation,156.0755258,blackmat_AllData_RUN1_MARS,0.30674085
+1340,68,Elevation,156.0755258,blackmat_AllData_RUN1_ANN,0.091084858
+1341,69,Elevation,158.9729802,blackmat_AllData_RUN1_GLM,0.196047037
+1342,69,Elevation,158.9729802,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.041008738
+1343,69,Elevation,158.9729802,blackmat_AllData_RUN1_GBM,0.153976011
+1344,69,Elevation,158.9729802,blackmat_AllData_RUN1_ANN,0.090462399
+1345,69,Elevation,158.9729802,blackmat_AllData_RUN1_MARS,0.30674085
+1346,70,Elevation,161.8704346,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.038546664
+1347,70,Elevation,161.8704346,blackmat_AllData_RUN1_GLM,0.190990148
+1348,70,Elevation,161.8704346,blackmat_AllData_RUN1_ANN,0.089848568
+1349,70,Elevation,161.8704346,blackmat_AllData_RUN1_MARS,0.30674085
+1350,70,Elevation,161.8704346,blackmat_AllData_RUN1_GBM,0.153976011
+1351,71,Elevation,164.767889,blackmat_AllData_RUN1_ANN,0.089243245
+1352,71,Elevation,164.767889,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.036226823
+1353,71,Elevation,164.767889,blackmat_AllData_RUN1_MARS,0.30674085
+1354,71,Elevation,164.767889,blackmat_AllData_RUN1_GBM,0.153591532
+1355,71,Elevation,164.767889,blackmat_AllData_RUN1_GLM,0.185926298
+1356,72,Elevation,167.6653435,blackmat_AllData_RUN1_ANN,0.088646316
+1357,72,Elevation,167.6653435,blackmat_AllData_RUN1_GBM,0.153591532
+1358,72,Elevation,167.6653435,blackmat_AllData_RUN1_MARS,0.30674085
+1359,72,Elevation,167.6653435,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.034041653
+1360,72,Elevation,167.6653435,blackmat_AllData_RUN1_GLM,0.180861732
+1361,73,Elevation,170.5627979,blackmat_AllData_RUN1_GLM,0.175802675
+1362,73,Elevation,170.5627979,blackmat_AllData_RUN1_GBM,0.153591532
+1363,73,Elevation,170.5627979,blackmat_AllData_RUN1_ANN,0.088057665
+1364,73,Elevation,170.5627979,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.031983917
+1365,73,Elevation,170.5627979,blackmat_AllData_RUN1_MARS,0.30674085
+1366,74,Elevation,173.4602523,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.030046696
+1367,74,Elevation,173.4602523,blackmat_AllData_RUN1_GBM,0.153591532
+1368,74,Elevation,173.4602523,blackmat_AllData_RUN1_ANN,0.087477177
+1369,74,Elevation,173.4602523,blackmat_AllData_RUN1_GLM,0.170755308
+1370,74,Elevation,173.4602523,blackmat_AllData_RUN1_MARS,0.30674085
+1371,75,Elevation,176.3577067,blackmat_AllData_RUN1_ANN,0.086904741
+1372,75,Elevation,176.3577067,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.02822339
+1373,75,Elevation,176.3577067,blackmat_AllData_RUN1_MARS,0.30674085
+1374,75,Elevation,176.3577067,blackmat_AllData_RUN1_GBM,0.153591532
+1375,75,Elevation,176.3577067,blackmat_AllData_RUN1_GLM,0.165725759
+1376,76,Elevation,179.2551612,blackmat_AllData_RUN1_ANN,0.086340246
+1377,76,Elevation,179.2551612,blackmat_AllData_RUN1_GBM,0.153591532
+1378,76,Elevation,179.2551612,blackmat_AllData_RUN1_MARS,0.30674085
+1379,76,Elevation,179.2551612,blackmat_AllData_RUN1_GLM,0.160720072
+1380,76,Elevation,179.2551612,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.026507702
+1381,77,Elevation,182.1526156,blackmat_AllData_RUN1_GBM,0.153591532
+1382,77,Elevation,182.1526156,blackmat_AllData_RUN1_MARS,0.30674085
+1383,77,Elevation,182.1526156,blackmat_AllData_RUN1_GLM,0.155744195
+1384,77,Elevation,182.1526156,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.024893638
+1385,77,Elevation,182.1526156,blackmat_AllData_RUN1_ANN,0.085783582
+1386,78,Elevation,185.05007,blackmat_AllData_RUN1_GLM,0.150803957
+1387,78,Elevation,185.05007,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.023375496
+1388,78,Elevation,185.05007,blackmat_AllData_RUN1_ANN,0.08523464
+1389,78,Elevation,185.05007,blackmat_AllData_RUN1_GBM,0.153591532
+1390,78,Elevation,185.05007,blackmat_AllData_RUN1_MARS,0.30674085
+1391,79,Elevation,187.9475244,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.021947854
+1392,79,Elevation,187.9475244,blackmat_AllData_RUN1_GBM,0.153591532
+1393,79,Elevation,187.9475244,blackmat_AllData_RUN1_GLM,0.14590505
+1394,79,Elevation,187.9475244,blackmat_AllData_RUN1_MARS,0.30674085
+1395,79,Elevation,187.9475244,blackmat_AllData_RUN1_ANN,0.084693314
+1396,80,Elevation,190.8449789,blackmat_AllData_RUN1_ANN,0.084159498
+1397,80,Elevation,190.8449789,blackmat_AllData_RUN1_GLM,0.14105301
+1398,80,Elevation,190.8449789,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.020605564
+1399,80,Elevation,190.8449789,blackmat_AllData_RUN1_MARS,0.30674085
+1400,80,Elevation,190.8449789,blackmat_AllData_RUN1_GBM,0.153591532
+1401,81,Elevation,193.7424333,blackmat_AllData_RUN1_GLM,0.136253198
+1402,81,Elevation,193.7424333,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.019343743
+1403,81,Elevation,193.7424333,blackmat_AllData_RUN1_MARS,0.30674085
+1404,81,Elevation,193.7424333,blackmat_AllData_RUN1_GBM,0.153591532
+1405,81,Elevation,193.7424333,blackmat_AllData_RUN1_ANN,0.083633088
+1406,82,Elevation,196.6398877,blackmat_AllData_RUN1_GBM,0.153591532
+1407,82,Elevation,196.6398877,blackmat_AllData_RUN1_ANN,0.08311398
+1408,82,Elevation,196.6398877,blackmat_AllData_RUN1_GLM,0.131510785
+1409,82,Elevation,196.6398877,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.018157759
+1410,82,Elevation,196.6398877,blackmat_AllData_RUN1_MARS,0.30674085
+1411,83,Elevation,199.5373421,blackmat_AllData_RUN1_GBM,0.153591532
+1412,83,Elevation,199.5373421,blackmat_AllData_RUN1_GLM,0.126830732
+1413,83,Elevation,199.5373421,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.017043225
+1414,83,Elevation,199.5373421,blackmat_AllData_RUN1_MARS,0.30674085
+1415,83,Elevation,199.5373421,blackmat_AllData_RUN1_ANN,0.082602073
+1416,84,Elevation,202.4347966,blackmat_AllData_RUN1_ANN,0.082097266
+1417,84,Elevation,202.4347966,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.015995988
+1418,84,Elevation,202.4347966,blackmat_AllData_RUN1_GBM,0.153591532
+1419,84,Elevation,202.4347966,blackmat_AllData_RUN1_GLM,0.12221778
+1420,84,Elevation,202.4347966,blackmat_AllData_RUN1_MARS,0.30674085
+1421,85,Elevation,205.332251,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.015012116
+1422,85,Elevation,205.332251,blackmat_AllData_RUN1_GBM,0.153591532
+1423,85,Elevation,205.332251,blackmat_AllData_RUN1_GLM,0.117676427
+1424,85,Elevation,205.332251,blackmat_AllData_RUN1_MARS,0.30674085
+1425,85,Elevation,205.332251,blackmat_AllData_RUN1_ANN,0.08159946
+1426,86,Elevation,208.2297054,blackmat_AllData_RUN1_GBM,0.153591532
+1427,86,Elevation,208.2297054,blackmat_AllData_RUN1_GLM,0.113210925
+1428,86,Elevation,208.2297054,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.014087893
+1429,86,Elevation,208.2297054,blackmat_AllData_RUN1_MARS,0.30674085
+1430,86,Elevation,208.2297054,blackmat_AllData_RUN1_ANN,0.081108558
+1431,87,Elevation,211.1271599,blackmat_AllData_RUN1_GBM,0.153591532
+1432,87,Elevation,211.1271599,blackmat_AllData_RUN1_ANN,0.080624462
+1433,87,Elevation,211.1271599,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.013219806
+1434,87,Elevation,211.1271599,blackmat_AllData_RUN1_MARS,0.30674085
+1435,87,Elevation,211.1271599,blackmat_AllData_RUN1_GLM,0.108825261
+1436,88,Elevation,214.0246143,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.012404538
+1437,88,Elevation,214.0246143,blackmat_AllData_RUN1_GBM,0.153591532
+1438,88,Elevation,214.0246143,blackmat_AllData_RUN1_GLM,0.10452315
+1439,88,Elevation,214.0246143,blackmat_AllData_RUN1_MARS,0.30674085
+1440,88,Elevation,214.0246143,blackmat_AllData_RUN1_ANN,0.080147078
+1441,89,Elevation,216.9220687,blackmat_AllData_RUN1_GLM,0.100308025
+1442,89,Elevation,216.9220687,blackmat_AllData_RUN1_GBM,0.153591532
+1443,89,Elevation,216.9220687,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.011638954
+1444,89,Elevation,216.9220687,blackmat_AllData_RUN1_MARS,0.30674085
+1445,89,Elevation,216.9220687,blackmat_AllData_RUN1_ANN,0.07967631
+1446,90,Elevation,219.8195231,blackmat_AllData_RUN1_GBM,0.153591532
+1447,90,Elevation,219.8195231,blackmat_AllData_RUN1_MARS,0.30674085
+1448,90,Elevation,219.8195231,blackmat_AllData_RUN1_ANN,0.079212067
+1449,90,Elevation,219.8195231,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.010920098
+1450,90,Elevation,219.8195231,blackmat_AllData_RUN1_GLM,0.096183032
+1451,91,Elevation,222.7169776,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.010245181
+1452,91,Elevation,222.7169776,blackmat_AllData_RUN1_GBM,0.153591532
+1453,91,Elevation,222.7169776,blackmat_AllData_RUN1_GLM,0.092151021
+1454,91,Elevation,222.7169776,blackmat_AllData_RUN1_MARS,0.30674085
+1455,91,Elevation,222.7169776,blackmat_AllData_RUN1_ANN,0.078754257
+1456,92,Elevation,225.614432,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.009611571
+1457,92,Elevation,225.614432,blackmat_AllData_RUN1_GLM,0.088214546
+1458,92,Elevation,225.614432,blackmat_AllData_RUN1_GBM,0.153591532
+1459,92,Elevation,225.614432,blackmat_AllData_RUN1_MARS,0.30674085
+1460,92,Elevation,225.614432,blackmat_AllData_RUN1_ANN,0.078302788
+1461,93,Elevation,228.5118864,blackmat_AllData_RUN1_GBM,0.153591532
+1462,93,Elevation,228.5118864,blackmat_AllData_RUN1_GLM,0.08437586
+1463,93,Elevation,228.5118864,blackmat_AllData_RUN1_MARS,0.30674085
+1464,93,Elevation,228.5118864,blackmat_AllData_RUN1_ANN,0.077857572
+1465,93,Elevation,228.5118864,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.00901679
+1466,94,Elevation,231.4093408,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.0084585
+1467,94,Elevation,231.4093408,blackmat_AllData_RUN1_GBM,0.153591532
+1468,94,Elevation,231.4093408,blackmat_AllData_RUN1_ANN,0.077418521
+1469,94,Elevation,231.4093408,blackmat_AllData_RUN1_GLM,0.080636915
+1470,94,Elevation,231.4093408,blackmat_AllData_RUN1_MARS,0.30674085
+1471,95,Elevation,234.3067953,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.007934502
+1472,95,Elevation,234.3067953,blackmat_AllData_RUN1_GLM,0.076999364
+1473,95,Elevation,234.3067953,blackmat_AllData_RUN1_MARS,0.30674085
+1474,95,Elevation,234.3067953,blackmat_AllData_RUN1_GBM,0.153591532
+1475,95,Elevation,234.3067953,blackmat_AllData_RUN1_ANN,0.076985548
+1476,96,Elevation,237.2042497,blackmat_AllData_RUN1_GBM,0.153591532
+1477,96,Elevation,237.2042497,blackmat_AllData_RUN1_GLM,0.073464563
+1478,96,Elevation,237.2042497,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.007442721
+1479,96,Elevation,237.2042497,blackmat_AllData_RUN1_MARS,0.30674085
+1480,96,Elevation,237.2042497,blackmat_AllData_RUN1_ANN,0.076558567
+1481,97,Elevation,240.1017041,blackmat_AllData_RUN1_ANN,0.076137493
+1482,97,Elevation,240.1017041,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.006981206
+1483,97,Elevation,240.1017041,blackmat_AllData_RUN1_GBM,0.153591532
+1484,97,Elevation,240.1017041,blackmat_AllData_RUN1_GLM,0.070033575
+1485,97,Elevation,240.1017041,blackmat_AllData_RUN1_MARS,0.30674085
+1486,98,Elevation,242.9991585,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.00654812
+1487,98,Elevation,242.9991585,blackmat_AllData_RUN1_GBM,0.153591532
+1488,98,Elevation,242.9991585,blackmat_AllData_RUN1_GLM,0.066707174
+1489,98,Elevation,242.9991585,blackmat_AllData_RUN1_MARS,0.30674085
+1490,98,Elevation,242.9991585,blackmat_AllData_RUN1_ANN,0.075722244
+1491,99,Elevation,245.896613,blackmat_AllData_RUN1_ANN,0.075312736
+1492,99,Elevation,245.896613,blackmat_AllData_RUN1_GBM,0.153591532
+1493,99,Elevation,245.896613,blackmat_AllData_RUN1_MARS,0.30674085
+1494,99,Elevation,245.896613,blackmat_AllData_RUN1_GLM,0.063485856
+1495,99,Elevation,245.896613,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.006141735
+1496,100,Elevation,248.7940674,blackmat_AllData_RUN1_GBM,0.153591532
+1497,100,Elevation,248.7940674,blackmat_AllData_RUN1_MARS,0.30674085
+1498,100,Elevation,248.7940674,blackmat_AllData_RUN1_GLM,0.060369841
+1499,100,Elevation,248.7940674,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.005760425
+1500,100,Elevation,248.7940674,blackmat_AllData_RUN1_ANN,0.07490889
+1501,1,Slope,0.001946584,blackmat_AllData_RUN1_GBM,0.111197912
+1502,1,Slope,0.001946584,blackmat_AllData_RUN1_GLM,0.242035497
+1503,1,Slope,0.001946584,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.047803203
+1504,1,Slope,0.001946584,blackmat_AllData_RUN1_MARS,0.213376264
+1505,1,Slope,0.001946584,blackmat_AllData_RUN1_ANN,0.072138699
+1506,2,Slope,0.012843587,blackmat_AllData_RUN1_GLM,0.25062951
+1507,2,Slope,0.012843587,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.049891146
+1508,2,Slope,0.012843587,blackmat_AllData_RUN1_MARS,0.222156133
+1509,2,Slope,0.012843587,blackmat_AllData_RUN1_ANN,0.07527906
+1510,2,Slope,0.012843587,blackmat_AllData_RUN1_GBM,0.111197912
+1511,3,Slope,0.02374059,blackmat_AllData_RUN1_GBM,0.111197912
+1512,3,Slope,0.02374059,blackmat_AllData_RUN1_MARS,0.231191093
+1513,3,Slope,0.02374059,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.052067371
+1514,3,Slope,0.02374059,blackmat_AllData_RUN1_ANN,0.078798196
+1515,3,Slope,0.02374059,blackmat_AllData_RUN1_GLM,0.259424231
+1516,4,Slope,0.034637593,blackmat_AllData_RUN1_MARS,0.240479898
+1517,4,Slope,0.034637593,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.053374315
+1518,4,Slope,0.034637593,blackmat_AllData_RUN1_ANN,0.082742789
+1519,4,Slope,0.034637593,blackmat_AllData_RUN1_GLM,0.268417022
+1520,4,Slope,0.034637593,blackmat_AllData_RUN1_GBM,0.111197912
+1521,5,Slope,0.045534596,blackmat_AllData_RUN1_GBM,0.126418515
+1522,5,Slope,0.045534596,blackmat_AllData_RUN1_MARS,0.250020541
+1523,5,Slope,0.045534596,blackmat_AllData_RUN1_GLM,0.27760469
+1524,5,Slope,0.045534596,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.054694024
+1525,5,Slope,0.045534596,blackmat_AllData_RUN1_ANN,0.087164906
+1526,6,Slope,0.056431599,blackmat_AllData_RUN1_GBM,0.139124001
+1527,6,Slope,0.056431599,blackmat_AllData_RUN1_ANN,0.092122369
+1528,6,Slope,0.056431599,blackmat_AllData_RUN1_MARS,0.259810216
+1529,6,Slope,0.056431599,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.056013414
+1530,6,Slope,0.056431599,blackmat_AllData_RUN1_GLM,0.286983479
+1531,7,Slope,0.067328602,blackmat_AllData_RUN1_MARS,0.26984529
+1532,7,Slope,0.067328602,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.057363522
+1533,7,Slope,0.067328602,blackmat_AllData_RUN1_GBM,0.147280061
+1534,7,Slope,0.067328602,blackmat_AllData_RUN1_ANN,0.097679026
+1535,7,Slope,0.067328602,blackmat_AllData_RUN1_GLM,0.296549054
+1536,8,Slope,0.078225604,blackmat_AllData_RUN1_GLM,0.306296499
+1537,8,Slope,0.078225604,blackmat_AllData_RUN1_GBM,0.152775106
+1538,8,Slope,0.078225604,blackmat_AllData_RUN1_MARS,0.28012128
+1539,8,Slope,0.078225604,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.058746468
+1540,8,Slope,0.078225604,blackmat_AllData_RUN1_ANN,0.103904892
+1541,9,Slope,0.089122607,blackmat_AllData_RUN1_GBM,0.15836986
+1542,9,Slope,0.089122607,blackmat_AllData_RUN1_MARS,0.290632828
+1543,9,Slope,0.089122607,blackmat_AllData_RUN1_ANN,0.110876082
+1544,9,Slope,0.089122607,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.060162999
+1545,9,Slope,0.089122607,blackmat_AllData_RUN1_GLM,0.316220312
+1546,10,Slope,0.10001961,blackmat_AllData_RUN1_GBM,0.159060247
+1547,10,Slope,0.10001961,blackmat_AllData_RUN1_MARS,0.301373689
+1548,10,Slope,0.10001961,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.061613877
+1549,10,Slope,0.10001961,blackmat_AllData_RUN1_ANN,0.118674478
+1550,10,Slope,0.10001961,blackmat_AllData_RUN1_GLM,0.326314407
+1551,11,Slope,0.110916613,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.063099876
+1552,11,Slope,0.110916613,blackmat_AllData_RUN1_GLM,0.336572115
+1553,11,Slope,0.110916613,blackmat_AllData_RUN1_GBM,0.159753896
+1554,11,Slope,0.110916613,blackmat_AllData_RUN1_MARS,0.312336721
+1555,11,Slope,0.110916613,blackmat_AllData_RUN1_ANN,0.127387023
+1556,12,Slope,0.121813616,blackmat_AllData_RUN1_GBM,0.163956472
+1557,12,Slope,0.121813616,blackmat_AllData_RUN1_MARS,0.32351388
+1558,12,Slope,0.121813616,blackmat_AllData_RUN1_GLM,0.346986193
+1559,12,Slope,0.121813616,blackmat_AllData_RUN1_ANN,0.137104568
+1560,12,Slope,0.121813616,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.064621782
+1561,13,Slope,0.132710619,blackmat_AllData_RUN1_GBM,0.163951606
+1562,13,Slope,0.132710619,blackmat_AllData_RUN1_MARS,0.334896227
+1563,13,Slope,0.132710619,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.066180396
+1564,13,Slope,0.132710619,blackmat_AllData_RUN1_ANN,0.147920167
+1565,13,Slope,0.132710619,blackmat_AllData_RUN1_GLM,0.357548838
+1566,14,Slope,0.143607622,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.067776529
+1567,14,Slope,0.143607622,blackmat_AllData_RUN1_MARS,0.346473937
+1568,14,Slope,0.143607622,blackmat_AllData_RUN1_GLM,0.368251697
+1569,14,Slope,0.143607622,blackmat_AllData_RUN1_GBM,0.173045932
+1570,14,Slope,0.143607622,blackmat_AllData_RUN1_ANN,0.159926741
+1571,15,Slope,0.154504625,blackmat_AllData_RUN1_GBM,0.193319095
+1572,15,Slope,0.154504625,blackmat_AllData_RUN1_MARS,0.358236316
+1573,15,Slope,0.154504625,blackmat_AllData_RUN1_GLM,0.379085892
+1574,15,Slope,0.154504625,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.069411007
+1575,15,Slope,0.154504625,blackmat_AllData_RUN1_ANN,0.173214048
+1576,16,Slope,0.165401628,blackmat_AllData_RUN1_GBM,0.24071968
+1577,16,Slope,0.165401628,blackmat_AllData_RUN1_MARS,0.370171832
+1578,16,Slope,0.165401628,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.071084667
+1579,16,Slope,0.165401628,blackmat_AllData_RUN1_ANN,0.187864956
+1580,16,Slope,0.165401628,blackmat_AllData_RUN1_GLM,0.39004204
+1581,17,Slope,0.17629863,blackmat_AllData_RUN1_MARS,0.382268141
+1582,17,Slope,0.17629863,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.072798358
+1583,17,Slope,0.17629863,blackmat_AllData_RUN1_ANN,0.203951046
+1584,17,Slope,0.17629863,blackmat_AllData_RUN1_GLM,0.401110282
+1585,17,Slope,0.17629863,blackmat_AllData_RUN1_GBM,0.238332195
+1586,18,Slope,0.187195633,blackmat_AllData_RUN1_GBM,0.238200702
+1587,18,Slope,0.187195633,blackmat_AllData_RUN1_MARS,0.394512133
+1588,18,Slope,0.187195633,blackmat_AllData_RUN1_GLM,0.412280313
+1589,18,Slope,0.187195633,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.074552942
+1590,18,Slope,0.187195633,blackmat_AllData_RUN1_ANN,0.221527699
+1591,19,Slope,0.198092636,blackmat_AllData_RUN1_MARS,0.40688998
+1592,19,Slope,0.198092636,blackmat_AllData_RUN1_GLM,0.423541419
+1593,19,Slope,0.198092636,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.076349292
+1594,19,Slope,0.198092636,blackmat_AllData_RUN1_GBM,0.243386744
+1595,19,Slope,0.198092636,blackmat_AllData_RUN1_ANN,0.240628863
+1596,20,Slope,0.208989639,blackmat_AllData_RUN1_GBM,0.244731332
+1597,20,Slope,0.208989639,blackmat_AllData_RUN1_ANN,0.261261849
+1598,20,Slope,0.208989639,blackmat_AllData_RUN1_MARS,0.419387191
+1599,20,Slope,0.208989639,blackmat_AllData_RUN1_GLM,0.434882514
+1600,20,Slope,0.208989639,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.078188293
+1601,21,Slope,0.219886642,blackmat_AllData_RUN1_ANN,0.283402551
+1602,21,Slope,0.219886642,blackmat_AllData_RUN1_MARS,0.431988673
+1603,21,Slope,0.219886642,blackmat_AllData_RUN1_GLM,0.446292181
+1604,21,Slope,0.219886642,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.08007084
+1605,21,Slope,0.219886642,blackmat_AllData_RUN1_GBM,0.253195502
+1606,22,Slope,0.230783645,blackmat_AllData_RUN1_GBM,0.252851726
+1607,22,Slope,0.230783645,blackmat_AllData_RUN1_MARS,0.444678804
+1608,22,Slope,0.230783645,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.08199784
+1609,22,Slope,0.230783645,blackmat_AllData_RUN1_ANN,0.306991578
+1610,22,Slope,0.230783645,blackmat_AllData_RUN1_GLM,0.457758716
+1611,23,Slope,0.241680648,blackmat_AllData_RUN1_MARS,0.457441502
+1612,23,Slope,0.241680648,blackmat_AllData_RUN1_ANN,0.331931768
+1613,23,Slope,0.241680648,blackmat_AllData_RUN1_GBM,0.265079446
+1614,23,Slope,0.241680648,blackmat_AllData_RUN1_GLM,0.469270178
+1615,23,Slope,0.241680648,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.083970211
+1616,24,Slope,0.252577651,blackmat_AllData_RUN1_GBM,0.268670671
+1617,24,Slope,0.252577651,blackmat_AllData_RUN1_GLM,0.480814433
+1618,24,Slope,0.252577651,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.085988879
+1619,24,Slope,0.252577651,blackmat_AllData_RUN1_MARS,0.466476431
+1620,24,Slope,0.252577651,blackmat_AllData_RUN1_ANN,0.358087537
+1621,25,Slope,0.263474653,blackmat_AllData_RUN1_GLM,0.49237921
+1622,25,Slope,0.263474653,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.088054781
+1623,25,Slope,0.263474653,blackmat_AllData_RUN1_MARS,0.468957827
+1624,25,Slope,0.263474653,blackmat_AllData_RUN1_ANN,0.385286381
+1625,25,Slope,0.263474653,blackmat_AllData_RUN1_GBM,0.267843179
+1626,26,Slope,0.274371656,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.090168863
+1627,26,Slope,0.274371656,blackmat_AllData_RUN1_ANN,0.413322657
+1628,26,Slope,0.274371656,blackmat_AllData_RUN1_MARS,0.471440759
+1629,26,Slope,0.274371656,blackmat_AllData_RUN1_GLM,0.503952149
+1630,26,Slope,0.274371656,blackmat_AllData_RUN1_GBM,0.267843179
+1631,27,Slope,0.285268659,blackmat_AllData_RUN1_MARS,0.473925105
+1632,27,Slope,0.285268659,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.09233208
+1633,27,Slope,0.285268659,blackmat_AllData_RUN1_GBM,0.267843179
+1634,27,Slope,0.285268659,blackmat_AllData_RUN1_ANN,0.441963566
+1635,27,Slope,0.285268659,blackmat_AllData_RUN1_GLM,0.515520854
+1636,28,Slope,0.296165662,blackmat_AllData_RUN1_MARS,0.476410743
+1637,28,Slope,0.296165662,blackmat_AllData_RUN1_GLM,0.527072949
+1638,28,Slope,0.296165662,blackmat_AllData_RUN1_GBM,0.268471927
+1639,28,Slope,0.296165662,blackmat_AllData_RUN1_ANN,0.470957011
+1640,28,Slope,0.296165662,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.094545393
+1641,29,Slope,0.307062665,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.096809772
+1642,29,Slope,0.307062665,blackmat_AllData_RUN1_GLM,0.538596128
+1643,29,Slope,0.307062665,blackmat_AllData_RUN1_MARS,0.478897549
+1644,29,Slope,0.307062665,blackmat_AllData_RUN1_ANN,0.500040782
+1645,29,Slope,0.307062665,blackmat_AllData_RUN1_GBM,0.268471927
+1646,30,Slope,0.317959668,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.099126194
+1647,30,Slope,0.317959668,blackmat_AllData_RUN1_ANN,0.528952373
+1648,30,Slope,0.317959668,blackmat_AllData_RUN1_MARS,0.481385402
+1649,30,Slope,0.317959668,blackmat_AllData_RUN1_GLM,0.550078209
+1650,30,Slope,0.317959668,blackmat_AllData_RUN1_GBM,0.280976826
+1651,31,Slope,0.328856671,blackmat_AllData_RUN1_ANN,0.557438675
+1652,31,Slope,0.328856671,blackmat_AllData_RUN1_MARS,0.483874179
+1653,31,Slope,0.328856671,blackmat_AllData_RUN1_GBM,0.278881785
+1654,31,Slope,0.328856671,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.101495641
+1655,31,Slope,0.328856671,blackmat_AllData_RUN1_GLM,0.561507184
+1656,32,Slope,0.339753674,blackmat_AllData_RUN1_MARS,0.486363755
+1657,32,Slope,0.339753674,blackmat_AllData_RUN1_GBM,0.278881785
+1658,32,Slope,0.339753674,blackmat_AllData_RUN1_ANN,0.585264807
+1659,32,Slope,0.339753674,blackmat_AllData_RUN1_GLM,0.572871269
+1660,32,Slope,0.339753674,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.1039191
+1661,33,Slope,0.350650676,blackmat_AllData_RUN1_GBM,0.278881785
+1662,33,Slope,0.350650676,blackmat_AllData_RUN1_MARS,0.488854009
+1663,33,Slope,0.350650676,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.106397562
+1664,33,Slope,0.350650676,blackmat_AllData_RUN1_GLM,0.58415895
+1665,33,Slope,0.350650676,blackmat_AllData_RUN1_ANN,0.612221473
+1666,34,Slope,0.361547679,blackmat_AllData_RUN1_MARS,0.491344816
+1667,34,Slope,0.361547679,blackmat_AllData_RUN1_ANN,0.638130424
+1668,34,Slope,0.361547679,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.108932023
+1669,34,Slope,0.361547679,blackmat_AllData_RUN1_GLM,0.595359033
+1670,34,Slope,0.361547679,blackmat_AllData_RUN1_GBM,0.278881785
+1671,35,Slope,0.372444682,blackmat_AllData_RUN1_MARS,0.493836052
+1672,35,Slope,0.372444682,blackmat_AllData_RUN1_ANN,0.662847812
+1673,35,Slope,0.372444682,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.11152348
+1674,35,Slope,0.372444682,blackmat_AllData_RUN1_GBM,0.278881785
+1675,35,Slope,0.372444682,blackmat_AllData_RUN1_GLM,0.606460681
+1676,36,Slope,0.383341685,blackmat_AllData_RUN1_MARS,0.496327595
+1677,36,Slope,0.383341685,blackmat_AllData_RUN1_GBM,0.278881785
+1678,36,Slope,0.383341685,blackmat_AllData_RUN1_ANN,0.686265458
+1679,36,Slope,0.383341685,blackmat_AllData_RUN1_GLM,0.617453455
+1680,36,Slope,0.383341685,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.114172932
+1681,37,Slope,0.394238688,blackmat_AllData_RUN1_GBM,0.278881785
+1682,37,Slope,0.394238688,blackmat_AllData_RUN1_GLM,0.628327351
+1683,37,Slope,0.394238688,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.116881379
+1684,37,Slope,0.394238688,blackmat_AllData_RUN1_MARS,0.49881932
+1685,37,Slope,0.394238688,blackmat_AllData_RUN1_ANN,0.708310215
+1686,38,Slope,0.405135691,blackmat_AllData_RUN1_GLM,0.639072833
+1687,38,Slope,0.405135691,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.119649817
+1688,38,Slope,0.405135691,blackmat_AllData_RUN1_MARS,0.501311103
+1689,38,Slope,0.405135691,blackmat_AllData_RUN1_GBM,0.279436518
+1690,38,Slope,0.405135691,blackmat_AllData_RUN1_ANN,0.728941768
+1691,39,Slope,0.416032694,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.122479245
+1692,39,Slope,0.416032694,blackmat_AllData_RUN1_GBM,0.279436518
+1693,39,Slope,0.416032694,blackmat_AllData_RUN1_ANN,0.748149273
+1694,39,Slope,0.416032694,blackmat_AllData_RUN1_GLM,0.649680859
+1695,39,Slope,0.416032694,blackmat_AllData_RUN1_MARS,0.503802822
+1696,40,Slope,0.426929697,blackmat_AllData_RUN1_ANN,0.765947239
+1697,40,Slope,0.426929697,blackmat_AllData_RUN1_GLM,0.660142908
+1698,40,Slope,0.426929697,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.125370655
+1699,40,Slope,0.426929697,blackmat_AllData_RUN1_MARS,0.506294352
+1700,40,Slope,0.426929697,blackmat_AllData_RUN1_GBM,0.279436518
+1701,41,Slope,0.437826699,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.128325035
+1702,41,Slope,0.437826699,blackmat_AllData_RUN1_GBM,0.279436518
+1703,41,Slope,0.437826699,blackmat_AllData_RUN1_GLM,0.670451001
+1704,41,Slope,0.437826699,blackmat_AllData_RUN1_ANN,0.782371068
+1705,41,Slope,0.437826699,blackmat_AllData_RUN1_MARS,0.508785569
+1706,42,Slope,0.448723702,blackmat_AllData_RUN1_GLM,0.680597715
+1707,42,Slope,0.448723702,blackmat_AllData_RUN1_ANN,0.797472568
+1708,42,Slope,0.448723702,blackmat_AllData_RUN1_MARS,0.51127635
+1709,42,Slope,0.448723702,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.131343369
+1710,42,Slope,0.448723702,blackmat_AllData_RUN1_GBM,0.279436518
+1711,43,Slope,0.459620705,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.134426632
+1712,43,Slope,0.459620705,blackmat_AllData_RUN1_GBM,0.279436518
+1713,43,Slope,0.459620705,blackmat_AllData_RUN1_MARS,0.513766571
+1714,43,Slope,0.459620705,blackmat_AllData_RUN1_ANN,0.811315698
+1715,43,Slope,0.459620705,blackmat_AllData_RUN1_GLM,0.690576199
+1716,44,Slope,0.470517708,blackmat_AllData_RUN1_GLM,0.700380181
+1717,44,Slope,0.470517708,blackmat_AllData_RUN1_GBM,0.279436518
+1718,44,Slope,0.470517708,blackmat_AllData_RUN1_MARS,0.516256108
+1719,44,Slope,0.470517708,blackmat_AllData_RUN1_ANN,0.823972723
+1720,44,Slope,0.470517708,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.13757579
+1721,45,Slope,0.481414711,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.140791798
+1722,45,Slope,0.481414711,blackmat_AllData_RUN1_GBM,0.279436518
+1723,45,Slope,0.481414711,blackmat_AllData_RUN1_MARS,0.51874484
+1724,45,Slope,0.481414711,blackmat_AllData_RUN1_ANN,0.835520884
+1725,45,Slope,0.481414711,blackmat_AllData_RUN1_GLM,0.710003973
+1726,46,Slope,0.492311714,blackmat_AllData_RUN1_MARS,0.521232641
+1727,46,Slope,0.492311714,blackmat_AllData_RUN1_GLM,0.719442475
+1728,46,Slope,0.492311714,blackmat_AllData_RUN1_GBM,0.279436518
+1729,46,Slope,0.492311714,blackmat_AllData_RUN1_ANN,0.846039619
+1730,46,Slope,0.492311714,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.144075601
+1731,47,Slope,0.503208717,blackmat_AllData_RUN1_GBM,0.279436518
+1732,47,Slope,0.503208717,blackmat_AllData_RUN1_GLM,0.728691168
+1733,47,Slope,0.503208717,blackmat_AllData_RUN1_MARS,0.523719389
+1734,47,Slope,0.503208717,blackmat_AllData_RUN1_ANN,0.855608332
+1735,47,Slope,0.503208717,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.147428127
+1736,48,Slope,0.51410572,blackmat_AllData_RUN1_GLM,0.737746113
+1737,48,Slope,0.51410572,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.150850291
+1738,48,Slope,0.51410572,blackmat_AllData_RUN1_GBM,0.279436518
+1739,48,Slope,0.51410572,blackmat_AllData_RUN1_MARS,0.526204963
+1740,48,Slope,0.51410572,blackmat_AllData_RUN1_ANN,0.864304685
+1741,49,Slope,0.525002723,blackmat_AllData_RUN1_ANN,0.872203332
+1742,49,Slope,0.525002723,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.154342989
+1743,49,Slope,0.525002723,blackmat_AllData_RUN1_GBM,0.279436518
+1744,49,Slope,0.525002723,blackmat_AllData_RUN1_MARS,0.528689238
+1745,49,Slope,0.525002723,blackmat_AllData_RUN1_GLM,0.746603939
+1746,50,Slope,0.535899725,blackmat_AllData_RUN1_GBM,0.279436518
+1747,50,Slope,0.535899725,blackmat_AllData_RUN1_MARS,0.531172092
+1748,50,Slope,0.535899725,blackmat_AllData_RUN1_GLM,0.755261834
+1749,50,Slope,0.535899725,blackmat_AllData_RUN1_ANN,0.879375052
+1750,50,Slope,0.535899725,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.157907096
+1751,51,Slope,0.546796728,blackmat_AllData_RUN1_GLM,0.763717531
+1752,51,Slope,0.546796728,blackmat_AllData_RUN1_GBM,0.279436518
+1753,51,Slope,0.546796728,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.161543468
+1754,51,Slope,0.546796728,blackmat_AllData_RUN1_MARS,0.533653405
+1755,51,Slope,0.546796728,blackmat_AllData_RUN1_ANN,0.885886198
+1756,52,Slope,0.557693731,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.165252937
+1757,52,Slope,0.557693731,blackmat_AllData_RUN1_MARS,0.536133053
+1758,52,Slope,0.557693731,blackmat_AllData_RUN1_ANN,0.89179841
+1759,52,Slope,0.557693731,blackmat_AllData_RUN1_GLM,0.771969288
+1760,52,Slope,0.557693731,blackmat_AllData_RUN1_GBM,0.279436518
+1761,53,Slope,0.568590734,blackmat_AllData_RUN1_GBM,0.279436518
+1762,53,Slope,0.568590734,blackmat_AllData_RUN1_MARS,0.538610916
+1763,53,Slope,0.568590734,blackmat_AllData_RUN1_ANN,0.897168515
+1764,53,Slope,0.568590734,blackmat_AllData_RUN1_GLM,0.780015876
+1765,53,Slope,0.568590734,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.169036307
+1766,54,Slope,0.579487737,blackmat_AllData_RUN1_GLM,0.78785655
+1767,54,Slope,0.579487737,blackmat_AllData_RUN1_GBM,0.279436518
+1768,54,Slope,0.579487737,blackmat_AllData_RUN1_MARS,0.541086872
+1769,54,Slope,0.579487737,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.172894355
+1770,54,Slope,0.579487737,blackmat_AllData_RUN1_ANN,0.902048584
+1771,55,Slope,0.59038474,blackmat_AllData_RUN1_GLM,0.795491037
+1772,55,Slope,0.59038474,blackmat_AllData_RUN1_GBM,0.279436518
+1773,55,Slope,0.59038474,blackmat_AllData_RUN1_ANN,0.906486089
+1774,55,Slope,0.59038474,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.17682783
+1775,55,Slope,0.59038474,blackmat_AllData_RUN1_MARS,0.543560802
+1776,56,Slope,0.601281743,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.180837445
+1777,56,Slope,0.601281743,blackmat_AllData_RUN1_GBM,0.279436518
+1778,56,Slope,0.601281743,blackmat_AllData_RUN1_MARS,0.546032584
+1779,56,Slope,0.601281743,blackmat_AllData_RUN1_ANN,0.910524133
+1780,56,Slope,0.601281743,blackmat_AllData_RUN1_GLM,0.802919506
+1781,57,Slope,0.612178746,blackmat_AllData_RUN1_GLM,0.810142546
+1782,57,Slope,0.612178746,blackmat_AllData_RUN1_GBM,0.279436518
+1783,57,Slope,0.612178746,blackmat_AllData_RUN1_MARS,0.548502099
+1784,57,Slope,0.612178746,blackmat_AllData_RUN1_ANN,0.914201724
+1785,57,Slope,0.612178746,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.18492388
+1786,58,Slope,0.623075748,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.189087777
+1787,58,Slope,0.623075748,blackmat_AllData_RUN1_GBM,0.279436518
+1788,58,Slope,0.623075748,blackmat_AllData_RUN1_MARS,0.550969227
+1789,58,Slope,0.623075748,blackmat_AllData_RUN1_ANN,0.917554072
+1790,58,Slope,0.623075748,blackmat_AllData_RUN1_GLM,0.817161142
+1791,59,Slope,0.633972751,blackmat_AllData_RUN1_ANN,0.920612895
+1792,59,Slope,0.633972751,blackmat_AllData_RUN1_GLM,0.823976652
+1793,59,Slope,0.633972751,blackmat_AllData_RUN1_MARS,0.553433851
+1794,59,Slope,0.633972751,blackmat_AllData_RUN1_GBM,0.279436518
+1795,59,Slope,0.633972751,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.193329737
+1796,60,Slope,0.644869754,blackmat_AllData_RUN1_MARS,0.55589585
+1797,60,Slope,0.644869754,blackmat_AllData_RUN1_GBM,0.279436518
+1798,60,Slope,0.644869754,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.197650321
+1799,60,Slope,0.644869754,blackmat_AllData_RUN1_ANN,0.923406722
+1800,60,Slope,0.644869754,blackmat_AllData_RUN1_GLM,0.830590776
+1801,61,Slope,0.655766757,blackmat_AllData_RUN1_ANN,0.925961186
+1802,61,Slope,0.655766757,blackmat_AllData_RUN1_MARS,0.558355107
+1803,61,Slope,0.655766757,blackmat_AllData_RUN1_GLM,0.837005534
+1804,61,Slope,0.655766757,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.202050044
+1805,61,Slope,0.655766757,blackmat_AllData_RUN1_GBM,0.279436518
+1806,62,Slope,0.66666376,blackmat_AllData_RUN1_MARS,0.560811506
+1807,62,Slope,0.66666376,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.206529373
+1808,62,Slope,0.66666376,blackmat_AllData_RUN1_GBM,0.279436518
+1809,62,Slope,0.66666376,blackmat_AllData_RUN1_ANN,0.928299299
+1810,62,Slope,0.66666376,blackmat_AllData_RUN1_GLM,0.843223243
+1811,63,Slope,0.677560763,blackmat_AllData_RUN1_GBM,0.279436518
+1812,63,Slope,0.677560763,blackmat_AllData_RUN1_ANN,0.930441716
+1813,63,Slope,0.677560763,blackmat_AllData_RUN1_MARS,0.563264928
+1814,63,Slope,0.677560763,blackmat_AllData_RUN1_GLM,0.849246486
+1815,63,Slope,0.677560763,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.211088725
+1816,64,Slope,0.688457766,blackmat_AllData_RUN1_GBM,0.279436518
+1817,64,Slope,0.688457766,blackmat_AllData_RUN1_MARS,0.565715259
+1818,64,Slope,0.688457766,blackmat_AllData_RUN1_GLM,0.855078092
+1819,64,Slope,0.688457766,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.215728464
+1820,64,Slope,0.688457766,blackmat_AllData_RUN1_ANN,0.932406969
+1821,65,Slope,0.699354769,blackmat_AllData_RUN1_GLM,0.86072111
+1822,65,Slope,0.699354769,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.2204489
+1823,65,Slope,0.699354769,blackmat_AllData_RUN1_GBM,0.279436518
+1824,65,Slope,0.699354769,blackmat_AllData_RUN1_ANN,0.93421169
+1825,65,Slope,0.699354769,blackmat_AllData_RUN1_MARS,0.568162382
+1826,66,Slope,0.710251771,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.225250284
+1827,66,Slope,0.710251771,blackmat_AllData_RUN1_ANN,0.935870808
+1828,66,Slope,0.710251771,blackmat_AllData_RUN1_GLM,0.866178786
+1829,66,Slope,0.710251771,blackmat_AllData_RUN1_GBM,0.279436518
+1830,66,Slope,0.710251771,blackmat_AllData_RUN1_MARS,0.570606181
+1831,67,Slope,0.721148774,blackmat_AllData_RUN1_ANN,0.93739773
+1832,67,Slope,0.721148774,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.230132806
+1833,67,Slope,0.721148774,blackmat_AllData_RUN1_GLM,0.871454541
+1834,67,Slope,0.721148774,blackmat_AllData_RUN1_GBM,0.279436518
+1835,67,Slope,0.721148774,blackmat_AllData_RUN1_MARS,0.573046544
+1836,68,Slope,0.732045777,blackmat_AllData_RUN1_GBM,0.279436518
+1837,68,Slope,0.732045777,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.235096594
+1838,68,Slope,0.732045777,blackmat_AllData_RUN1_GLM,0.876551949
+1839,68,Slope,0.732045777,blackmat_AllData_RUN1_MARS,0.575483356
+1840,68,Slope,0.732045777,blackmat_AllData_RUN1_ANN,0.938804503
+1841,69,Slope,0.74294278,blackmat_AllData_RUN1_GLM,0.881474713
+1842,69,Slope,0.74294278,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.240141708
+1843,69,Slope,0.74294278,blackmat_AllData_RUN1_GBM,0.279436518
+1844,69,Slope,0.74294278,blackmat_AllData_RUN1_ANN,0.940101961
+1845,69,Slope,0.74294278,blackmat_AllData_RUN1_MARS,0.577916504
+1846,70,Slope,0.753839783,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.245268142
+1847,70,Slope,0.753839783,blackmat_AllData_RUN1_GLM,0.886226651
+1848,70,Slope,0.753839783,blackmat_AllData_RUN1_ANN,0.94129985
+1849,70,Slope,0.753839783,blackmat_AllData_RUN1_MARS,0.580345876
+1850,70,Slope,0.753839783,blackmat_AllData_RUN1_GBM,0.279436518
+1851,71,Slope,0.764736786,blackmat_AllData_RUN1_ANN,0.942406952
+1852,71,Slope,0.764736786,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.250475817
+1853,71,Slope,0.764736786,blackmat_AllData_RUN1_MARS,0.58277136
+1854,71,Slope,0.764736786,blackmat_AllData_RUN1_GBM,0.279436518
+1855,71,Slope,0.764736786,blackmat_AllData_RUN1_GLM,0.890811672
+1856,72,Slope,0.775633789,blackmat_AllData_RUN1_ANN,0.943431182
+1857,72,Slope,0.775633789,blackmat_AllData_RUN1_GBM,0.279436518
+1858,72,Slope,0.775633789,blackmat_AllData_RUN1_MARS,0.585192845
+1859,72,Slope,0.775633789,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.255764583
+1860,72,Slope,0.775633789,blackmat_AllData_RUN1_GLM,0.895233762
+1861,73,Slope,0.786530792,blackmat_AllData_RUN1_GLM,0.899496965
+1862,73,Slope,0.786530792,blackmat_AllData_RUN1_GBM,0.279436518
+1863,73,Slope,0.786530792,blackmat_AllData_RUN1_ANN,0.944379683
+1864,73,Slope,0.786530792,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.261134211
+1865,73,Slope,0.786530792,blackmat_AllData_RUN1_MARS,0.587610221
+1866,74,Slope,0.797427794,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.266584396
+1867,74,Slope,0.797427794,blackmat_AllData_RUN1_GBM,0.279436518
+1868,74,Slope,0.797427794,blackmat_AllData_RUN1_ANN,0.945258906
+1869,74,Slope,0.797427794,blackmat_AllData_RUN1_GLM,0.903605367
+1870,74,Slope,0.797427794,blackmat_AllData_RUN1_MARS,0.590023379
+1871,75,Slope,0.808324797,blackmat_AllData_RUN1_ANN,0.946074687
+1872,75,Slope,0.808324797,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.272114753
+1873,75,Slope,0.808324797,blackmat_AllData_RUN1_MARS,0.592432211
+1874,75,Slope,0.808324797,blackmat_AllData_RUN1_GBM,0.279436518
+1875,75,Slope,0.808324797,blackmat_AllData_RUN1_GLM,0.907563083
+1876,76,Slope,0.8192218,blackmat_AllData_RUN1_ANN,0.946832307
+1877,76,Slope,0.8192218,blackmat_AllData_RUN1_GBM,0.279436518
+1878,76,Slope,0.8192218,blackmat_AllData_RUN1_MARS,0.594836608
+1879,76,Slope,0.8192218,blackmat_AllData_RUN1_GLM,0.911374242
+1880,76,Slope,0.8192218,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.277724812
+1881,77,Slope,0.830118803,blackmat_AllData_RUN1_GBM,0.279436518
+1882,77,Slope,0.830118803,blackmat_AllData_RUN1_MARS,0.597236465
+1883,77,Slope,0.830118803,blackmat_AllData_RUN1_GLM,0.915042978
+1884,77,Slope,0.830118803,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.283414021
+1885,77,Slope,0.830118803,blackmat_AllData_RUN1_ANN,0.947536551
+1886,78,Slope,0.841015806,blackmat_AllData_RUN1_GLM,0.918573412
+1887,78,Slope,0.841015806,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.289181739
+1888,78,Slope,0.841015806,blackmat_AllData_RUN1_ANN,0.948191764
+1889,78,Slope,0.841015806,blackmat_AllData_RUN1_GBM,0.279436518
+1890,78,Slope,0.841015806,blackmat_AllData_RUN1_MARS,0.599631673
+1891,79,Slope,0.851912809,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.295027238
+1892,79,Slope,0.851912809,blackmat_AllData_RUN1_GBM,0.279436518
+1893,79,Slope,0.851912809,blackmat_AllData_RUN1_GLM,0.921969647
+1894,79,Slope,0.851912809,blackmat_AllData_RUN1_MARS,0.60202213
+1895,79,Slope,0.851912809,blackmat_AllData_RUN1_ANN,0.948801886
+1896,80,Slope,0.862809812,blackmat_AllData_RUN1_ANN,0.949370504
+1897,80,Slope,0.862809812,blackmat_AllData_RUN1_GLM,0.925235758
+1898,80,Slope,0.862809812,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.3009497
+1899,80,Slope,0.862809812,blackmat_AllData_RUN1_MARS,0.60440773
+1900,80,Slope,0.862809812,blackmat_AllData_RUN1_GBM,0.279436518
+1901,81,Slope,0.873706815,blackmat_AllData_RUN1_GLM,0.92837578
+1902,81,Slope,0.873706815,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.306948214
+1903,81,Slope,0.873706815,blackmat_AllData_RUN1_MARS,0.60678837
+1904,81,Slope,0.873706815,blackmat_AllData_RUN1_GBM,0.279436518
+1905,81,Slope,0.873706815,blackmat_AllData_RUN1_ANN,0.94990088
+1906,82,Slope,0.884603818,blackmat_AllData_RUN1_GBM,0.279436518
+1907,82,Slope,0.884603818,blackmat_AllData_RUN1_ANN,0.950395987
+1908,82,Slope,0.884603818,blackmat_AllData_RUN1_GLM,0.931393703
+1909,82,Slope,0.884603818,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.312056482
+1910,82,Slope,0.884603818,blackmat_AllData_RUN1_MARS,0.609163948
+1911,83,Slope,0.89550082,blackmat_AllData_RUN1_GBM,0.279436518
+1912,83,Slope,0.89550082,blackmat_AllData_RUN1_GLM,0.934293464
+1913,83,Slope,0.89550082,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.316530239
+1914,83,Slope,0.89550082,blackmat_AllData_RUN1_MARS,0.611534362
+1915,83,Slope,0.89550082,blackmat_AllData_RUN1_ANN,0.950858537
+1916,84,Slope,0.906397823,blackmat_AllData_RUN1_ANN,0.951291006
+1917,84,Slope,0.906397823,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.321047351
+1918,84,Slope,0.906397823,blackmat_AllData_RUN1_GBM,0.279436518
+1919,84,Slope,0.906397823,blackmat_AllData_RUN1_GLM,0.937078942
+1920,84,Slope,0.906397823,blackmat_AllData_RUN1_MARS,0.613899511
+1921,85,Slope,0.917294826,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.32560743
+1922,85,Slope,0.917294826,blackmat_AllData_RUN1_GBM,0.279436518
+1923,85,Slope,0.917294826,blackmat_AllData_RUN1_GLM,0.93975395
+1924,85,Slope,0.917294826,blackmat_AllData_RUN1_MARS,0.616259297
+1925,85,Slope,0.917294826,blackmat_AllData_RUN1_ANN,0.951695655
+1926,86,Slope,0.928191829,blackmat_AllData_RUN1_GBM,0.279436518
+1927,86,Slope,0.928191829,blackmat_AllData_RUN1_GLM,0.942322233
+1928,86,Slope,0.928191829,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.330210059
+1929,86,Slope,0.928191829,blackmat_AllData_RUN1_MARS,0.61861362
+1930,86,Slope,0.928191829,blackmat_AllData_RUN1_ANN,0.952074556
+1931,87,Slope,0.939088832,blackmat_AllData_RUN1_GBM,0.279436518
+1932,87,Slope,0.939088832,blackmat_AllData_RUN1_ANN,0.952429604
+1933,87,Slope,0.939088832,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.334854792
+1934,87,Slope,0.939088832,blackmat_AllData_RUN1_MARS,0.620962383
+1935,87,Slope,0.939088832,blackmat_AllData_RUN1_GLM,0.944787464
+1936,88,Slope,0.949985835,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.339541149
+1937,88,Slope,0.949985835,blackmat_AllData_RUN1_GBM,0.279436518
+1938,88,Slope,0.949985835,blackmat_AllData_RUN1_GLM,0.947153236
+1939,88,Slope,0.949985835,blackmat_AllData_RUN1_MARS,0.623305489
+1940,88,Slope,0.949985835,blackmat_AllData_RUN1_ANN,0.952762536
+1941,89,Slope,0.960882838,blackmat_AllData_RUN1_GLM,0.949423064
+1942,89,Slope,0.960882838,blackmat_AllData_RUN1_GBM,0.279436518
+1943,89,Slope,0.960882838,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.344268621
+1944,89,Slope,0.960882838,blackmat_AllData_RUN1_MARS,0.625642843
+1945,89,Slope,0.960882838,blackmat_AllData_RUN1_ANN,0.953074948
+1946,90,Slope,0.971779841,blackmat_AllData_RUN1_GBM,0.279436518
+1947,90,Slope,0.971779841,blackmat_AllData_RUN1_MARS,0.62797435
+1948,90,Slope,0.971779841,blackmat_AllData_RUN1_ANN,0.953368303
+1949,90,Slope,0.971779841,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.349036663
+1950,90,Slope,0.971779841,blackmat_AllData_RUN1_GLM,0.951600383
+1951,91,Slope,0.982676843,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.353844703
+1952,91,Slope,0.982676843,blackmat_AllData_RUN1_GBM,0.279436518
+1953,91,Slope,0.982676843,blackmat_AllData_RUN1_GLM,0.953688542
+1954,91,Slope,0.982676843,blackmat_AllData_RUN1_MARS,0.630299916
+1955,91,Slope,0.982676843,blackmat_AllData_RUN1_ANN,0.953643949
+1956,92,Slope,0.993573846,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.358692133
+1957,92,Slope,0.993573846,blackmat_AllData_RUN1_GLM,0.955690803
+1958,92,Slope,0.993573846,blackmat_AllData_RUN1_GBM,0.279436518
+1959,92,Slope,0.993573846,blackmat_AllData_RUN1_MARS,0.632619451
+1960,92,Slope,0.993573846,blackmat_AllData_RUN1_ANN,0.953903123
+1961,93,Slope,1.004470849,blackmat_AllData_RUN1_GBM,0.279436518
+1962,93,Slope,1.004470849,blackmat_AllData_RUN1_GLM,0.957610345
+1963,93,Slope,1.004470849,blackmat_AllData_RUN1_MARS,0.634932861
+1964,93,Slope,1.004470849,blackmat_AllData_RUN1_ANN,0.954146967
+1965,93,Slope,1.004470849,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.363578314
+1966,94,Slope,1.015367852,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.368502576
+1967,94,Slope,1.015367852,blackmat_AllData_RUN1_GBM,0.279436518
+1968,94,Slope,1.015367852,blackmat_AllData_RUN1_ANN,0.954376531
+1969,94,Slope,1.015367852,blackmat_AllData_RUN1_GLM,0.959450258
+1970,94,Slope,1.015367852,blackmat_AllData_RUN1_MARS,0.637240057
+1971,95,Slope,1.026264855,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.373464214
+1972,95,Slope,1.026264855,blackmat_AllData_RUN1_GLM,0.961213545
+1973,95,Slope,1.026264855,blackmat_AllData_RUN1_MARS,0.63954095
+1974,95,Slope,1.026264855,blackmat_AllData_RUN1_GBM,0.279436518
+1975,95,Slope,1.026264855,blackmat_AllData_RUN1_ANN,0.954592786
+1976,96,Slope,1.037161858,blackmat_AllData_RUN1_GBM,0.279436518
+1977,96,Slope,1.037161858,blackmat_AllData_RUN1_GLM,0.962903121
+1978,96,Slope,1.037161858,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.378462492
+1979,96,Slope,1.037161858,blackmat_AllData_RUN1_MARS,0.641835451
+1980,96,Slope,1.037161858,blackmat_AllData_RUN1_ANN,0.954796626
+1981,97,Slope,1.048058861,blackmat_AllData_RUN1_ANN,0.954988879
+1982,97,Slope,1.048058861,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.383496642
+1983,97,Slope,1.048058861,blackmat_AllData_RUN1_GBM,0.279436518
+1984,97,Slope,1.048058861,blackmat_AllData_RUN1_GLM,0.964521813
+1985,97,Slope,1.048058861,blackmat_AllData_RUN1_MARS,0.644123474
+1986,98,Slope,1.058955864,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.388565861
+1987,98,Slope,1.058955864,blackmat_AllData_RUN1_GBM,0.279436518
+1988,98,Slope,1.058955864,blackmat_AllData_RUN1_GLM,0.966072364
+1989,98,Slope,1.058955864,blackmat_AllData_RUN1_MARS,0.646404934
+1990,98,Slope,1.058955864,blackmat_AllData_RUN1_ANN,0.95517031
+1991,99,Slope,1.069852866,blackmat_AllData_RUN1_ANN,0.955341626
+1992,99,Slope,1.069852866,blackmat_AllData_RUN1_GBM,0.279436518
+1993,99,Slope,1.069852866,blackmat_AllData_RUN1_MARS,0.648679744
+1994,99,Slope,1.069852866,blackmat_AllData_RUN1_GLM,0.967557428
+1995,99,Slope,1.069852866,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.393669317
+1996,100,Slope,1.080749869,blackmat_AllData_RUN1_GBM,0.279436518
+1997,100,Slope,1.080749869,blackmat_AllData_RUN1_MARS,0.650947822
+1998,100,Slope,1.080749869,blackmat_AllData_RUN1_GLM,0.968979576
+1999,100,Slope,1.080749869,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.398806145
+2000,100,Slope,1.080749869,blackmat_AllData_RUN1_ANN,0.955503484
+2001,1,Aspect,0.012829524,blackmat_AllData_RUN1_GBM,0.089755799
+2002,1,Aspect,0.012829524,blackmat_AllData_RUN1_GLM,0.050865163
+2003,1,Aspect,0.012829524,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.053231051
+2004,1,Aspect,0.012829524,blackmat_AllData_RUN1_MARS,0.027293612
+2005,1,Aspect,0.012829524,blackmat_AllData_RUN1_ANN,0.14957767
+2006,2,Aspect,0.076055046,blackmat_AllData_RUN1_GLM,0.05521355
+2007,2,Aspect,0.076055046,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.041015122
+2008,2,Aspect,0.076055046,blackmat_AllData_RUN1_MARS,0.028749677
+2009,2,Aspect,0.076055046,blackmat_AllData_RUN1_ANN,0.148962553
+2010,2,Aspect,0.076055046,blackmat_AllData_RUN1_GBM,0.089755799
+2011,3,Aspect,0.139280568,blackmat_AllData_RUN1_GBM,0.089755799
+2012,3,Aspect,0.139280568,blackmat_AllData_RUN1_MARS,0.030281002
+2013,3,Aspect,0.139280568,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.03148461
+2014,3,Aspect,0.139280568,blackmat_AllData_RUN1_ANN,0.148350983
+2015,3,Aspect,0.139280568,blackmat_AllData_RUN1_GLM,0.059813408
+2016,4,Aspect,0.202506091,blackmat_AllData_RUN1_MARS,0.031891214
+2017,4,Aspect,0.202506091,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.029190075
+2018,4,Aspect,0.202506091,blackmat_AllData_RUN1_ANN,0.147742954
+2019,4,Aspect,0.202506091,blackmat_AllData_RUN1_GLM,0.064666097
+2020,4,Aspect,0.202506091,blackmat_AllData_RUN1_GBM,0.090023438
+2021,5,Aspect,0.265731613,blackmat_AllData_RUN1_GBM,0.090023438
+2022,5,Aspect,0.265731613,blackmat_AllData_RUN1_MARS,0.033584084
+2023,5,Aspect,0.265731613,blackmat_AllData_RUN1_GLM,0.069771505
+2024,5,Aspect,0.265731613,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.02714501
+2025,5,Aspect,0.265731613,blackmat_AllData_RUN1_ANN,0.147138463
+2026,6,Aspect,0.328957135,blackmat_AllData_RUN1_GBM,0.090268879
+2027,6,Aspect,0.328957135,blackmat_AllData_RUN1_ANN,0.146537506
+2028,6,Aspect,0.328957135,blackmat_AllData_RUN1_MARS,0.035363534
+2029,6,Aspect,0.328957135,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.028019391
+2030,6,Aspect,0.328957135,blackmat_AllData_RUN1_GLM,0.075127956
+2031,7,Aspect,0.392182658,blackmat_AllData_RUN1_MARS,0.037233635
+2032,7,Aspect,0.392182658,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.029027799
+2033,7,Aspect,0.392182658,blackmat_AllData_RUN1_GBM,0.090268879
+2034,7,Aspect,0.392182658,blackmat_AllData_RUN1_ANN,0.14594008
+2035,7,Aspect,0.392182658,blackmat_AllData_RUN1_GLM,0.080732141
+2036,8,Aspect,0.45540818,blackmat_AllData_RUN1_GLM,0.086579052
+2037,8,Aspect,0.45540818,blackmat_AllData_RUN1_GBM,0.090268879
+2038,8,Aspect,0.45540818,blackmat_AllData_RUN1_MARS,0.039198613
+2039,8,Aspect,0.45540818,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.030047767
+2040,8,Aspect,0.45540818,blackmat_AllData_RUN1_ANN,0.145346184
+2041,9,Aspect,0.518633703,blackmat_AllData_RUN1_GBM,0.090268879
+2042,9,Aspect,0.518633703,blackmat_AllData_RUN1_MARS,0.041262846
+2043,9,Aspect,0.518633703,blackmat_AllData_RUN1_ANN,0.144755817
+2044,9,Aspect,0.518633703,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.031078033
+2045,9,Aspect,0.518633703,blackmat_AllData_RUN1_GLM,0.092661953
+2046,10,Aspect,0.581859225,blackmat_AllData_RUN1_GBM,0.090441472
+2047,10,Aspect,0.581859225,blackmat_AllData_RUN1_MARS,0.04343087
+2048,10,Aspect,0.581859225,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.032117272
+2049,10,Aspect,0.581859225,blackmat_AllData_RUN1_ANN,0.144168978
+2050,10,Aspect,0.581859225,blackmat_AllData_RUN1_GLM,0.098972355
+2051,11,Aspect,0.645084747,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.033164098
+2052,11,Aspect,0.645084747,blackmat_AllData_RUN1_GLM,0.105500028
+2053,11,Aspect,0.645084747,blackmat_AllData_RUN1_GBM,0.090790204
+2054,11,Aspect,0.645084747,blackmat_AllData_RUN1_MARS,0.045707375
+2055,11,Aspect,0.645084747,blackmat_AllData_RUN1_ANN,0.14358567
+2056,12,Aspect,0.70831027,blackmat_AllData_RUN1_GBM,0.091248614
+2057,12,Aspect,0.70831027,blackmat_AllData_RUN1_MARS,0.048097207
+2058,12,Aspect,0.70831027,blackmat_AllData_RUN1_GLM,0.112233029
+2059,12,Aspect,0.70831027,blackmat_AllData_RUN1_ANN,0.143005895
+2060,12,Aspect,0.70831027,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.034217066
+2061,13,Aspect,0.771535792,blackmat_AllData_RUN1_GBM,0.091248614
+2062,13,Aspect,0.771535792,blackmat_AllData_RUN1_MARS,0.050605367
+2063,13,Aspect,0.771535792,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.035274678
+2064,13,Aspect,0.771535792,blackmat_AllData_RUN1_ANN,0.142429655
+2065,13,Aspect,0.771535792,blackmat_AllData_RUN1_GLM,0.119157749
+2066,14,Aspect,0.834761314,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.036335384
+2067,14,Aspect,0.834761314,blackmat_AllData_RUN1_MARS,0.053237007
+2068,14,Aspect,0.834761314,blackmat_AllData_RUN1_GLM,0.126258993
+2069,14,Aspect,0.834761314,blackmat_AllData_RUN1_GBM,0.091865487
+2070,14,Aspect,0.834761314,blackmat_AllData_RUN1_ANN,0.141856957
+2071,15,Aspect,0.897986837,blackmat_AllData_RUN1_GBM,0.091865487
+2072,15,Aspect,0.897986837,blackmat_AllData_RUN1_MARS,0.055997428
+2073,15,Aspect,0.897986837,blackmat_AllData_RUN1_GLM,0.133520072
+2074,15,Aspect,0.897986837,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.037397586
+2075,15,Aspect,0.897986837,blackmat_AllData_RUN1_ANN,0.141287807
+2076,16,Aspect,0.961212359,blackmat_AllData_RUN1_GBM,0.09239311
+2077,16,Aspect,0.961212359,blackmat_AllData_RUN1_MARS,0.058892078
+2078,16,Aspect,0.961212359,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.038459643
+2079,16,Aspect,0.961212359,blackmat_AllData_RUN1_ANN,0.140722214
+2080,16,Aspect,0.961212359,blackmat_AllData_RUN1_GLM,0.140922918
+2081,17,Aspect,1.024437882,blackmat_AllData_RUN1_MARS,0.061926544
+2082,17,Aspect,1.024437882,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.039519873
+2083,17,Aspect,1.024437882,blackmat_AllData_RUN1_ANN,0.140160186
+2084,17,Aspect,1.024437882,blackmat_AllData_RUN1_GLM,0.148448221
+2085,17,Aspect,1.024437882,blackmat_AllData_RUN1_GBM,0.092766039
+2086,18,Aspect,1.087663404,blackmat_AllData_RUN1_GBM,0.093025992
+2087,18,Aspect,1.087663404,blackmat_AllData_RUN1_MARS,0.065106546
+2088,18,Aspect,1.087663404,blackmat_AllData_RUN1_GLM,0.156075571
+2089,18,Aspect,1.087663404,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.040576559
+2090,18,Aspect,1.087663404,blackmat_AllData_RUN1_ANN,0.139601735
+2091,19,Aspect,1.150888926,blackmat_AllData_RUN1_MARS,0.068437933
+2092,19,Aspect,1.150888926,blackmat_AllData_RUN1_GLM,0.163783625
+2093,19,Aspect,1.150888926,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.041627956
+2094,19,Aspect,1.150888926,blackmat_AllData_RUN1_GBM,0.093204708
+2095,19,Aspect,1.150888926,blackmat_AllData_RUN1_ANN,0.139046876
+2096,20,Aspect,1.214114449,blackmat_AllData_RUN1_GBM,0.093204708
+2097,20,Aspect,1.214114449,blackmat_AllData_RUN1_ANN,0.138495624
+2098,20,Aspect,1.214114449,blackmat_AllData_RUN1_MARS,0.071926666
+2099,20,Aspect,1.214114449,blackmat_AllData_RUN1_GLM,0.171550269
+2100,20,Aspect,1.214114449,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.042672291
+2101,21,Aspect,1.277339971,blackmat_AllData_RUN1_ANN,0.137947998
+2102,21,Aspect,1.277339971,blackmat_AllData_RUN1_MARS,0.075578814
+2103,21,Aspect,1.277339971,blackmat_AllData_RUN1_GLM,0.179352801
+2104,21,Aspect,1.277339971,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.043707771
+2105,21,Aspect,1.277339971,blackmat_AllData_RUN1_GBM,0.093204708
+2106,22,Aspect,1.340565493,blackmat_AllData_RUN1_GBM,0.095406101
+2107,22,Aspect,1.340565493,blackmat_AllData_RUN1_MARS,0.079400538
+2108,22,Aspect,1.340565493,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.044732587
+2109,22,Aspect,1.340565493,blackmat_AllData_RUN1_ANN,0.137404017
+2110,22,Aspect,1.340565493,blackmat_AllData_RUN1_GLM,0.187168102
+2111,23,Aspect,1.403791016,blackmat_AllData_RUN1_MARS,0.083398077
+2112,23,Aspect,1.403791016,blackmat_AllData_RUN1_ANN,0.136863706
+2113,23,Aspect,1.403791016,blackmat_AllData_RUN1_GBM,0.094941169
+2114,23,Aspect,1.403791016,blackmat_AllData_RUN1_GLM,0.194972818
+2115,23,Aspect,1.403791016,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.04574492
+2116,24,Aspect,1.467016538,blackmat_AllData_RUN1_GBM,0.094941169
+2117,24,Aspect,1.467016538,blackmat_AllData_RUN1_GLM,0.202743527
+2118,24,Aspect,1.467016538,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.046742945
+2119,24,Aspect,1.467016538,blackmat_AllData_RUN1_MARS,0.087577732
+2120,24,Aspect,1.467016538,blackmat_AllData_RUN1_ANN,0.136327091
+2121,25,Aspect,1.530242061,blackmat_AllData_RUN1_GLM,0.210456914
+2122,25,Aspect,1.530242061,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.04772484
+2123,25,Aspect,1.530242061,blackmat_AllData_RUN1_MARS,0.091945846
+2124,25,Aspect,1.530242061,blackmat_AllData_RUN1_ANN,0.135794201
+2125,25,Aspect,1.530242061,blackmat_AllData_RUN1_GBM,0.094941169
+2126,26,Aspect,1.593467583,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.048688785
+2127,26,Aspect,1.593467583,blackmat_AllData_RUN1_ANN,0.13526507
+2128,26,Aspect,1.593467583,blackmat_AllData_RUN1_MARS,0.096508785
+2129,26,Aspect,1.593467583,blackmat_AllData_RUN1_GLM,0.218089919
+2130,26,Aspect,1.593467583,blackmat_AllData_RUN1_GBM,0.094941169
+2131,27,Aspect,1.656693105,blackmat_AllData_RUN1_MARS,0.10127291
+2132,27,Aspect,1.656693105,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.049632974
+2133,27,Aspect,1.656693105,blackmat_AllData_RUN1_GBM,0.094941169
+2134,27,Aspect,1.656693105,blackmat_AllData_RUN1_ANN,0.134739733
+2135,27,Aspect,1.656693105,blackmat_AllData_RUN1_GLM,0.225619889
+2136,28,Aspect,1.719918628,blackmat_AllData_RUN1_MARS,0.10624456
+2137,28,Aspect,1.719918628,blackmat_AllData_RUN1_GLM,0.233024708
+2138,28,Aspect,1.719918628,blackmat_AllData_RUN1_GBM,0.09507224
+2139,28,Aspect,1.719918628,blackmat_AllData_RUN1_ANN,0.13421823
+2140,28,Aspect,1.719918628,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.050555615
+2141,29,Aspect,1.78314415,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.051454942
+2142,29,Aspect,1.78314415,blackmat_AllData_RUN1_GLM,0.240282918
+2143,29,Aspect,1.78314415,blackmat_AllData_RUN1_MARS,0.111430015
+2144,29,Aspect,1.78314415,blackmat_AllData_RUN1_ANN,0.133700608
+2145,29,Aspect,1.78314415,blackmat_AllData_RUN1_GBM,0.09507224
+2146,30,Aspect,1.846369672,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.052329212
+2147,30,Aspect,1.846369672,blackmat_AllData_RUN1_ANN,0.133186914
+2148,30,Aspect,1.846369672,blackmat_AllData_RUN1_MARS,0.116835472
+2149,30,Aspect,1.846369672,blackmat_AllData_RUN1_GLM,0.247373818
+2150,30,Aspect,1.846369672,blackmat_AllData_RUN1_GBM,0.095683967
+2151,31,Aspect,1.909595195,blackmat_AllData_RUN1_ANN,0.132677204
+2152,31,Aspect,1.909595195,blackmat_AllData_RUN1_MARS,0.122467006
+2153,31,Aspect,1.909595195,blackmat_AllData_RUN1_GBM,0.096134514
+2154,31,Aspect,1.909595195,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.053176717
+2155,31,Aspect,1.909595195,blackmat_AllData_RUN1_GLM,0.254277555
+2156,32,Aspect,1.972820717,blackmat_AllData_RUN1_MARS,0.12833054
+2157,32,Aspect,1.972820717,blackmat_AllData_RUN1_GBM,0.101892615
+2158,32,Aspect,1.972820717,blackmat_AllData_RUN1_ANN,0.132171536
+2159,32,Aspect,1.972820717,blackmat_AllData_RUN1_GLM,0.260975192
+2160,32,Aspect,1.972820717,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.053995787
+2161,33,Aspect,2.03604624,blackmat_AllData_RUN1_GBM,0.106321311
+2162,33,Aspect,2.03604624,blackmat_AllData_RUN1_MARS,0.134431804
+2163,33,Aspect,2.03604624,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.054784795
+2164,33,Aspect,2.03604624,blackmat_AllData_RUN1_GLM,0.267448771
+2165,33,Aspect,2.03604624,blackmat_AllData_RUN1_ANN,0.131669976
+2166,34,Aspect,2.099271762,blackmat_AllData_RUN1_MARS,0.140776296
+2167,34,Aspect,2.099271762,blackmat_AllData_RUN1_ANN,0.131172595
+2168,34,Aspect,2.099271762,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.05554216
+2169,34,Aspect,2.099271762,blackmat_AllData_RUN1_GLM,0.273681345
+2170,34,Aspect,2.099271762,blackmat_AllData_RUN1_GBM,0.108199421
+2171,35,Aspect,2.162497284,blackmat_AllData_RUN1_MARS,0.147369235
+2172,35,Aspect,2.162497284,blackmat_AllData_RUN1_ANN,0.130679472
+2173,35,Aspect,2.162497284,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.056266357
+2174,35,Aspect,2.162497284,blackmat_AllData_RUN1_GBM,0.110198364
+2175,35,Aspect,2.162497284,blackmat_AllData_RUN1_GLM,0.279657015
+2176,36,Aspect,2.225722807,blackmat_AllData_RUN1_MARS,0.154215522
+2177,36,Aspect,2.225722807,blackmat_AllData_RUN1_GBM,0.112968023
+2178,36,Aspect,2.225722807,blackmat_AllData_RUN1_ANN,0.130190691
+2179,36,Aspect,2.225722807,blackmat_AllData_RUN1_GLM,0.285360938
+2180,36,Aspect,2.225722807,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.056955917
+2181,37,Aspect,2.288948329,blackmat_AllData_RUN1_GBM,0.113260498
+2182,37,Aspect,2.288948329,blackmat_AllData_RUN1_GLM,0.290779335
+2183,37,Aspect,2.288948329,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.057609432
+2184,37,Aspect,2.288948329,blackmat_AllData_RUN1_MARS,0.161319688
+2185,37,Aspect,2.288948329,blackmat_AllData_RUN1_ANN,0.129706346
+2186,38,Aspect,2.352173851,blackmat_AllData_RUN1_GLM,0.29589948
+2187,38,Aspect,2.352173851,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.058225562
+2188,38,Aspect,2.352173851,blackmat_AllData_RUN1_MARS,0.168685847
+2189,38,Aspect,2.352173851,blackmat_AllData_RUN1_GBM,0.121303453
+2190,38,Aspect,2.352173851,blackmat_AllData_RUN1_ANN,0.129226538
+2191,39,Aspect,2.415399374,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.058803037
+2192,39,Aspect,2.415399374,blackmat_AllData_RUN1_GBM,0.12731278
+2193,39,Aspect,2.415399374,blackmat_AllData_RUN1_ANN,0.128751378
+2194,39,Aspect,2.415399374,blackmat_AllData_RUN1_GLM,0.300709691
+2195,39,Aspect,2.415399374,blackmat_AllData_RUN1_MARS,0.176317646
+2196,40,Aspect,2.478624896,blackmat_AllData_RUN1_ANN,0.128280986
+2197,40,Aspect,2.478624896,blackmat_AllData_RUN1_GLM,0.305199302
+2198,40,Aspect,2.478624896,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.059340661
+2199,40,Aspect,2.478624896,blackmat_AllData_RUN1_MARS,0.184218214
+2200,40,Aspect,2.478624896,blackmat_AllData_RUN1_GBM,0.127418007
+2201,41,Aspect,2.541850418,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.059837316
+2202,41,Aspect,2.541850418,blackmat_AllData_RUN1_GBM,0.12831791
+2203,41,Aspect,2.541850418,blackmat_AllData_RUN1_GLM,0.309358638
+2204,41,Aspect,2.541850418,blackmat_AllData_RUN1_ANN,0.127815492
+2205,41,Aspect,2.541850418,blackmat_AllData_RUN1_MARS,0.192390108
+2206,42,Aspect,2.605075941,blackmat_AllData_RUN1_GLM,0.313178982
+2207,42,Aspect,2.605075941,blackmat_AllData_RUN1_ANN,0.127355039
+2208,42,Aspect,2.605075941,blackmat_AllData_RUN1_MARS,0.200835263
+2209,42,Aspect,2.605075941,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.060291966
+2210,42,Aspect,2.605075941,blackmat_AllData_RUN1_GBM,0.136172197
+2211,43,Aspect,2.668301463,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.060703658
+2212,43,Aspect,2.668301463,blackmat_AllData_RUN1_GBM,0.14082228
+2213,43,Aspect,2.668301463,blackmat_AllData_RUN1_MARS,0.209554936
+2214,43,Aspect,2.668301463,blackmat_AllData_RUN1_ANN,0.126899782
+2215,43,Aspect,2.668301463,blackmat_AllData_RUN1_GLM,0.316652543
+2216,44,Aspect,2.731526986,blackmat_AllData_RUN1_GLM,0.319772417
+2217,44,Aspect,2.731526986,blackmat_AllData_RUN1_GBM,0.150579684
+2218,44,Aspect,2.731526986,blackmat_AllData_RUN1_MARS,0.21854966
+2219,44,Aspect,2.731526986,blackmat_AllData_RUN1_ANN,0.126449888
+2220,44,Aspect,2.731526986,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.061071528
+2221,45,Aspect,2.794752508,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.061394802
+2222,45,Aspect,2.794752508,blackmat_AllData_RUN1_GBM,0.150579684
+2223,45,Aspect,2.794752508,blackmat_AllData_RUN1_MARS,0.227819189
+2224,45,Aspect,2.794752508,blackmat_AllData_RUN1_ANN,0.126005539
+2225,45,Aspect,2.794752508,blackmat_AllData_RUN1_GLM,0.322532553
+2226,46,Aspect,2.85797803,blackmat_AllData_RUN1_MARS,0.237362455
+2227,46,Aspect,2.85797803,blackmat_AllData_RUN1_GLM,0.324927716
+2228,46,Aspect,2.85797803,blackmat_AllData_RUN1_GBM,0.150694904
+2229,46,Aspect,2.85797803,blackmat_AllData_RUN1_ANN,0.125566934
+2230,46,Aspect,2.85797803,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.061672796
+2231,47,Aspect,2.921203553,blackmat_AllData_RUN1_GBM,0.155395028
+2232,47,Aspect,2.921203553,blackmat_AllData_RUN1_GLM,0.326953456
+2233,47,Aspect,2.921203553,blackmat_AllData_RUN1_MARS,0.247177519
+2234,47,Aspect,2.921203553,blackmat_AllData_RUN1_ANN,0.125134285
+2235,47,Aspect,2.921203553,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.061904923
+2236,48,Aspect,2.984429075,blackmat_AllData_RUN1_GLM,0.328606078
+2237,48,Aspect,2.984429075,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.062090693
+2238,48,Aspect,2.984429075,blackmat_AllData_RUN1_GBM,0.175433419
+2239,48,Aspect,2.984429075,blackmat_AllData_RUN1_MARS,0.257261533
+2240,48,Aspect,2.984429075,blackmat_AllData_RUN1_ANN,0.124707827
+2241,49,Aspect,3.047654597,blackmat_AllData_RUN1_ANN,0.124287811
+2242,49,Aspect,3.047654597,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.062229709
+2243,49,Aspect,3.047654597,blackmat_AllData_RUN1_GBM,0.174362395
+2244,49,Aspect,3.047654597,blackmat_AllData_RUN1_MARS,0.267610699
+2245,49,Aspect,3.047654597,blackmat_AllData_RUN1_GLM,0.329882611
+2246,50,Aspect,3.11088012,blackmat_AllData_RUN1_GBM,0.172047824
+2247,50,Aspect,3.11088012,blackmat_AllData_RUN1_MARS,0.278220243
+2248,50,Aspect,3.11088012,blackmat_AllData_RUN1_GLM,0.33078079
+2249,50,Aspect,3.11088012,blackmat_AllData_RUN1_ANN,0.12387451
+2250,50,Aspect,3.11088012,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.062321678
+2251,51,Aspect,3.174105642,blackmat_AllData_RUN1_GLM,0.331299037
+2252,51,Aspect,3.174105642,blackmat_AllData_RUN1_GBM,0.167514693
+2253,51,Aspect,3.174105642,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.062366405
+2254,51,Aspect,3.174105642,blackmat_AllData_RUN1_MARS,0.289084383
+2255,51,Aspect,3.174105642,blackmat_AllData_RUN1_ANN,0.123468221
+2256,52,Aspect,3.237331165,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.062363793
+2257,52,Aspect,3.237331165,blackmat_AllData_RUN1_MARS,0.30019631
+2258,52,Aspect,3.237331165,blackmat_AllData_RUN1_ANN,0.123069266
+2259,52,Aspect,3.237331165,blackmat_AllData_RUN1_GLM,0.331436446
+2260,52,Aspect,3.237331165,blackmat_AllData_RUN1_GBM,0.159412165
+2261,53,Aspect,3.300556687,blackmat_AllData_RUN1_GBM,0.157796071
+2262,53,Aspect,3.300556687,blackmat_AllData_RUN1_MARS,0.311548181
+2263,53,Aspect,3.300556687,blackmat_AllData_RUN1_ANN,0.122677994
+2264,53,Aspect,3.300556687,blackmat_AllData_RUN1_GLM,0.331192778
+2265,53,Aspect,3.300556687,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.062313848
+2266,54,Aspect,3.363782209,blackmat_AllData_RUN1_GLM,0.330568457
+2267,54,Aspect,3.363782209,blackmat_AllData_RUN1_GBM,0.157796071
+2268,54,Aspect,3.363782209,blackmat_AllData_RUN1_MARS,0.323131108
+2269,54,Aspect,3.363782209,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.062216678
+2270,54,Aspect,3.363782209,blackmat_AllData_RUN1_ANN,0.122294781
+2271,55,Aspect,3.427007732,blackmat_AllData_RUN1_GLM,0.329564575
+2272,55,Aspect,3.427007732,blackmat_AllData_RUN1_GBM,0.157796071
+2273,55,Aspect,3.427007732,blackmat_AllData_RUN1_ANN,0.121920037
+2274,55,Aspect,3.427007732,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.062072487
+2275,55,Aspect,3.427007732,blackmat_AllData_RUN1_MARS,0.334935165
+2276,56,Aspect,3.490233254,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.061881583
+2277,56,Aspect,3.490233254,blackmat_AllData_RUN1_GBM,0.157796071
+2278,56,Aspect,3.490233254,blackmat_AllData_RUN1_MARS,0.3469494
+2279,56,Aspect,3.490233254,blackmat_AllData_RUN1_ANN,0.121554207
+2280,56,Aspect,3.490233254,blackmat_AllData_RUN1_GLM,0.328182902
+2281,57,Aspect,3.553458776,blackmat_AllData_RUN1_GLM,0.326425897
+2282,57,Aspect,3.553458776,blackmat_AllData_RUN1_GBM,0.157835868
+2283,57,Aspect,3.553458776,blackmat_AllData_RUN1_MARS,0.359161857
+2284,57,Aspect,3.553458776,blackmat_AllData_RUN1_ANN,0.121197772
+2285,57,Aspect,3.553458776,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.061644369
+2286,58,Aspect,3.616684299,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.06136135
+2287,58,Aspect,3.616684299,blackmat_AllData_RUN1_GBM,0.153270843
+2288,58,Aspect,3.616684299,blackmat_AllData_RUN1_MARS,0.371559606
+2289,58,Aspect,3.616684299,blackmat_AllData_RUN1_ANN,0.120851255
+2290,58,Aspect,3.616684299,blackmat_AllData_RUN1_GLM,0.32429673
+2291,59,Aspect,3.679909821,blackmat_AllData_RUN1_ANN,0.120515223
+2292,59,Aspect,3.679909821,blackmat_AllData_RUN1_GLM,0.321799304
+2293,59,Aspect,3.679909821,blackmat_AllData_RUN1_MARS,0.384128786
+2294,59,Aspect,3.679909821,blackmat_AllData_RUN1_GBM,0.152314964
+2295,59,Aspect,3.679909821,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.061033121
+2296,60,Aspect,3.743135344,blackmat_AllData_RUN1_MARS,0.369699624
+2297,60,Aspect,3.743135344,blackmat_AllData_RUN1_GBM,0.138367281
+2298,60,Aspect,3.743135344,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.060660377
+2299,60,Aspect,3.743135344,blackmat_AllData_RUN1_ANN,0.120190291
+2300,60,Aspect,3.743135344,blackmat_AllData_RUN1_GLM,0.318938284
+2301,61,Aspect,3.806360866,blackmat_AllData_RUN1_ANN,0.119877127
+2302,61,Aspect,3.806360866,blackmat_AllData_RUN1_MARS,0.352794472
+2303,61,Aspect,3.806360866,blackmat_AllData_RUN1_GLM,0.315719131
+2304,61,Aspect,3.806360866,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.060243902
+2305,61,Aspect,3.806360866,blackmat_AllData_RUN1_GBM,0.138367281
+2306,62,Aspect,3.869586388,blackmat_AllData_RUN1_MARS,0.336249951
+2307,62,Aspect,3.869586388,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.05978457
+2308,62,Aspect,3.869586388,blackmat_AllData_RUN1_GBM,0.138120685
+2309,62,Aspect,3.869586388,blackmat_AllData_RUN1_ANN,0.119576456
+2310,62,Aspect,3.869586388,blackmat_AllData_RUN1_GLM,0.312148128
+2311,63,Aspect,3.932811911,blackmat_AllData_RUN1_GBM,0.138120685
+2312,63,Aspect,3.932811911,blackmat_AllData_RUN1_ANN,0.119289067
+2313,63,Aspect,3.932811911,blackmat_AllData_RUN1_MARS,0.320097565
+2314,63,Aspect,3.932811911,blackmat_AllData_RUN1_GLM,0.308232425
+2315,63,Aspect,3.932811911,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.059283343
+2316,64,Aspect,3.996037433,blackmat_AllData_RUN1_GBM,0.137424773
+2317,64,Aspect,3.996037433,blackmat_AllData_RUN1_MARS,0.304365292
+2318,64,Aspect,3.996037433,blackmat_AllData_RUN1_GLM,0.303980066
+2319,64,Aspect,3.996037433,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.058741267
+2320,64,Aspect,3.996037433,blackmat_AllData_RUN1_ANN,0.119015816
+2321,65,Aspect,4.059262955,blackmat_AllData_RUN1_GLM,0.299400032
+2322,65,Aspect,4.059262955,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.058159467
+2323,65,Aspect,4.059262955,blackmat_AllData_RUN1_GBM,0.137424773
+2324,65,Aspect,4.059262955,blackmat_AllData_RUN1_ANN,0.118757635
+2325,65,Aspect,4.059262955,blackmat_AllData_RUN1_MARS,0.289077483
+2326,66,Aspect,4.122488478,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.057539149
+2327,66,Aspect,4.122488478,blackmat_AllData_RUN1_ANN,0.118515538
+2328,66,Aspect,4.122488478,blackmat_AllData_RUN1_GLM,0.294502272
+2329,66,Aspect,4.122488478,blackmat_AllData_RUN1_GBM,0.137424773
+2330,66,Aspect,4.122488478,blackmat_AllData_RUN1_MARS,0.274254818
+2331,67,Aspect,4.185714,blackmat_AllData_RUN1_ANN,0.11829063
+2332,67,Aspect,4.185714,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.056881591
+2333,67,Aspect,4.185714,blackmat_AllData_RUN1_GLM,0.289297732
+2334,67,Aspect,4.185714,blackmat_AllData_RUN1_GBM,0.137424773
+2335,67,Aspect,4.185714,blackmat_AllData_RUN1_MARS,0.259914324
+2336,68,Aspect,4.248939523,blackmat_AllData_RUN1_GBM,0.137424773
+2337,68,Aspect,4.248939523,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.05618814
+2338,68,Aspect,4.248939523,blackmat_AllData_RUN1_GLM,0.283798384
+2339,68,Aspect,4.248939523,blackmat_AllData_RUN1_MARS,0.246069437
+2340,68,Aspect,4.248939523,blackmat_AllData_RUN1_ANN,0.118084114
+2341,69,Aspect,4.312165045,blackmat_AllData_RUN1_GLM,0.278017246
+2342,69,Aspect,4.312165045,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.055460211
+2343,69,Aspect,4.312165045,blackmat_AllData_RUN1_GBM,0.137424773
+2344,69,Aspect,4.312165045,blackmat_AllData_RUN1_ANN,0.117897301
+2345,69,Aspect,4.312165045,blackmat_AllData_RUN1_MARS,0.232730117
+2346,70,Aspect,4.375390567,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.054699278
+2347,70,Aspect,4.375390567,blackmat_AllData_RUN1_GLM,0.271968393
+2348,70,Aspect,4.375390567,blackmat_AllData_RUN1_ANN,0.117731625
+2349,70,Aspect,4.375390567,blackmat_AllData_RUN1_MARS,0.219903
+2350,70,Aspect,4.375390567,blackmat_AllData_RUN1_GBM,0.139713406
+2351,71,Aspect,4.43861609,blackmat_AllData_RUN1_ANN,0.117588649
+2352,71,Aspect,4.43861609,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.053906876
+2353,71,Aspect,4.43861609,blackmat_AllData_RUN1_MARS,0.207591582
+2354,71,Aspect,4.43861609,blackmat_AllData_RUN1_GBM,0.150134705
+2355,71,Aspect,4.43861609,blackmat_AllData_RUN1_GLM,0.265666964
+2356,72,Aspect,4.501841612,blackmat_AllData_RUN1_ANN,0.117470084
+2357,72,Aspect,4.501841612,blackmat_AllData_RUN1_GBM,0.122701695
+2358,72,Aspect,4.501841612,blackmat_AllData_RUN1_MARS,0.195796428
+2359,72,Aspect,4.501841612,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.053084589
+2360,72,Aspect,4.501841612,blackmat_AllData_RUN1_GLM,0.259129153
+2361,73,Aspect,4.565067134,blackmat_AllData_RUN1_GLM,0.252372191
+2362,73,Aspect,4.565067134,blackmat_AllData_RUN1_GBM,0.122165661
+2363,73,Aspect,4.565067134,blackmat_AllData_RUN1_ANN,0.117377802
+2364,73,Aspect,4.565067134,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.052234048
+2365,73,Aspect,4.565067134,blackmat_AllData_RUN1_MARS,0.184515408
+2366,74,Aspect,4.628292657,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.051356929
+2367,74,Aspect,4.628292657,blackmat_AllData_RUN1_GBM,0.116776194
+2368,74,Aspect,4.628292657,blackmat_AllData_RUN1_ANN,0.117313855
+2369,74,Aspect,4.628292657,blackmat_AllData_RUN1_GLM,0.245414314
+2370,74,Aspect,4.628292657,blackmat_AllData_RUN1_MARS,0.173743933
+2371,75,Aspect,4.691518179,blackmat_AllData_RUN1_ANN,0.117280493
+2372,75,Aspect,4.691518179,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.050454945
+2373,75,Aspect,4.691518179,blackmat_AllData_RUN1_MARS,0.163475213
+2374,75,Aspect,4.691518179,blackmat_AllData_RUN1_GBM,0.116672741
+2375,75,Aspect,4.691518179,blackmat_AllData_RUN1_GLM,0.238274721
+2376,76,Aspect,4.754743702,blackmat_AllData_RUN1_ANN,0.11728019
+2377,76,Aspect,4.754743702,blackmat_AllData_RUN1_GBM,0.114224941
+2378,76,Aspect,4.754743702,blackmat_AllData_RUN1_MARS,0.153700504
+2379,76,Aspect,4.754743702,blackmat_AllData_RUN1_GLM,0.230973509
+2380,76,Aspect,4.754743702,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.049529839
+2381,77,Aspect,4.817969224,blackmat_AllData_RUN1_GBM,0.114224941
+2382,77,Aspect,4.817969224,blackmat_AllData_RUN1_MARS,0.14440936
+2383,77,Aspect,4.817969224,blackmat_AllData_RUN1_GLM,0.2235316
+2384,77,Aspect,4.817969224,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.048583383
+2385,77,Aspect,4.817969224,blackmat_AllData_RUN1_ANN,0.117315663
+2386,78,Aspect,4.881194746,blackmat_AllData_RUN1_GLM,0.215970647
+2387,78,Aspect,4.881194746,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.047617368
+2388,78,Aspect,4.881194746,blackmat_AllData_RUN1_ANN,0.11738991
+2389,78,Aspect,4.881194746,blackmat_AllData_RUN1_GBM,0.114224941
+2390,78,Aspect,4.881194746,blackmat_AllData_RUN1_MARS,0.135589879
+2391,79,Aspect,4.944420269,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.046633605
+2392,79,Aspect,4.944420269,blackmat_AllData_RUN1_GBM,0.114224941
+2393,79,Aspect,4.944420269,blackmat_AllData_RUN1_GLM,0.208312928
+2394,79,Aspect,4.944420269,blackmat_AllData_RUN1_MARS,0.127228932
+2395,79,Aspect,4.944420269,blackmat_AllData_RUN1_ANN,0.117506235
+2396,80,Aspect,5.007645791,blackmat_AllData_RUN1_ANN,0.11766829
+2397,80,Aspect,5.007645791,blackmat_AllData_RUN1_GLM,0.200581223
+2398,80,Aspect,5.007645791,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.045633912
+2399,80,Aspect,5.007645791,blackmat_AllData_RUN1_MARS,0.119312388
+2400,80,Aspect,5.007645791,blackmat_AllData_RUN1_GBM,0.114224941
+2401,81,Aspect,5.070871313,blackmat_AllData_RUN1_GLM,0.192798678
+2402,81,Aspect,5.070871313,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.044620112
+2403,81,Aspect,5.070871313,blackmat_AllData_RUN1_MARS,0.11182532
+2404,81,Aspect,5.070871313,blackmat_AllData_RUN1_GBM,0.11275621
+2405,81,Aspect,5.070871313,blackmat_AllData_RUN1_ANN,0.117880117
+2406,82,Aspect,5.134096836,blackmat_AllData_RUN1_GBM,0.11275621
+2407,82,Aspect,5.134096836,blackmat_AllData_RUN1_ANN,0.118146199
+2408,82,Aspect,5.134096836,blackmat_AllData_RUN1_GLM,0.184988655
+2409,82,Aspect,5.134096836,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.043594031
+2410,82,Aspect,5.134096836,blackmat_AllData_RUN1_MARS,0.104752196
+2411,83,Aspect,5.197322358,blackmat_AllData_RUN1_GBM,0.11453086
+2412,83,Aspect,5.197322358,blackmat_AllData_RUN1_GLM,0.177174573
+2413,83,Aspect,5.197322358,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.042557486
+2414,83,Aspect,5.197322358,blackmat_AllData_RUN1_MARS,0.098077055
+2415,83,Aspect,5.197322358,blackmat_AllData_RUN1_ANN,0.118471516
+2416,84,Aspect,5.260547881,blackmat_AllData_RUN1_ANN,0.118861615
+2417,84,Aspect,5.260547881,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.041512284
+2418,84,Aspect,5.260547881,blackmat_AllData_RUN1_GBM,0.095071903
+2419,84,Aspect,5.260547881,blackmat_AllData_RUN1_GLM,0.169379739
+2420,84,Aspect,5.260547881,blackmat_AllData_RUN1_MARS,0.091783666
+2421,85,Aspect,5.323773403,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.040460217
+2422,85,Aspect,5.323773403,blackmat_AllData_RUN1_GBM,0.094448296
+2423,85,Aspect,5.323773403,blackmat_AllData_RUN1_GLM,0.161627174
+2424,85,Aspect,5.323773403,blackmat_AllData_RUN1_MARS,0.085855668
+2425,85,Aspect,5.323773403,blackmat_AllData_RUN1_ANN,0.119322681
+2426,86,Aspect,5.386998925,blackmat_AllData_RUN1_GBM,0.093021427
+2427,86,Aspect,5.386998925,blackmat_AllData_RUN1_GLM,0.153939433
+2428,86,Aspect,5.386998925,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.039403054
+2429,86,Aspect,5.386998925,blackmat_AllData_RUN1_MARS,0.080276698
+2430,86,Aspect,5.386998925,blackmat_AllData_RUN1_ANN,0.119861632
+2431,87,Aspect,5.450224448,blackmat_AllData_RUN1_GBM,0.092615425
+2432,87,Aspect,5.450224448,blackmat_AllData_RUN1_ANN,0.120486222
+2433,87,Aspect,5.450224448,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.038342539
+2434,87,Aspect,5.450224448,blackmat_AllData_RUN1_MARS,0.075030499
+2435,87,Aspect,5.450224448,blackmat_AllData_RUN1_GLM,0.146338432
+2436,88,Aspect,5.51344997,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.037280385
+2437,88,Aspect,5.51344997,blackmat_AllData_RUN1_GBM,0.091888695
+2438,88,Aspect,5.51344997,blackmat_AllData_RUN1_GLM,0.138845272
+2439,88,Aspect,5.51344997,blackmat_AllData_RUN1_MARS,0.070101015
+2440,88,Aspect,5.51344997,blackmat_AllData_RUN1_ANN,0.121205159
+2441,89,Aspect,5.576675492,blackmat_AllData_RUN1_GLM,0.13148007
+2442,89,Aspect,5.576675492,blackmat_AllData_RUN1_GBM,0.091888695
+2443,89,Aspect,5.576675492,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.036218268
+2444,89,Aspect,5.576675492,blackmat_AllData_RUN1_MARS,0.065472473
+2445,89,Aspect,5.576675492,blackmat_AllData_RUN1_ANN,0.122028257
+2446,90,Aspect,5.639901015,blackmat_AllData_RUN1_GBM,0.091888695
+2447,90,Aspect,5.639901015,blackmat_AllData_RUN1_MARS,0.061129448
+2448,90,Aspect,5.639901015,blackmat_AllData_RUN1_ANN,0.122966593
+2449,90,Aspect,5.639901015,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.035157826
+2450,90,Aspect,5.639901015,blackmat_AllData_RUN1_GLM,0.124261806
+2451,91,Aspect,5.703126537,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.03410065
+2452,91,Aspect,5.703126537,blackmat_AllData_RUN1_GBM,0.091888695
+2453,91,Aspect,5.703126537,blackmat_AllData_RUN1_GLM,0.117208174
+2454,91,Aspect,5.703126537,blackmat_AllData_RUN1_MARS,0.057056922
+2455,91,Aspect,5.703126537,blackmat_AllData_RUN1_ANN,0.124032712
+2456,92,Aspect,5.76635206,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.033048287
+2457,92,Aspect,5.76635206,blackmat_AllData_RUN1_GLM,0.110335458
+2458,92,Aspect,5.76635206,blackmat_AllData_RUN1_GBM,0.091888695
+2459,92,Aspect,5.76635206,blackmat_AllData_RUN1_MARS,0.053240328
+2460,92,Aspect,5.76635206,blackmat_AllData_RUN1_ANN,0.125240861
+2461,93,Aspect,5.829577582,blackmat_AllData_RUN1_GBM,0.091888695
+2462,93,Aspect,5.829577582,blackmat_AllData_RUN1_GLM,0.103658421
+2463,93,Aspect,5.829577582,blackmat_AllData_RUN1_MARS,0.049665584
+2464,93,Aspect,5.829577582,blackmat_AllData_RUN1_ANN,0.126607262
+2465,93,Aspect,5.829577582,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.032002229
+2466,94,Aspect,5.892803104,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.030963913
+2467,94,Aspect,5.892803104,blackmat_AllData_RUN1_GBM,0.091347904
+2468,94,Aspect,5.892803104,blackmat_AllData_RUN1_ANN,0.128150442
+2469,94,Aspect,5.892803104,blackmat_AllData_RUN1_GLM,0.097190211
+2470,94,Aspect,5.892803104,blackmat_AllData_RUN1_MARS,0.046319117
+2471,95,Aspect,5.956028627,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.029934719
+2472,95,Aspect,5.956028627,blackmat_AllData_RUN1_GLM,0.090942299
+2473,95,Aspect,5.956028627,blackmat_AllData_RUN1_MARS,0.043187888
+2474,95,Aspect,5.956028627,blackmat_AllData_RUN1_GBM,0.091347904
+2475,95,Aspect,5.956028627,blackmat_AllData_RUN1_ANN,0.129891627
+2476,96,Aspect,6.019254149,blackmat_AllData_RUN1_GBM,0.091347904
+2477,96,Aspect,6.019254149,blackmat_AllData_RUN1_GLM,0.084924433
+2478,96,Aspect,6.019254149,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.028915965
+2479,96,Aspect,6.019254149,blackmat_AllData_RUN1_MARS,0.040259399
+2480,96,Aspect,6.019254149,blackmat_AllData_RUN1_ANN,0.131855205
+2481,97,Aspect,6.082479671,blackmat_AllData_RUN1_ANN,0.134069283
+2482,97,Aspect,6.082479671,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.027908907
+2483,97,Aspect,6.082479671,blackmat_AllData_RUN1_GBM,0.091347904
+2484,97,Aspect,6.082479671,blackmat_AllData_RUN1_GLM,0.079144609
+2485,97,Aspect,6.082479671,blackmat_AllData_RUN1_MARS,0.037521697
+2486,98,Aspect,6.145705194,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.027042341
+2487,98,Aspect,6.145705194,blackmat_AllData_RUN1_GBM,0.091347904
+2488,98,Aspect,6.145705194,blackmat_AllData_RUN1_GLM,0.073609082
+2489,98,Aspect,6.145705194,blackmat_AllData_RUN1_MARS,0.034963382
+2490,98,Aspect,6.145705194,blackmat_AllData_RUN1_ANN,0.136566358
+2491,99,Aspect,6.208930716,blackmat_AllData_RUN1_ANN,0.139384106
+2492,99,Aspect,6.208930716,blackmat_AllData_RUN1_GBM,0.091347904
+2493,99,Aspect,6.208930716,blackmat_AllData_RUN1_MARS,0.032573594
+2494,99,Aspect,6.208930716,blackmat_AllData_RUN1_GLM,0.068322379
+2495,99,Aspect,6.208930716,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.032836003
+2496,100,Aspect,6.272156239,blackmat_AllData_RUN1_GBM,0.091347904
+2497,100,Aspect,6.272156239,blackmat_AllData_RUN1_MARS,0.030342016
+2498,100,Aspect,6.272156239,blackmat_AllData_RUN1_GLM,0.063287349
+2499,100,Aspect,6.272156239,blackmat_AllData_RUN1_MAXENT.Phillips.2,0.039789172
+2500,100,Aspect,6.272156239,blackmat_AllData_RUN1_ANN,0.142566344
