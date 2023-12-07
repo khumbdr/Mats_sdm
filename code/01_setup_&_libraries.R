@@ -2,10 +2,10 @@
 
 # Creating folders and sub-folder to store data, code, and figures
 
-dir.create("../code")
-dir.create("../data")
-dir.create("../data_output")
-dir.create("../figures")
+dir.create("code")
+dir.create("data")
+dir.create("data_output")
+dir.create("figure_output")
 
 
 # Loading required libraries needed for raster calculation, species distribution modeling

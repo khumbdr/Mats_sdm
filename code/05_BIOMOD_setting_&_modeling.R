@@ -1,6 +1,17 @@
 #############################################################################################
 ##### This block of code will set up to run SDM in BIOMOD2 in R software
 
+# reading presence/absence data
+blk_mat_pre_abs<-read.csv("data_output/mat_pre_abs_new.csv")
+
+# reading the predictor variables as stacked raster layer
+moisture <- raster("data/soil_moisture.tif")
+snow <- raster("ata/snow.tif")
+elevation <-raster("data/elevation.tif")
+slope <- raster("data/slope.tif")
+aspect <- raster("data/aspect.tif")
+pre_env <- stack(moisture,snow,elevation,slope,aspect)
+
 # Select the name of the studied species
 myRespName <- 'blackmat'
 
@@ -8,9 +19,14 @@ myRespName <- 'blackmat'
 myResp <- as.numeric(blk_mat_pre_abs[, 'presence'])
 
 # Get corresponding XY coordinates
-myRespXY <- blk_mat_pre_abs[, c('long_degrees', 'lat_degrees')]
+myRespXY <- blk_mat_pre_abs[, c('longitude', 'lattitude')]
 
 
+
+myBiomodData <- BIOMOD_FormatingData(resp.var = myResp,
+                                     expl.var = pre_env,
+                                     resp.xy = myRespXY,
+                                     resp.name = myRespName)
 myBiomodData
 #plot(myBiomodData)
 
@@ -29,8 +45,7 @@ myBiomodModelOut <- BIOMOD_Modeling(bm.format = myBiomodData,
                                     var.import = 3,
                                     metric.eval = c('TSS','ROC'),
                                     do.full.models = FALSE)
-# seed.val = 123)
-# nb.cpu = 8)
+
 
 
 myBiomodEM <- BIOMOD_EnsembleModeling(bm.mod = myBiomodModelOut,

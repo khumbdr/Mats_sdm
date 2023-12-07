@@ -3,6 +3,9 @@
 ##### presence and absences coordinates 
 ##### thinning for presence and absences coordinates were done sperately
 
+# read the classified data frame as csv file
+blk.data.st<- read.csv("data_output/blk.data.st.csv")
+
 # presence data frame to thin separately
 blk.data.st.df_presence<-as.data.frame(blk.data.st)%>%
   filter(cat %in% c("Present"))%>%
@@ -15,13 +18,13 @@ blk.data.st.df_absence<-as.data.frame(blk.data.st)%>%
   slice_sample(n=30000) # 30 thousands points to reduce calcualtion time
 
 # setting path to save thinned data sets
-thin_path<-("..data/thinned_data")
+thin_path<-("data_output")
 
 # thinning for presece data frame with 20m distance
-thin(blk.data.st.df_presence, lat.col="lat_degrees", long.col="long_degrees", spec.col="species", thin.par=0.02, reps=1, out.dir=thin_path, out.base="presence_mat_new")
+thin(blk.data.st.df_presence, lat.col="latitude", long.col="longitude", spec.col="species", thin.par=0.02, reps=1, out.dir=thin_path, out.base="presence_mat_new")
 
 # thinning for absence data frame with 20m distance
-thin(blk.data.st.df_absence, lat.col="lat_degrees", long.col="long_degrees", spec.col="species", thin.par=0.02, reps=1, out.dir=thin_path, out.base="absence_mat_mew")
+thin(blk.data.st.df_absence, lat.col="lat_degrees", long.col="long_degrees", spec.col="species", thin.par=0.02, reps=1, out.dir=thin_path, out.base="absence_mat_new")
 
 # Selected one thousands presence points for SDM analysis
 presence.mat<-read.csv("../data/thinned_data/presence_mat_new_thin1.csv")%>%
