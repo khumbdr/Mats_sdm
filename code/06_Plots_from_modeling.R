@@ -1,6 +1,7 @@
 #########################################################################
-#### This group of code will get the figures related to SDM outputs
-# ensemble suitable maps for blackmats
+#### producing figures used in manuscript
+
+# ensemble suitable maps for black mats
 en.map<-raster("data/ensemble_map.tif")
 fryxell_aoi <- read_sf("data/fryxell_basin_AOI_newupdated.shp")
 

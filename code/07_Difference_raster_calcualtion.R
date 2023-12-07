@@ -1,4 +1,4 @@
-## Calculation of difference between SDM result and unmixing raster
+## comparing the distributions of black mats between SDM result and unmixing raster
 
 ## black mats raster
 unmix<-raster("data//PERCENTAGE_black-mat.tif")

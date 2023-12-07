@@ -1,6 +1,6 @@
 ##########################################################################
-##### This block of code will work on the raster layers that will be
-##### predictor variables of SDM analysis
+##### predictor variables used in predicting
+##### distribution of black mats
 
 # load soil moisture raster layer
 moisture <- raster("data/soil_moisture.tif")
@@ -22,7 +22,7 @@ aspect <- raster("data/aspect.tif")
 pre_env <- stack(moisture,snow,elevation,slope,aspect)
 
 ###########################################################################
-###### This block of code will produce correlation matrix
+###### produce correlation matrix among predictor varibles
 
 ## loading presence/absence data frame for SDM analysis
 blk_mat_pre_abs<-read.csv("data_output/mat_pre_abs_new.csv")

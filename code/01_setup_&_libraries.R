@@ -18,6 +18,10 @@ library(readxl)
 library(dplyr)
 library(spThin)
 library(biomod2)
+library(tidyr)
+library(ggspatial)
+library(mapmisc)
+library(ggsn)
 
 
 

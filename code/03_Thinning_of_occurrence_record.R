@@ -1,7 +1,6 @@
 #########################################################################
-##### This block of code contains thinning process of the black mats 
-##### presence and absences coordinates 
-##### thinning for presence and absences coordinates were done sperately
+##### Thinning species occurrence record by 20m distance  
+##### to reduce spatial autocorrelation
 
 # read the classified data frame as csv file
 blk.data.st<- read.csv("data_output/blk.data.st.csv")
@@ -27,12 +26,12 @@ thin(blk.data.st.df_presence, lat.col="latitude", long.col="longitude", spec.col
 thin(blk.data.st.df_absence, lat.col="lat_degrees", long.col="long_degrees", spec.col="species", thin.par=0.02, reps=1, out.dir=thin_path, out.base="absence_mat_new")
 
 # Selected one thousands presence points for SDM analysis
-presence.mat<-read.csv("../data/thinned_data/presence_mat_new_thin1.csv")%>%
+presence.mat<-read.csv("data_output/presence_mat_new_thin1.csv")%>%
   slice_sample(n=1000)%>%
   mutate(presence=1)
 
 # Selected ten thousands absences points fpr SDM analysis
-absence.mat<-read.csv("..data/thinned_data/absence_mat_mew_thin1.csv")%>%
+absence.mat<-read.csv("data_output/absence_mat_new_thin1.csv")%>%
   slice_sample(n=10000)%>%
   mutate(presence=0)
 
@@ -41,4 +40,4 @@ mat_pre_abs_new <-rbind(presence.mat,absence.mat)
 
 ## saving presence/absence data frame for SDM analysis
 write.csv(mat_pre_abs_new,
-          "..data/thinned_data/mat_pre_abs_new.csv")
+          "data_output/mat_pre_abs_new.csv")
