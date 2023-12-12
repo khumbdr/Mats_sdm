@@ -10,9 +10,9 @@ dir.create("figure_output")
 
 # Loading required libraries needed for raster calculation, species distribution modeling
 library(raster)
-library(dplyr)
+library(dplyr)# for data management
 library(rgdal)
-library(sf)
+library(sf) # spatial data reading and management
 library(ggplot2)
 library(readxl)
 library(dplyr)
