@@ -13,11 +13,10 @@ library(raster)
 library(dplyr)# for data management
 library(rgdal)
 library(sf) # spatial data reading and management
-library(ggplot2)
+library(ggplot2) # for making plots
 library(readxl)
-library(dplyr)
-library(spThin)
-library(biomod2)
+library(spThin) # for thinning species occurrence record
+library(biomod2) # for SDM modeling
 library(tidyr)
 library(ggspatial)
 library(mapmisc)
