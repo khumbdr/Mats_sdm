@@ -2,6 +2,7 @@
 #### producing figures used in manuscript
 
 # ensemble suitable maps for black mats
+# this is mapped average over four separate maps from four algorithms
 en.map<-raster("data/ensemble_map.tif")
 fryxell_aoi <- read_sf("data/fryxell_basin_AOI_newupdated.shp")
 
@@ -27,10 +28,10 @@ Figure1E<-mats_prob%>%
                          height=unit(0.8, "cm"),
                          style = north_arrow_fancy_orienteering)
 
-Figure1
+Figure1E
 
 
-ggsave("figure_output/Figure1.jpeg",
+ggsave("figure_output/Figure1E.jpeg",
        width=6,height=5, units="in", dpi=500)
 
 
@@ -56,9 +57,12 @@ dev.off()
 #### getting model values of SDM modeling
 
 mod_eva<-bm_PlotEvalMean(bm.out=myBiomodModelOut)[1]
+# OR
+mod_eva <-read.csv("../Mats_sdm/data_output/mod_AUC&TSS.csv")
+
 
 FigureS2<- mod_eva%>%
-  mutate(tab.name=factor(tab.name,levels=c("GBM","MAXENT","MARS","GLM","ANN","FDA","GAM","CTA","RF","SRE")))%>%
+  mutate(tab.name=factor(tab.name,levels=c("RF","GBM","GAM","MAXENT")))%>%
   ggplot(aes(x=tab.mean1,y=tab.mean2,color=tab.name))+
   geom_point()+
   geom_errorbar(aes(ymin=tab.mean2-tab.sd2,
@@ -66,7 +70,7 @@ FigureS2<- mod_eva%>%
   geom_errorbar(aes(xmin=tab.mean1-tab.sd1,
                     xmax=tab.mean1+tab.sd1))+
   geom_hline(yintercept=0.70, linetype="dotted")+
-  scale_color_manual(values=c("red","green","black","purple","blue","grey","orange","pink","violet", "yellow"))+
+  scale_color_manual(values=c("red","green","black","purple"))+
   theme(panel.background=element_rect(color="black",fill=NA),
         legend.key=element_blank(),
         legend.title=element_blank())+
@@ -98,7 +102,6 @@ ggsave("figure_outputt/FigureS3.png",
 ########################################
 # Response curve figure
 rescur<-bm_PlotResponseCurves(bm.out = myBiomodModelOut,
-                              models.chosen = get_built_models(myBiomodModelOut)[c(2,10,8,1,5)],
                               fixed.var = 'mean',
                               colors=NA)
 
@@ -116,8 +119,8 @@ FigureS4<-rescur_df%>%
   theme(panel.background=element_rect(color="black",fill=NA),
         legend.title=element_blank(),
         legend.key=element_blank())+
-  scale_color_manual(labels=c("GBM","MAXENT","MARS","BLM","ANN"),
-                     values=c("red","green","black","purple","blue"))+
+  scale_color_manual(labels=c("RF","GBM","GAM","MAXENT"),
+                     values=c("red","green","black","purple"))+
   labs(x="",y="")
 
 FigureS4
@@ -127,20 +130,14 @@ ggsave("figure_output/FigureS4.jpg", width=8, height=5, dpi=500)
 ## habitat suitability maps for all the models used in SDM analysis
 
 # stack all the models output raster
-glm.map<-"data/glm.map.tif"
-gbm.map<-"data/gbm.map.tif"
 gam.map<-"data/gam.map.tif"
-cta.map<-"data/cta.map.tif"
-ann.map<-"data/ann.map.tif"
-sre.map<-"data/sre.map.tif"
-fda.map<-"data/fda.map.tif"
-mars.map<-"data/mars.map.tif"
-rf.map<-"data/rf.map.tif"
+gbm.map<-"data/gbm.map.tif"
 maxent.map<-"data/maxent.map.tif"
+rf.map<-"data/rf.map.tif"
 
 # stacj all models maps
-mod_all<-stack(glm.map,bgm.map,gam.map,cta.map,sre.map,fda.map,mars.map,rf.map,maxent.map)
-mod_names<-c("GLM","GBM","GAM","CTA","ANN","SRE","FDA","MARS","RF","MAXENT")
+mod_all<-stack(gam.map,bgm.map,maxent.map,rf.map)
+mod_names<-c("GAM","GBM","MAXENT","RF")
 names(mod_all)<-mod_names
 
 # creating the dataframe
@@ -148,7 +145,7 @@ all_mod_df1<-as.data.frame(mod_all, xy=TRUE)
 
 # managing the data in the form of tidy data forom
 all_mod_plong1<-all_mod_df1%>%
-  tidyr::pivot_longer(col=c("GLM","GBM", "GAM", "CTA", "ANN", "SRE", "FDA", "MARS", "RF", "MAXENT"), names_to="layer")%>%
+  tidyr::pivot_longer(col=c("GAM","GBM","MAXENT","RF"), names_to="layer")%>%
   mutate(value=value/1000)
 
 FigureS5<-all_mod_plong1%>%

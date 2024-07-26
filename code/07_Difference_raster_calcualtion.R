@@ -6,7 +6,7 @@ unmix<-unmix>=0.05
 
 ## sdm produced ensemble raster
 sdm<-raster("data/sdm.tif")
-sdm<-sdm>=500
+sdm<-sdm>=460
 sdm[sdm==1]<-2
 
 # difference between two raster layers
