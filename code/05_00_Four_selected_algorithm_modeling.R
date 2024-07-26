@@ -1,7 +1,7 @@
 # predictor variables
 
 # predictor variables
-pre_env<-stack("C:/Users/Khum/Documents/mbm_updated_data/predictors_update/mat_env_05g_s0_eco.grd")
+pre_env<-stack("../data/predictors_variable/mat_env_05g_s0_eco.grd")
 
 # names_pre<-c("Soil moisture", "Snow cover","Elevation","Slope","Aspect")
 # names(pre_env)<-names_pre
@@ -13,7 +13,7 @@ names(pre_env)<-names_pre
 
 ## running random forest SDMs
 # reading the thinned presence records
-blk_pre <-read.csv("C:/Users/Khum/Documents/mbm_updated_data/thinned_data/presence_mat_new_thin1.csv")%>%
+blk_pre <-read.csv("../data_output/presence_mat_new_thin1.csv")%>%
   mutate(presence=1)
 
 # extracting predictor variables information for presence data
@@ -24,7 +24,7 @@ pre_extract <- cbind(raster::extract(pre_env, blk_pre[,c('long_degrees', 'lat_de
 
 # reading the absence points
 # selecting equal sample size to presence data
-blk_abs <- read.csv("C:/Users/Khum/Documents/mbm_updated_data/thinned_data/absence_mat_mew_thin1.csv")%>%
+blk_abs <- read.csv("../data/data_output/absence_mat_mew_thin1.csv")%>%
   mutate(presence=0)%>%
   slice_sample(n=length(pre_extract$presence)) # selecting equal number
 
@@ -80,7 +80,7 @@ rf_eva
 # getting threshold value
 dismo::threshold(rf_eva)
 
-# writeRaster(blk_rf_predict, "C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data_output/four_mod_tiff/rf_predict_training.grd",format = "raster", overwrite=TRUE)
+# writeRaster(blk_rf_predict, "../data_output/four_mod_tiff/rf_predict_training.grd",format = "raster", overwrite=TRUE)
 
 
 ##################
@@ -124,7 +124,7 @@ gbm_eva
 dismo::threshold(gbm_eva)
 
 
-# writeRaster(blk_gbm_predict, "C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data_output/four_mod_tiff/gbm_predict_training.grd",format = "raster", overwrite = TRUE)
+# writeRaster(blk_gbm_predict, "../data_output/four_mod_tiff/gbm_predict_training.grd",format = "raster", overwrite = TRUE)
 
 
 #########################################
@@ -190,7 +190,7 @@ gam_eva
 # getting threshold value
 dismo::threshold(gam_eva)
 
-writeRaster(blk_gam_predict, "C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data_output/four_mod_tiff/gam_predict_training.grd",format = "raster", overwrite=TRUE)
+writeRaster(blk_gam_predict, "../data_output/four_mod_tiff/gam_predict_training.grd",format = "raster", overwrite=TRUE)
 
 
 
@@ -238,5 +238,5 @@ blk_maxnet_predict <- enm.maxent.jar@predict(mods.maxent.jar$fc.L_rm.2, pre_env,
 # getting variable importance
 eval.variable.importance(e.maxent.jar)
 
-writeRaster(blk_maxnet_predict, "C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data_output/four_mod_tiff/maxent_predict_training.grd",format = "raster")
+writeRaster(blk_maxnet_predict, "../data_output/four_mod_tiff/maxent_predict_training.grd",format = "raster")
 
