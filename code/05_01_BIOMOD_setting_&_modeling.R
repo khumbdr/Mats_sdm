@@ -39,27 +39,7 @@ myBiomodOptions_random <- BIOMOD_ModelingOptions(
   RF = list( ntree = 1000,
              mtry = 5,
              nodesize = 1,
-             maxnodes = NULL),
-  MAXENT = list( path_to_maxent.jar = 'C:/Users/Khum/Downloads/maxent/maxent/maxent.jar', # this path specify the folder containing the maxent.jar file. 
-                 memory_allocated = 512,
-                 background_data_dir = 'default',
-                 maximumbackground = 'default',
-                 maximumiterations = 500,
-                 visible = FALSE,
-                 linear = TRUE,
-                 quadratic = TRUE,
-                 product = FALSE,
-                 threshold = FALSE,
-                 hinge = FALSE,
-                 lq2lqptthreshold = 80,
-                 l2lqthreshold = 10,
-                 hingethreshold = 15,
-                 beta_threshold = -1,
-                 beta_categorical = -1,
-                 beta_lqp = -1,
-                 beta_hinge = -1,
-                 betamultiplier = 0.5,
-                 defaultprevalence = 0.5))
+             maxnodes = NULL))
 
 
 myBiomodOptions <- myBiomodOptions_random
@@ -77,7 +57,7 @@ myBiomodData
 myBiomodModelOut <- BIOMOD_Modeling(bm.format = myBiomodData,
                                     bm.options = myBiomodOptions,
                                     modeling.id = 'AllModels',
-                                    models = c('GAM','GBM','RF','MAXENT'),
+                                    models = c('GAM','GBM','RF'),
                                     CV.strategy = 'block',
                                     CV.perc = 80,
                                     # data.split.table = myBiomodCV,

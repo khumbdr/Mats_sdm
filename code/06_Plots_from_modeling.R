@@ -62,7 +62,7 @@ mod_eva <-read.csv("../Mats_sdm/data_output/mod_AUC&TSS.csv")
 
 
 FigureS2<- mod_eva%>%
-  mutate(tab.name=factor(tab.name,levels=c("RF","GBM","GAM","MAXENT")))%>%
+  mutate(tab.name=factor(tab.name,levels=c("RF","GBM","GAM")))%>%
   ggplot(aes(x=tab.mean1,y=tab.mean2,color=tab.name))+
   geom_point()+
   geom_errorbar(aes(ymin=tab.mean2-tab.sd2,
@@ -70,7 +70,7 @@ FigureS2<- mod_eva%>%
   geom_errorbar(aes(xmin=tab.mean1-tab.sd1,
                     xmax=tab.mean1+tab.sd1))+
   geom_hline(yintercept=0.70, linetype="dotted")+
-  scale_color_manual(values=c("red","green","black","purple"))+
+  scale_color_manual(values=c("red","green","black"))+
   theme(panel.background=element_rect(color="black",fill=NA),
         legend.key=element_blank(),
         legend.title=element_blank())+
@@ -119,8 +119,8 @@ FigureS4<-rescur_df%>%
   theme(panel.background=element_rect(color="black",fill=NA),
         legend.title=element_blank(),
         legend.key=element_blank())+
-  scale_color_manual(labels=c("RF","GBM","GAM","MAXENT"),
-                     values=c("red","green","black","purple"))+
+  scale_color_manual(labels=c("RF","GBM","GAM"),
+                     values=c("red","green","black"))+
   labs(x="",y="")
 
 FigureS4
@@ -132,12 +132,11 @@ ggsave("figure_output/FigureS4.jpg", width=8, height=5, dpi=500)
 # stack all the models output raster
 gam.map<-"data/gam.map.tif"
 gbm.map<-"data/gbm.map.tif"
-maxent.map<-"data/maxent.map.tif"
 rf.map<-"data/rf.map.tif"
 
 # stacj all models maps
-mod_all<-stack(gam.map,bgm.map,maxent.map,rf.map)
-mod_names<-c("GAM","GBM","MAXENT","RF")
+mod_all<-stack(gam.map,bgm.map,rf.map)
+mod_names<-c("GAM","GBM","RF")
 names(mod_all)<-mod_names
 
 # creating the dataframe
@@ -145,7 +144,7 @@ all_mod_df1<-as.data.frame(mod_all, xy=TRUE)
 
 # managing the data in the form of tidy data forom
 all_mod_plong1<-all_mod_df1%>%
-  tidyr::pivot_longer(col=c("GAM","GBM","MAXENT","RF"), names_to="layer")%>%
+  tidyr::pivot_longer(col=c("GAM","GBM","RF"), names_to="layer")%>%
   mutate(value=value/1000)
 
 FigureS5<-all_mod_plong1%>%
