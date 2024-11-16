@@ -32,7 +32,7 @@ Figure1E
 
 
 ggsave("figure_output/Figure1E.jpeg",
-       width=6,height=5, units="in", dpi=500)
+       width=6,height=5, units="in", dpi=600)
 
 
 #############################################################
@@ -47,7 +47,7 @@ aspect <- raster("data/aspect.tif")
 pre_env <- stack(moisture,snow,elevation,slope,aspect)
 
 png("figure_output/FigureS1.png",
-    width=6,height=4,units="in",res=500)
+    width=6,height=4,units="in",res=600)
 plot(pre_env)
 
 dev.off()
@@ -79,7 +79,7 @@ FigureS2<- mod_eva%>%
 FigureS2
 
 ggsave("figure_output/FigureS2.jpeg",
-       width=4.5,height=3.5, units="in", dpi=500)
+       width=4.5,height=3.5, units="in", dpi=600)
 
 
 ##############################################
@@ -97,7 +97,7 @@ FigureS3<-var_imp%>%
 
 FigureS3
 ggsave("figure_outputt/FigureS3.png",
-       width=3.5,height=3.5,dpi=500,units="in")
+       width=3.5,height=3.5,dpi=600,units="in")
 
 ########################################
 # Response curve figure
@@ -124,7 +124,7 @@ FigureS4<-rescur_df%>%
   labs(x="",y="")
 
 FigureS4
-ggsave("figure_output/FigureS4.jpg", width=8, height=5, dpi=500)
+ggsave("figure_output/FigureS4.jpg", width=8, height=5, dpi=600)
 
 
 ## habitat suitability maps for all the models used in SDM analysis
@@ -164,4 +164,4 @@ FigureS5<-all_mod_plong1%>%
 FigureS5
 
 ggsave("figure_output/FigureS5.jpeg",
-       width=9,height=9, units="in", dpi=500)
+       width=9,height=9, units="in", dpi=600)
