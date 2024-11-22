@@ -34,21 +34,44 @@ abs_extract <- cbind(raster::extract(pre_env, blk_abs[,c('long_degrees', 'lat_de
   na.omit()%>%
   as.data.frame()
 
+
+######try
+pre<-read.csv("C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data/mat_pre_abs_new.csv")%>%
+  filter(presence==1)%>%
+  dplyr::select(c("long_degrees", "lat_degrees","presence"))
+
+abs<-read.csv("C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data/mat_pre_abs_new.csv")%>%
+  filter(presence==1)%>%
+  sample_n(size=1000)%>%
+  dplyr::select(c("long_degrees", "lat_degrees","presence"))
+
+# loading library if not loaded earlier
+library(ENMeval)
+
+# running get.block function available to library ENMeval
+
+blk.latLon<-get.block(pre_extract,abs_extract)
+
+# adding block variable with block value
+pre_extract$block<-blk.latLon$occs.grp
+abs_extract$block<-blk.latLon$bg.grp
+
 # combining presence and absence data information
 pre_abs <- rbind(pre_extract,abs_extract)%>%
   as.data.frame()
 
-## create folds for training and testing data
-# creating training and testing data for modeling
+# adding id variables to have serial number
+pre_abs$id<-1:nrow(pre_abs)
 
-library(predicts)
-blk_fold <- folds(x = pre_abs,
-                  k = 5,
-                  by = pre_abs$presence)
+library(dplyr)
 
-# This testing and training data sets also used for GBM sdm analysis
-rf_testing <- pre_abs[blk_fold == 1, ]
-rf_training <- pre_abs[blk_fold != 1, ]
+# getting training data of 80%
+rf_training<-both%>%
+  group_by(block,presence)%>%
+  dplyr::sample_frac(size=0.8)
+
+# getting testing data of 20%
+rf_testing<-dplyr::anti_join(both,train, by='id')
 
 
 ## setting for weighting the presence and absence data
