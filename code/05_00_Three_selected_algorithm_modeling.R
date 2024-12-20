@@ -13,7 +13,7 @@ names(pre_env)<-names_pre
 
 ## running random forest SDMs
 # reading the thinned presence records
-blk_pre <-read.csv("../data_output/presence_mat_new_thin1.csv")%>%
+blk_pre <-read.csv("../data/presence.csv")%>%
   mutate(presence=1)
 
 # extracting predictor variables information for presence data
@@ -24,7 +24,7 @@ pre_extract <- cbind(raster::extract(pre_env, blk_pre[,c('long_degrees', 'lat_de
 
 # reading the absence points
 # selecting equal sample size to presence data
-blk_abs <- read.csv("../data/data_output/absence_mat_mew_thin1.csv")%>%
+blk_abs <- read.csv("../data/absence.csv")%>%
   mutate(presence=0)%>%
   slice_sample(n=length(pre_extract$presence)) # selecting equal number
 
@@ -34,16 +34,6 @@ abs_extract <- cbind(raster::extract(pre_env, blk_abs[,c('long_degrees', 'lat_de
   na.omit()%>%
   as.data.frame()
 
-
-######try
-pre<-read.csv("C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data/mat_pre_abs_new.csv")%>%
-  filter(presence==1)%>%
-  dplyr::select(c("long_degrees", "lat_degrees","presence"))
-
-abs<-read.csv("C:/Users/Khum/OneDrive - UCB-O365/Mats_sdm/data/mat_pre_abs_new.csv")%>%
-  filter(presence==1)%>%
-  sample_n(size=1000)%>%
-  dplyr::select(c("long_degrees", "lat_degrees","presence"))
 
 # loading library if not loaded earlier
 library(ENMeval)
@@ -152,53 +142,17 @@ dismo::threshold(gbm_eva)
 
 #########################################
 #### Running models using GAM
-# reading the thinned presence records
-blk_pre <-read.csv("C:/Users/Khum/Documents/mbm_updated_data/thinned_data/presence_mat_new_thin1.csv")%>%
-  mutate(presence=1)
 
-# extracting predictor variables information for presence data
-pre_extract <- cbind(raster::extract(pre_env, blk_pre[,c('long_degrees', 'lat_degrees')]),presence=blk_pre$presence,longitude=blk_pre$long_degrees,
-                     latitude=blk_pre$lat_degrees)%>%
-  na.omit()%>%
-  as.data.frame()
-
-# reading the absence points
-blk_abs <- read.csv("C:/Users/Khum/Documents/mbm_updated_data/thinned_data/absence_mat_mew_thin1.csv")%>%
-  mutate(presence=0)%>%
-  slice_sample(n=10000)# equal to presence data
-
-# extracting predictor variables information for absence data
-abs_extract <- cbind(raster::extract(pre_env, blk_abs[,c('long_degrees', 'lat_degrees')]),presence=blk_abs$presence, longitude=blk_abs$long_degrees,
-                     latitude=blk_abs$lat_degrees)%>%
-  na.omit()%>%
-  as.data.frame()
-
-# combining presence and absence data information
-library(dplyr)
-pre_abs <- rbind(pre_extract,abs_extract)%>%
-  as.data.frame()
-
-## create folds for training and testing data
-# Create vector indicating fold
-blk_fold <- folds(x = pre_abs,
-                  k = 5,
-                  by = pre_abs$presence)
-
-gam_testing <- pre_abs[blk_fold == 1, ]
-gam_training <- pre_abs[blk_fold != 1, ]
-
-
-## this is equal weighting of presence and absence points in the modeling
 library(mgcv)
-prNum <- as.numeric(table(gam_training$presence)["1"]) # number of presences
-bgNum <- as.numeric(table(gam_training$presence)["0"]) # number of backgrounds
-wt <- ifelse(gam_training$presence == 1, 1, prNum / bgNum)
+prNum <- as.numeric(table(rf_training$presence)["1"]) # number of presences
+bgNum <- as.numeric(table(rf_training$presence)["0"]) # number of backgrounds
+wt <- ifelse(rf_training$presence == 1, 1, prNum / bgNum)
 
 # creating formula
 form <-presence~s(Average_GCW)+s(Average_snow)+s(Elevation)+s(Slope)+s(Aspect)
 
 blk_gam <- mgcv::gam(formula=as.formula(form),
-                     data=gam_training,
+                     data=rf_training,
                      family=binomial(link="logit"),
                      method="REML",
                      weights = wt)
@@ -207,7 +161,7 @@ blk_gam <- mgcv::gam(formula=as.formula(form),
 blk_gam_predict <- predict(pre_env,blk_gam, type="response")
 
 # Use testing data for model evaluation
-gam_eva <- dismo::evaluate(gam_testing_t[gam_testing$presence==1, ], gam_testing_t[gam_testing$presence==0, ], blk_gam)
+gam_eva <- dismo::evaluate(rf_testing_t[rf_testing$presence==1, ], rf_testing_t[rf_testing$presence==0, ], blk_gam)
 gam_eva
 
 # getting threshold value
